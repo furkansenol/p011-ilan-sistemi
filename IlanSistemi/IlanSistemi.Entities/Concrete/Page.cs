@@ -10,6 +10,7 @@ namespace IlanSistemi.Entities.Concrete
 {
     public class Page : IAuditEntity
     {
+        [Key]
         public int Id { get; set; }
 
         [MaxLength(200, ErrorMessage = "{0} {1} karakterden uzun olamaz")]

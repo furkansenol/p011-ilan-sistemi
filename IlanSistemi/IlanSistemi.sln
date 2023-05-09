@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IlanSistemi.Entities", "IlanSistemi.Entities\IlanSistemi.Entities.csproj", "{456E2CDC-A1A5-49E9-BE69-F6D1055A7A10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IlanSistemi.Entities", "IlanSistemi.Entities\IlanSistemi.Entities.csproj", "{456E2CDC-A1A5-49E9-BE69-F6D1055A7A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IlanSistemi.DataAccess", "IlanSistemi.DataAccess\IlanSistemi.DataAccess.csproj", "{9C3C66E9-B20C-43D9-A7F3-3583DC2E5F23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{456E2CDC-A1A5-49E9-BE69-F6D1055A7A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{456E2CDC-A1A5-49E9-BE69-F6D1055A7A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{456E2CDC-A1A5-49E9-BE69-F6D1055A7A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3C66E9-B20C-43D9-A7F3-3583DC2E5F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3C66E9-B20C-43D9-A7F3-3583DC2E5F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3C66E9-B20C-43D9-A7F3-3583DC2E5F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3C66E9-B20C-43D9-A7F3-3583DC2E5F23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
