@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VRKm7WbXvnTldmv+EooiTGwizCKlD10ngFtscKMWgqaghPLmdIhE8ey1SFixnDWyKr5PrLDsVsFK4zHQxtoLdw==",
+  "dgSpecHash": "9vxy/ZH+8RxkLtfeNx70ekp9SnjxZzKGqAn7nuVNeDjbZuq2gGc0OTa7vToo2wfpTjlRJUS0kvw/bs9jqH19gQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hmert\\Source\\Repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
+  "projectFilePath": "C:\\Users\\hmert\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hmert\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hmert\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
