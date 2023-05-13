@@ -10,6 +10,8 @@ namespace IlanSistemi.Entities.Concrete
 {
     public class Category
     {
+
+        [Key]
         public int Id { get; set; }
 
         [DisplayName("İlan Adı")]
@@ -19,5 +21,8 @@ namespace IlanSistemi.Entities.Concrete
         [DisplayName("Açıklama")]
         [MaxLength(200, ErrorMessage = "{0} {1} karakterden uzun olamaz")]
         public string Description { get; set; }
+
+        //Bağlantı
+        public ICollection<CategoryAdvert> categoryAdverts { get; set; }
     }
 }

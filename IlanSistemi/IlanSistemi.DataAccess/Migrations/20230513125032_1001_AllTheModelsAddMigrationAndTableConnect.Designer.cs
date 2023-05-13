@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IlanSistemi.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230509125713_1001_FirstMigration")]
-    partial class _1001_FirstMigration
+    [Migration("20230513125032_1001_AllTheModelsAddMigrationAndTableConnect")]
+    partial class _1001_AllTheModelsAddMigrationAndTableConnect
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -55,18 +55,17 @@ namespace IlanSistemi.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("UserId");
+
                     b.ToTable("adverts");
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertComment", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("AdvertId")
+                    b.Property<int?>("AdvertId1")
                         .HasColumnType("int");
 
                     b.Property<string>("Comment")
@@ -85,10 +84,14 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AdvertId1");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("advertComments");
                 });
@@ -110,6 +113,8 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasColumnType("nvarchar(200)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AdvertId");
 
                     b.ToTable("AdvertImages");
                 });
@@ -135,6 +140,38 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("categories");
+                });
+
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.CategoryAdvert", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("AdvertId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DeletedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AdvertId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("categoryAdverts");
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Page", b =>
@@ -246,15 +283,106 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.ToTable("users");
                 });
 
-            modelBuilder.Entity("IlanSistemi.Entities.Concrete.Setting", b =>
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.Advert", b =>
                 {
                     b.HasOne("IlanSistemi.Entities.Concrete.User", "User")
-                        .WithMany()
+                        .WithMany("adverts")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertComment", b =>
+                {
+                    b.HasOne("IlanSistemi.Entities.Concrete.Advert", null)
+                        .WithMany("advertComments")
+                        .HasForeignKey("AdvertId1");
+
+                    b.HasOne("IlanSistemi.Entities.Concrete.Advert", "Advert")
+                        .WithMany()
+                        .HasForeignKey("Id")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IlanSistemi.Entities.Concrete.User", "User")
+                        .WithMany()
+                        .HasForeignKey("Id")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IlanSistemi.Entities.Concrete.User", null)
+                        .WithMany("advertComments")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("Advert");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertImage", b =>
+                {
+                    b.HasOne("IlanSistemi.Entities.Concrete.Advert", "adverts")
+                        .WithMany("advertImages")
+                        .HasForeignKey("AdvertId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("adverts");
+                });
+
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.CategoryAdvert", b =>
+                {
+                    b.HasOne("IlanSistemi.Entities.Concrete.Advert", "adverts")
+                        .WithMany("categoryAdverts")
+                        .HasForeignKey("AdvertId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("IlanSistemi.Entities.Concrete.Category", "category")
+                        .WithMany("categoryAdverts")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("adverts");
+
+                    b.Navigation("category");
+                });
+
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.Setting", b =>
+                {
+                    b.HasOne("IlanSistemi.Entities.Concrete.User", "User")
+                        .WithMany("settings")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.Advert", b =>
+                {
+                    b.Navigation("advertComments");
+
+                    b.Navigation("advertImages");
+
+                    b.Navigation("categoryAdverts");
+                });
+
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.Category", b =>
+                {
+                    b.Navigation("categoryAdverts");
+                });
+
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.User", b =>
+                {
+                    b.Navigation("advertComments");
+
+                    b.Navigation("adverts");
+
+                    b.Navigation("settings");
                 });
 #pragma warning restore 612, 618
         }

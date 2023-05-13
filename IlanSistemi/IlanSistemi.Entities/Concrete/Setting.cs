@@ -20,6 +20,8 @@ namespace IlanSistemi.Entities.Concrete
 
         [MaxLength(400, ErrorMessage = "{0} {1} karakterden uzun olamaz")]
         public string Value { get; set; }
-        public User? User { get; set; }
+
+        //Bağlantı
+        public virtual User User { get; set; }
     }
 }

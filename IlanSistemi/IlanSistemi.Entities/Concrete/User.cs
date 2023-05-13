@@ -11,7 +11,10 @@ namespace IlanSistemi.Entities.Concrete
 {
     public class User : IAuditEntity
     {
+        [Key]
         public int Id { get; set; }
+
+
         [DisplayName("Email")]
         [EmailAddress]
         [Column(TypeName ="varchar")]
@@ -39,5 +42,12 @@ namespace IlanSistemi.Entities.Concrete
         public DateTime CreatedAt { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public DateTime UpdatedAt { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public DateTime DeletedAt { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-    }
+
+		// Bağlantı
+
+        public ICollection<AdvertComment> advertComments { get; set; } 
+		public ICollection<Setting> settings { get; set; }
+		public ICollection<Advert> adverts { get; set; }
+		
+	}
 }

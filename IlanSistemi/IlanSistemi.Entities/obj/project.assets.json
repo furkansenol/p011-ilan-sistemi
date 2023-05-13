@@ -2020,11 +2020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hmert\\Source\\Repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\hmert\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
       "projectName": "IlanSistemi.Entities",
-      "projectPath": "C:\\Users\\hmert\\Source\\Repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
+      "projectPath": "C:\\Users\\hmert\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
       "packagesPath": "C:\\Users\\hmert\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hmert\\Source\\Repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\obj\\",
+      "outputPath": "C:\\Users\\hmert\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
