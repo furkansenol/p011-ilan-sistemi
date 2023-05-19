@@ -2014,19 +2014,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EFEKAN\\.nuget\\packages\\": {}
+    "C:\\Users\\hmert\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
       "projectName": "IlanSistemi.Entities",
-      "projectPath": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
-      "packagesPath": "C:\\Users\\EFEKAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\obj\\",
+      "projectPath": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
+      "packagesPath": "C:\\Users\\hmert\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\EFEKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hmert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2034,6 +2039,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2089,16 +2095,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
