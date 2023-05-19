@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lZvwpAM2YUU125g0LPYf4VRqKaGiTBgvq8GvPcFvJbA=",
+  "Hash": "JFGqLQHx+vC6cRDtJvMjltUcSeXXxUCQ8FjLz5GK7Is=",
   "Source": "IlanSistemi.UI",
   "BasePath": "_content/IlanSistemi.UI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "IlanSistemi.UI\\wwwroot",
       "Source": "IlanSistemi.UI",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\IlanSistemi.UI.styles.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\IlanSistemi.UI.styles.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "IlanSistemi.UI.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\IlanSistemi.UI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\IlanSistemi.UI.styles.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IlanSistemi.UI.bundle.scp.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IlanSistemi.UI.bundle.scp.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "IlanSistemi.UI.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IlanSistemi.UI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IlanSistemi.UI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\css\\site.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\favicon.ico",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\js\\site.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\404.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\404.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/404.html",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\template\\404.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\about-us.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\about-us.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/about-us.html",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\template\\about-us.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\Ad-listing.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\Ad-listing.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/Ad-listing.html",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\template\\Ad-listing.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\ad-list-view.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\ad-list-view.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/ad-list-view.html",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\template\\ad-list-view.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\blog.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\blog.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/blog.html",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\template\\blog.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\category.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\category.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/category.html",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\template\\category.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\contact-us.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\contact-us.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/contact-us.html",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\template\\contact-us.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\css\\maps\\style.css.map",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\css\\maps\\style.css.map",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/css/maps/style.css.map",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\template\\css\\maps\\style.css.map"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\css\\style.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\css\\style.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/css/style.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\template\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/dashboard.html",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\template\\dashboard.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-archived-ads.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-archived-ads.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/dashboard-archived-ads.html",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\template\\dashboard-archived-ads.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-favourite-ads.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-favourite-ads.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/dashboard-favourite-ads.html",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\template\\dashboard-favourite-ads.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-my-ads.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-my-ads.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/dashboard-my-ads.html",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\template\\dashboard-my-ads.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-pending-ads.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-pending-ads.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/dashboard-pending-ads.html",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\template\\dashboard-pending-ads.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\404\\404.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\404\\404.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/404/404.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\404\\404.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\about\\about.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\about\\about.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/about/about.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\about\\about.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\account\\Account.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\account\\Account.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/account/Account.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\account\\Account.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\account\\Account1.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\account\\Account1.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/account/Account1.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\account\\Account1.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\apps\\apple-app-store.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\apps\\apple-app-store.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/apps/apple-app-store.png",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\apps\\apple-app-store.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\apps\\google-play-store.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\apps\\google-play-store.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/apps/google-play-store.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\apps\\google-play-store.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-1.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-1.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/blog/post-1.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\blog\\post-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-2.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-2.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/blog/post-2.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\blog\\post-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-3.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-3.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/blog/post-3.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\blog\\post-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-4.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-4.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/blog/post-4.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\blog\\post-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-5.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-5.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/blog/post-5.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\blog\\post-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\video-icon.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\video-icon.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/blog/video-icon.png",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\blog\\video-icon.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\cta-background.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\cta-background.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/call-to-action/cta-background.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\call-to-action\\cta-background.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\google-play-button.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\google-play-button.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/call-to-action/google-play-button.png",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\call-to-action\\google-play-button.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\mockup.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\mockup.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/call-to-action/mockup.png",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\call-to-action\\mockup.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\amazon.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\amazon.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/category-slider/amazon.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\category-slider\\amazon.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-02.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-02.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/category-slider/category-02.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\category-slider\\category-02.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-03.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-03.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/category-slider/category-03.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\category-slider\\category-03.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-04.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-04.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/category-slider/category-04.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\category-slider\\category-04.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-05.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-05.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/category-slider/category-05.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\category-slider\\category-05.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-06.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-06.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/category-slider/category-06.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\category-slider\\category-06.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\contact-us\\contact-us.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\contact-us\\contact-us.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/contact-us/contact-us.png",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\contact-us\\contact-us.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\favicon.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\favicon.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/favicon.png",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\footer\\phone-icon.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\footer\\phone-icon.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/footer/phone-icon.png",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\footer\\phone-icon.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\home\\hero.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\home\\hero.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/home/hero.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\home\\hero.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\home\\hero.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\home\\hero.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/home/hero.png",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\home\\hero.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\logo.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\logo.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/logo.png",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\logo-footer.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\logo-footer.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/logo-footer.png",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\logo-footer.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\nav-toogle-icon.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\nav-toogle-icon.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/nav-toogle-icon.png",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\nav-toogle-icon.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-1.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-1.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/products/products-1.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\products\\products-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-2.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-2.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/products/products-2.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\products\\products-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-3.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-3.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/products/products-3.jpg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\products\\products-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-4.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-4.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/products/products-4.jpg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\products\\products-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\subscription\\subscription-back.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\subscription\\subscription-back.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/subscription/subscription-back.jpg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\subscription\\subscription-back.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team1.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team1.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/team/team1.jpg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\team\\team1.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team2.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team2.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/team/team2.jpg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\team\\team2.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team3.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team3.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/team/team3.jpg",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\team\\team3.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team4.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team4.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/team/team4.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\team\\team4.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\user\\user-thumb.jpg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\user\\user-thumb.jpg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/user/user-thumb.jpg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\user\\user-thumb.jpg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\widget\\store-01.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\widget\\store-01.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/images/widget/store-01.png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\template\\images\\widget\\store-01.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\index.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\index.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/index.html",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\template\\index.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\js\\script.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\js\\script.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/js/script.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\template\\js\\script.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\login.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\login.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/login.html",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\template\\login.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\package.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\package.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/package.html",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\template\\package.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\css\\bootstrap-slider.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\css\\bootstrap-slider.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/bootstrap/css/bootstrap-slider.css",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\bootstrap\\css\\bootstrap-slider.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\bootstrap-slider.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\bootstrap-slider.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/bootstrap/js/bootstrap-slider.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\bootstrap\\js\\bootstrap-slider.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\popper.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\popper.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/bootstrap/js/popper.min.js",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\bootstrap\\js\\popper.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\counter-up\\jquery.counterup.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\counter-up\\jquery.counterup.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/counter-up/jquery.counterup.min.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\counter-up\\jquery.counterup.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\counter-up\\waypoints.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\counter-up\\waypoints.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/counter-up/waypoints.min.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\counter-up\\waypoints.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_loading.gif",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_loading.gif",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/fancybox/images/fancybox_loading.gif",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\fancybox\\images\\fancybox_loading.gif"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_loading@2x.gif",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_loading@2x.gif",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/fancybox/images/fancybox_loading@2x.gif",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\fancybox\\images\\fancybox_loading@2x.gif"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_overlay.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_overlay.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/fancybox/images/fancybox_overlay.png",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\fancybox\\images\\fancybox_overlay.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_sprite.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_sprite.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/fancybox/images/fancybox_sprite.png",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\fancybox\\images\\fancybox_sprite.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_sprite@2x.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_sprite@2x.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/fancybox/images/fancybox_sprite@2x.png",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\fancybox\\images\\fancybox_sprite@2x.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/fancybox/jquery.fancybox.css",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/fancybox/jquery.fancybox.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.pack.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.pack.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/fancybox/jquery.fancybox.pack.css",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.pack.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.pack.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.pack.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/fancybox/jquery.fancybox.pack.js",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.pack.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\css\\font-awesome.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\css\\font-awesome.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/css/font-awesome.css",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\css\\font-awesome.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\css\\font-awesome.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/css/font-awesome.min.css",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\FontAwesome.otf",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.eot",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.svg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\animated.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\animated.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/animated.less",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\animated.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\bordered-pulled.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\bordered-pulled.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/bordered-pulled.less",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\bordered-pulled.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\core.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\core.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/core.less",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\core.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\fixed-width.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\fixed-width.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/fixed-width.less",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\fixed-width.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\font-awesome.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\font-awesome.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/font-awesome.less",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\font-awesome.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\icons.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\icons.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/icons.less",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\icons.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\larger.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\larger.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/larger.less",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\larger.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\list.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\list.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/list.less",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\list.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\mixins.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\mixins.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/mixins.less",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\mixins.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\path.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\path.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/path.less",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\path.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\rotated-flipped.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\rotated-flipped.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/rotated-flipped.less",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\rotated-flipped.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\screen-reader.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\screen-reader.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/screen-reader.less",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\screen-reader.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\stacked.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\stacked.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/stacked.less",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\stacked.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\variables.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\variables.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/less/variables.less",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\less\\variables.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_animated.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_animated.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_animated.scss",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_animated.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_bordered-pulled.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_bordered-pulled.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_bordered-pulled.scss",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_bordered-pulled.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_core.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_core.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_core.scss",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_core.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_fixed-width.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_fixed-width.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_fixed-width.scss",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_fixed-width.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_icons.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_icons.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_icons.scss",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_icons.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_larger.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_larger.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_larger.scss",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_larger.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_list.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_list.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_list.scss",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_list.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_mixins.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_mixins.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_mixins.scss",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_mixins.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_path.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_path.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_path.scss",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_path.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_rotated-flipped.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_rotated-flipped.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_rotated-flipped.scss",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_rotated-flipped.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_screen-reader.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_screen-reader.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_screen-reader.scss",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_screen-reader.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_stacked.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_stacked.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_stacked.scss",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_stacked.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_variables.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_variables.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/_variables.scss",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\font-awesome.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\font-awesome.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/font-awesome/scss/font-awesome.scss",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\font-awesome\\scss\\font-awesome.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\google-map\\gmap.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\google-map\\gmap.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/google-map/gmap.js",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\google-map\\gmap.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\google-map\\images\\marker.png",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\google-map\\images\\marker.png",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/google-map/images/marker.png",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\google-map\\images\\marker.png"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jQuery\\jquery.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jQuery\\jquery.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/jQuery/jquery.min.js",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\jQuery\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\css\\nice-select.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\css\\nice-select.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/jquery-nice-select/css/nice-select.css",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\jquery-nice-select\\css\\nice-select.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\fastclick.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\fastclick.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/jquery-nice-select/js/fastclick.js",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\jquery-nice-select\\js\\fastclick.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/jquery-nice-select/js/jquery.js",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/jquery-nice-select/js/jquery.nice-select.js",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/jquery-nice-select/js/jquery.nice-select.min.js",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\prism.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\prism.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/jquery-nice-select/js/prism.js",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\jquery-nice-select\\js\\prism.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\raty\\jquery.raty-fa.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\raty\\jquery.raty-fa.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/raty/jquery.raty-fa.js",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\raty\\jquery.raty-fa.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\bower.json",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\bower.json",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/bower.json",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\bower.json"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\component.json",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\component.json",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/component.json",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\component.json"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\CONTRIBUTING.markdown",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\CONTRIBUTING.markdown",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/CONTRIBUTING.markdown",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\CONTRIBUTING.markdown"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\ISSUE_TEMPLATE.md",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\ISSUE_TEMPLATE.md",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/ISSUE_TEMPLATE.md",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\ISSUE_TEMPLATE.md"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\README.markdown",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\README.markdown",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/README.markdown",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\README.markdown"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick.jquery.json",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick.jquery.json",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick.jquery.json",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick.jquery.json"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\ajax-loader.gif",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\ajax-loader.gif",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/ajax-loader.gif",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\ajax-loader.gif"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\config.rb",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\config.rb",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/config.rb",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\config.rb"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.eot",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.eot",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/fonts/slick.eot",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.eot"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.svg",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.svg",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/fonts/slick.svg",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.svg"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.ttf",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.ttf",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/fonts/slick.ttf",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.ttf"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.woff",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.woff",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/fonts/slick.woff",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.woff"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/slick.css",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/slick.js",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/slick.less",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/slick.min.js",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/slick.scss",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/slick-theme.css",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.less",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.less",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/slick-theme.less",
       "AssetKind": "All",
@@ -3434,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.less"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.scss",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.scss",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/slick-carousel/slick/slick-theme.scss",
       "AssetKind": "All",
@@ -3451,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.scss"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\smoothscroll\\SmoothScroll.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\smoothscroll\\SmoothScroll.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/smoothscroll/SmoothScroll.js",
       "AssetKind": "All",
@@ -3468,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\smoothscroll\\SmoothScroll.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\smoothscroll\\SmoothScroll.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\smoothscroll\\SmoothScroll.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/smoothscroll/SmoothScroll.min.js",
       "AssetKind": "All",
@@ -3485,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\smoothscroll\\SmoothScroll.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/tether/css/tether.css",
       "AssetKind": "All",
@@ -3502,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\tether\\css\\tether.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/tether/css/tether.min.css",
       "AssetKind": "All",
@@ -3519,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\tether\\css\\tether.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/tether/css/tether-theme-arrows.css",
       "AssetKind": "All",
@@ -3536,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/tether/css/tether-theme-arrows.min.css",
       "AssetKind": "All",
@@ -3553,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/tether/css/tether-theme-arrows-dark.css",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/tether/css/tether-theme-arrows-dark.min.css",
       "AssetKind": "All",
@@ -3587,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-basic.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-basic.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/tether/css/tether-theme-basic.css",
       "AssetKind": "All",
@@ -3604,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\tether\\css\\tether-theme-basic.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-basic.min.css",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-basic.min.css",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/tether/css/tether-theme-basic.min.css",
       "AssetKind": "All",
@@ -3621,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\tether\\css\\tether-theme-basic.min.css"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\js\\tether.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\js\\tether.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/tether/js/tether.js",
       "AssetKind": "All",
@@ -3638,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\tether\\js\\tether.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\js\\tether.min.js",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\js\\tether.min.js",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/plugins/tether/js/tether.min.js",
       "AssetKind": "All",
@@ -3655,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\template\\plugins\\tether\\js\\tether.min.js"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\register.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\register.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/register.html",
       "AssetKind": "All",
@@ -3672,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\template\\register.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\single.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\single.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/single.html",
       "AssetKind": "All",
@@ -3689,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\template\\single.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\single-blog.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\single-blog.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/single-blog.html",
       "AssetKind": "All",
@@ -3706,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\template\\single-blog.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\store.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\store.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/store.html",
       "AssetKind": "All",
@@ -3723,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\template\\store.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\terms-condition.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\terms-condition.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/terms-condition.html",
       "AssetKind": "All",
@@ -3740,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\template\\terms-condition.html"
     },
     {
-      "Identity": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\user-profile.html",
+      "Identity": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\user-profile.html",
       "SourceId": "IlanSistemi.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\",
       "BasePath": "_content/IlanSistemi.UI",
       "RelativePath": "template/user-profile.html",
       "AssetKind": "All",

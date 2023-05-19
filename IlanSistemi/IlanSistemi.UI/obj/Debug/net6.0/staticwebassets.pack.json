@@ -1,879 +1,879 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IlanSistemi.UI.bundle.scp.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IlanSistemi.UI.bundle.scp.css",
       "PackagePath": "staticwebassets\\IlanSistemi.UI.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\404.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\404.html",
       "PackagePath": "staticwebassets\\template\\404.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\Ad-listing.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\Ad-listing.html",
       "PackagePath": "staticwebassets\\template\\Ad-listing.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\about-us.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\about-us.html",
       "PackagePath": "staticwebassets\\template\\about-us.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\ad-list-view.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\ad-list-view.html",
       "PackagePath": "staticwebassets\\template\\ad-list-view.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\blog.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\blog.html",
       "PackagePath": "staticwebassets\\template\\blog.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\category.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\category.html",
       "PackagePath": "staticwebassets\\template\\category.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\contact-us.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\contact-us.html",
       "PackagePath": "staticwebassets\\template\\contact-us.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\css\\maps\\style.css.map",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\css\\maps\\style.css.map",
       "PackagePath": "staticwebassets\\template\\css\\maps\\style.css.map"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\css\\style.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\css\\style.css",
       "PackagePath": "staticwebassets\\template\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-archived-ads.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-archived-ads.html",
       "PackagePath": "staticwebassets\\template\\dashboard-archived-ads.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-favourite-ads.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-favourite-ads.html",
       "PackagePath": "staticwebassets\\template\\dashboard-favourite-ads.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-my-ads.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-my-ads.html",
       "PackagePath": "staticwebassets\\template\\dashboard-my-ads.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-pending-ads.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard-pending-ads.html",
       "PackagePath": "staticwebassets\\template\\dashboard-pending-ads.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\dashboard.html",
       "PackagePath": "staticwebassets\\template\\dashboard.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\404\\404.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\404\\404.png",
       "PackagePath": "staticwebassets\\template\\images\\404\\404.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\about\\about.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\about\\about.jpg",
       "PackagePath": "staticwebassets\\template\\images\\about\\about.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\account\\Account.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\account\\Account.png",
       "PackagePath": "staticwebassets\\template\\images\\account\\Account.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\account\\Account1.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\account\\Account1.png",
       "PackagePath": "staticwebassets\\template\\images\\account\\Account1.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\apps\\apple-app-store.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\apps\\apple-app-store.png",
       "PackagePath": "staticwebassets\\template\\images\\apps\\apple-app-store.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\apps\\google-play-store.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\apps\\google-play-store.png",
       "PackagePath": "staticwebassets\\template\\images\\apps\\google-play-store.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-1.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-1.jpg",
       "PackagePath": "staticwebassets\\template\\images\\blog\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-2.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-2.jpg",
       "PackagePath": "staticwebassets\\template\\images\\blog\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-3.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-3.jpg",
       "PackagePath": "staticwebassets\\template\\images\\blog\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-4.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-4.jpg",
       "PackagePath": "staticwebassets\\template\\images\\blog\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-5.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\post-5.jpg",
       "PackagePath": "staticwebassets\\template\\images\\blog\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\video-icon.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\blog\\video-icon.png",
       "PackagePath": "staticwebassets\\template\\images\\blog\\video-icon.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\cta-background.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\cta-background.jpg",
       "PackagePath": "staticwebassets\\template\\images\\call-to-action\\cta-background.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\google-play-button.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\google-play-button.png",
       "PackagePath": "staticwebassets\\template\\images\\call-to-action\\google-play-button.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\mockup.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\call-to-action\\mockup.png",
       "PackagePath": "staticwebassets\\template\\images\\call-to-action\\mockup.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\amazon.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\amazon.jpg",
       "PackagePath": "staticwebassets\\template\\images\\category-slider\\amazon.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-02.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-02.jpg",
       "PackagePath": "staticwebassets\\template\\images\\category-slider\\category-02.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-03.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-03.jpg",
       "PackagePath": "staticwebassets\\template\\images\\category-slider\\category-03.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-04.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-04.jpg",
       "PackagePath": "staticwebassets\\template\\images\\category-slider\\category-04.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-05.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-05.jpg",
       "PackagePath": "staticwebassets\\template\\images\\category-slider\\category-05.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-06.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\category-slider\\category-06.jpg",
       "PackagePath": "staticwebassets\\template\\images\\category-slider\\category-06.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\contact-us\\contact-us.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\contact-us\\contact-us.png",
       "PackagePath": "staticwebassets\\template\\images\\contact-us\\contact-us.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\favicon.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\favicon.png",
       "PackagePath": "staticwebassets\\template\\images\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\footer\\phone-icon.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\footer\\phone-icon.png",
       "PackagePath": "staticwebassets\\template\\images\\footer\\phone-icon.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\home\\hero.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\home\\hero.jpg",
       "PackagePath": "staticwebassets\\template\\images\\home\\hero.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\home\\hero.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\home\\hero.png",
       "PackagePath": "staticwebassets\\template\\images\\home\\hero.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\logo-footer.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\logo-footer.png",
       "PackagePath": "staticwebassets\\template\\images\\logo-footer.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\logo.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\logo.png",
       "PackagePath": "staticwebassets\\template\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\nav-toogle-icon.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\nav-toogle-icon.png",
       "PackagePath": "staticwebassets\\template\\images\\nav-toogle-icon.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-1.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-1.jpg",
       "PackagePath": "staticwebassets\\template\\images\\products\\products-1.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-2.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-2.jpg",
       "PackagePath": "staticwebassets\\template\\images\\products\\products-2.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-3.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-3.jpg",
       "PackagePath": "staticwebassets\\template\\images\\products\\products-3.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-4.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\products\\products-4.jpg",
       "PackagePath": "staticwebassets\\template\\images\\products\\products-4.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\subscription\\subscription-back.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\subscription\\subscription-back.jpg",
       "PackagePath": "staticwebassets\\template\\images\\subscription\\subscription-back.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team1.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team1.jpg",
       "PackagePath": "staticwebassets\\template\\images\\team\\team1.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team2.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team2.jpg",
       "PackagePath": "staticwebassets\\template\\images\\team\\team2.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team3.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team3.jpg",
       "PackagePath": "staticwebassets\\template\\images\\team\\team3.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team4.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\team\\team4.jpg",
       "PackagePath": "staticwebassets\\template\\images\\team\\team4.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\user\\user-thumb.jpg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\user\\user-thumb.jpg",
       "PackagePath": "staticwebassets\\template\\images\\user\\user-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\widget\\store-01.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\images\\widget\\store-01.png",
       "PackagePath": "staticwebassets\\template\\images\\widget\\store-01.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\index.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\index.html",
       "PackagePath": "staticwebassets\\template\\index.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\js\\script.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\js\\script.js",
       "PackagePath": "staticwebassets\\template\\js\\script.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\login.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\login.html",
       "PackagePath": "staticwebassets\\template\\login.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\package.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\package.html",
       "PackagePath": "staticwebassets\\template\\package.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\css\\bootstrap-slider.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\css\\bootstrap-slider.css",
       "PackagePath": "staticwebassets\\template\\plugins\\bootstrap\\css\\bootstrap-slider.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\template\\plugins\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\bootstrap-slider.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\bootstrap-slider.js",
       "PackagePath": "staticwebassets\\template\\plugins\\bootstrap\\js\\bootstrap-slider.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\template\\plugins\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\popper.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\bootstrap\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\template\\plugins\\bootstrap\\js\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\counter-up\\jquery.counterup.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\counter-up\\jquery.counterup.min.js",
       "PackagePath": "staticwebassets\\template\\plugins\\counter-up\\jquery.counterup.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\counter-up\\waypoints.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\counter-up\\waypoints.min.js",
       "PackagePath": "staticwebassets\\template\\plugins\\counter-up\\waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_loading.gif",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_loading.gif",
       "PackagePath": "staticwebassets\\template\\plugins\\fancybox\\images\\fancybox_loading.gif"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_loading@2x.gif",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_loading@2x.gif",
       "PackagePath": "staticwebassets\\template\\plugins\\fancybox\\images\\fancybox_loading@2x.gif"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_overlay.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_overlay.png",
       "PackagePath": "staticwebassets\\template\\plugins\\fancybox\\images\\fancybox_overlay.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_sprite.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_sprite.png",
       "PackagePath": "staticwebassets\\template\\plugins\\fancybox\\images\\fancybox_sprite.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_sprite@2x.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\images\\fancybox_sprite@2x.png",
       "PackagePath": "staticwebassets\\template\\plugins\\fancybox\\images\\fancybox_sprite@2x.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.css",
       "PackagePath": "staticwebassets\\template\\plugins\\fancybox\\jquery.fancybox.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.js",
       "PackagePath": "staticwebassets\\template\\plugins\\fancybox\\jquery.fancybox.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.pack.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.pack.css",
       "PackagePath": "staticwebassets\\template\\plugins\\fancybox\\jquery.fancybox.pack.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.pack.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\fancybox\\jquery.fancybox.pack.js",
       "PackagePath": "staticwebassets\\template\\plugins\\fancybox\\jquery.fancybox.pack.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\css\\font-awesome.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\animated.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\animated.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\animated.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\bordered-pulled.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\bordered-pulled.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\bordered-pulled.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\core.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\core.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\core.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\fixed-width.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\fixed-width.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\fixed-width.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\font-awesome.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\font-awesome.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\font-awesome.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\icons.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\icons.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\icons.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\larger.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\larger.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\larger.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\list.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\list.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\list.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\mixins.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\mixins.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\mixins.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\path.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\path.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\path.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\rotated-flipped.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\rotated-flipped.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\rotated-flipped.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\screen-reader.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\screen-reader.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\screen-reader.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\stacked.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\stacked.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\stacked.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\variables.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\less\\variables.less",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\less\\variables.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_animated.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_animated.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_animated.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_bordered-pulled.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_bordered-pulled.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_bordered-pulled.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_core.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_core.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_core.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_fixed-width.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_fixed-width.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_fixed-width.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_icons.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_icons.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_icons.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_larger.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_larger.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_larger.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_list.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_list.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_list.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_path.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_path.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_path.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_rotated-flipped.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_rotated-flipped.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_rotated-flipped.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_screen-reader.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_screen-reader.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_stacked.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_stacked.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_stacked.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_variables.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\font-awesome.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\font-awesome\\scss\\font-awesome.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\font-awesome\\scss\\font-awesome.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\google-map\\gmap.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\google-map\\gmap.js",
       "PackagePath": "staticwebassets\\template\\plugins\\google-map\\gmap.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\google-map\\images\\marker.png",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\google-map\\images\\marker.png",
       "PackagePath": "staticwebassets\\template\\plugins\\google-map\\images\\marker.png"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jQuery\\jquery.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jQuery\\jquery.min.js",
       "PackagePath": "staticwebassets\\template\\plugins\\jQuery\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\css\\nice-select.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\css\\nice-select.css",
       "PackagePath": "staticwebassets\\template\\plugins\\jquery-nice-select\\css\\nice-select.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\fastclick.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\fastclick.js",
       "PackagePath": "staticwebassets\\template\\plugins\\jquery-nice-select\\js\\fastclick.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.js",
       "PackagePath": "staticwebassets\\template\\plugins\\jquery-nice-select\\js\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.js",
       "PackagePath": "staticwebassets\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.min.js",
       "PackagePath": "staticwebassets\\template\\plugins\\jquery-nice-select\\js\\jquery.nice-select.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\prism.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\jquery-nice-select\\js\\prism.js",
       "PackagePath": "staticwebassets\\template\\plugins\\jquery-nice-select\\js\\prism.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\raty\\jquery.raty-fa.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\raty\\jquery.raty-fa.js",
       "PackagePath": "staticwebassets\\template\\plugins\\raty\\jquery.raty-fa.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\CONTRIBUTING.markdown",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\CONTRIBUTING.markdown",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\CONTRIBUTING.markdown"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\ISSUE_TEMPLATE.md",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\ISSUE_TEMPLATE.md",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\ISSUE_TEMPLATE.md"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\README.markdown",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\README.markdown",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\README.markdown"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\bower.json",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\bower.json",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\bower.json"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\component.json",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\component.json",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\component.json"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick.jquery.json",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick.jquery.json",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick.jquery.json"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\ajax-loader.gif",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\config.rb",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\config.rb",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\config.rb"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.eot",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.eot",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.eot"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.svg",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.svg",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.svg"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.ttf",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.ttf",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.ttf"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.woff",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.woff",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\fonts\\slick.woff"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.css",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick-theme.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.less",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick-theme.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick-theme.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick-theme.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.css",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.js",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.less",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.less",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick.less"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.min.js",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.scss",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\slick-carousel\\slick\\slick.scss",
       "PackagePath": "staticwebassets\\template\\plugins\\slick-carousel\\slick\\slick.scss"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\smoothscroll\\SmoothScroll.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\smoothscroll\\SmoothScroll.js",
       "PackagePath": "staticwebassets\\template\\plugins\\smoothscroll\\SmoothScroll.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\smoothscroll\\SmoothScroll.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\smoothscroll\\SmoothScroll.min.js",
       "PackagePath": "staticwebassets\\template\\plugins\\smoothscroll\\SmoothScroll.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.css",
       "PackagePath": "staticwebassets\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.min.css",
       "PackagePath": "staticwebassets\\template\\plugins\\tether\\css\\tether-theme-arrows-dark.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows.css",
       "PackagePath": "staticwebassets\\template\\plugins\\tether\\css\\tether-theme-arrows.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-arrows.min.css",
       "PackagePath": "staticwebassets\\template\\plugins\\tether\\css\\tether-theme-arrows.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-basic.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-basic.css",
       "PackagePath": "staticwebassets\\template\\plugins\\tether\\css\\tether-theme-basic.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-basic.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether-theme-basic.min.css",
       "PackagePath": "staticwebassets\\template\\plugins\\tether\\css\\tether-theme-basic.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether.css",
       "PackagePath": "staticwebassets\\template\\plugins\\tether\\css\\tether.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether.min.css",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\css\\tether.min.css",
       "PackagePath": "staticwebassets\\template\\plugins\\tether\\css\\tether.min.css"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\js\\tether.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\js\\tether.js",
       "PackagePath": "staticwebassets\\template\\plugins\\tether\\js\\tether.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\js\\tether.min.js",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\plugins\\tether\\js\\tether.min.js",
       "PackagePath": "staticwebassets\\template\\plugins\\tether\\js\\tether.min.js"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\register.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\register.html",
       "PackagePath": "staticwebassets\\template\\register.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\single-blog.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\single-blog.html",
       "PackagePath": "staticwebassets\\template\\single-blog.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\single.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\single.html",
       "PackagePath": "staticwebassets\\template\\single.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\store.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\store.html",
       "PackagePath": "staticwebassets\\template\\store.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\terms-condition.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\terms-condition.html",
       "PackagePath": "staticwebassets\\template\\terms-condition.html"
     },
     {
-      "Id": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\user-profile.html",
+      "Id": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.UI\\wwwroot\\template\\user-profile.html",
       "PackagePath": "staticwebassets\\template\\user-profile.html"
     },
     {
