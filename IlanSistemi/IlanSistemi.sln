@@ -5,7 +5,11 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IlanSistemi.Entities", "IlanSistemi.Entities\IlanSistemi.Entities.csproj", "{456E2CDC-A1A5-49E9-BE69-F6D1055A7A10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IlanSistemi.DataAccess", "IlanSistemi.DataAccess\IlanSistemi.DataAccess.csproj", "{9C3C66E9-B20C-43D9-A7F3-3583DC2E5F23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IlanSistemi.DataAccess", "IlanSistemi.DataAccess\IlanSistemi.DataAccess.csproj", "{9C3C66E9-B20C-43D9-A7F3-3583DC2E5F23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IlanSistemi.Business", "IlanSistemi.Business\IlanSistemi.Business.csproj", "{60D6370D-39BD-4895-8BC6-D0D34066D3CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IlanSistemi.UI", "IlanSistemi.UI\IlanSistemi.UI.csproj", "{9EB21937-FB1F-41EC-AB29-32D38EE11859}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{9C3C66E9-B20C-43D9-A7F3-3583DC2E5F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C3C66E9-B20C-43D9-A7F3-3583DC2E5F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C3C66E9-B20C-43D9-A7F3-3583DC2E5F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D6370D-39BD-4895-8BC6-D0D34066D3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D6370D-39BD-4895-8BC6-D0D34066D3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D6370D-39BD-4895-8BC6-D0D34066D3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D6370D-39BD-4895-8BC6-D0D34066D3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB21937-FB1F-41EC-AB29-32D38EE11859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB21937-FB1F-41EC-AB29-32D38EE11859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB21937-FB1F-41EC-AB29-32D38EE11859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB21937-FB1F-41EC-AB29-32D38EE11859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

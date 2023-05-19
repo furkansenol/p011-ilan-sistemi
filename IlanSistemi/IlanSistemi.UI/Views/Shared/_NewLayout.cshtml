@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	@await Html.PartialAsync("/Views/Default/_HeadPartial.cshtml")
+<body class="body-wrapper">
+
+	@await Html.PartialAsync("/Views/Default/_NavbarPartial.cshtml")
+
+	@RenderBody();
+
+	<!--============================
+	=            Footer            =
+	=============================-->
+	@await Html.PartialAsync("/Views/Default/_FooterSectionPartial.cshtml")
+	<!-- Footer Bottom -->
+	@await Html.PartialAsync("/Views/Default/_FooterBottomPartial.cshtml")
+	<!-- JAVASCRIPTS -->
+	@await Html.PartialAsync("/Views/Default/_ScriptPartial.cshtml")
+
+</body>
+</html>

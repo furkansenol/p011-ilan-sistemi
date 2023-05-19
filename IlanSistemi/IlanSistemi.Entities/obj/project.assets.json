@@ -2019,11 +2019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EFEKAN\\Source\\Repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
       "projectName": "IlanSistemi.Entities",
-      "projectPath": "C:\\Users\\EFEKAN\\Source\\Repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
+      "projectPath": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
       "packagesPath": "C:\\Users\\EFEKAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EFEKAN\\Source\\Repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\obj\\",
+      "outputPath": "C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EFEKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2092,5 +2092,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\EFEKAN\\source\\repos\\p011-ilan-sistemi\\IlanSistemi\\IlanSistemi.Entities\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
