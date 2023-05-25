@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.DataAccess\\IlanSistemi.DataAccess.csproj": {}
+    "C:\\Users\\hmert\\source\\repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.DataAccess\\IlanSistemi.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.DataAccess\\IlanSistemi.DataAccess.csproj": {
+    "C:\\Users\\hmert\\source\\repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.DataAccess\\IlanSistemi.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.DataAccess\\IlanSistemi.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\hmert\\source\\repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.DataAccess\\IlanSistemi.DataAccess.csproj",
         "projectName": "IlanSistemi.DataAccess",
-        "projectPath": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.DataAccess\\IlanSistemi.DataAccess.csproj",
+        "projectPath": "C:\\Users\\hmert\\source\\repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.DataAccess\\IlanSistemi.DataAccess.csproj",
         "packagesPath": "C:\\Users\\hmert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\hmert\\source\\repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj": {
-                "projectPath": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj"
+              "C:\\Users\\hmert\\source\\repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj": {
+                "projectPath": "C:\\Users\\hmert\\source\\repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj"
               }
             }
           }
@@ -90,12 +90,12 @@
         }
       }
     },
-    "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj": {
+    "C:\\Users\\hmert\\source\\repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\hmert\\source\\repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
         "projectName": "IlanSistemi.Entities",
-        "projectPath": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
+        "projectPath": "C:\\Users\\hmert\\source\\repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\IlanSistemi.Entities.csproj",
         "packagesPath": "C:\\Users\\hmert\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hmert\\Source\\Repos\\p011-ilansistemi\\IlanSistemi\\IlanSistemi.Entities\\obj\\",
         "projectStyle": "PackageReference",

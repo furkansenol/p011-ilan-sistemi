@@ -9,57 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IlanSistemi.UI
 build_property.RootNamespace = IlanSistemi.UI
-build_property.ProjectDir = C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.UI\
+build_property.ProjectDir = C:\Users\hmert\source\repos\p011-ilansistemi\IlanSistemi\IlanSistemi.UI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.UI
+build_property.MSBuildProjectDirectory = C:\Users\hmert\source\repos\p011-ilansistemi\IlanSistemi\IlanSistemi.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/FooterBottomPartial.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/FooterBottomPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxGb290ZXJCb3R0b21QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/FooterSectionPartial.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/FooterSectionPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxGb290ZXJTZWN0aW9uUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/HeadPartial.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/HeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxIZWFkUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/Index.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/NavbarPartial.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/NavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxOYXZiYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/ScriptPartial.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Default/ScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxTY3JpcHRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Shared/Error.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Shared/_NewLayout.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Shared/_NewLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OZXdMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/_ViewImports.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/_ViewStart.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hmert/Source/Repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Shared/_Layout.cshtml]
+[C:/Users/hmert/source/repos/p011-ilansistemi/IlanSistemi/IlanSistemi.UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-26gqe4wkqy
