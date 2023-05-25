@@ -4,6 +4,7 @@ using IlanSistemi.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -18,34 +19,34 @@ namespace IlanSistemi.Business.Concrete
             _pageDal = pageDal;
         }
 
-        public void TAdd(Page t)
-        {
-            throw new NotImplementedException();
-        }
+		public void TAdd(Page t)
+		{
+			throw new NotImplementedException();
+		}
 
-        public void TDelete(Page t)
-        {
-            throw new NotImplementedException();
-        }
+		public void TDelete(Page t)
+		{
+			throw new NotImplementedException();
+		}
 
-        public Page TGetByID(int id)
-        {
-            throw new NotImplementedException();
-        }
+		public Page TGetByID(int id)
+		{
+			throw new NotImplementedException();
+		}
 
-        public List<Page> TGetList()
-        {
-            throw new NotImplementedException();
-        }
+		public List<Page> TGetList()
+		{
+			throw new NotImplementedException();
+		}
 
-        public List<Page> TGetListbyFilter()
-        {
-            throw new NotImplementedException();
-        }
+		public List<Page> TGetListbyFilter(Expression<Func<Page, bool>> filter)
+		{
+			throw new NotImplementedException();
+		}
 
-        public void TUpdate(Page t)
-        {
-            throw new NotImplementedException();
-        }
-    }
+		public void TUpdate(Page t)
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

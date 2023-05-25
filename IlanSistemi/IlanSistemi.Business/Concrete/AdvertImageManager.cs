@@ -4,6 +4,7 @@ using IlanSistemi.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -38,7 +39,7 @@ namespace IlanSistemi.Business.Concrete
 			throw new NotImplementedException();
 		}
 
-		public List<AdvertImage> TGetListbyFilter()
+		public List<AdvertImage> TGetListbyFilter(Expression<Func<AdvertImage, bool>> filter)
 		{
 			throw new NotImplementedException();
 		}

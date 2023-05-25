@@ -49,3 +49,37 @@ C:\Users\ALİ KEMAL\Source\Repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataA
 C:\Users\ALİ KEMAL\Source\Repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.pdb
 C:\Users\ALİ KEMAL\Source\Repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.genruntimeconfig.cache
 C:\Users\ALİ KEMAL\Source\Repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\ref\IlanSistemi.DataAccess.dll
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.DataAccess.deps.json
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.DataAccess.runtimeconfig.json
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.DataAccess.dll
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.DataAccess.pdb
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.Entities.dll
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.Entities.pdb
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.csproj.AssemblyReference.cache
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.AssemblyInfoInputs.cache
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.AssemblyInfo.cs
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.csproj.CopyComplete
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.dll
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\refint\IlanSistemi.DataAccess.dll
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.pdb
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.genruntimeconfig.cache
+C:\Users\hmert\Source\Repos\p011-ilansistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\ref\IlanSistemi.DataAccess.dll
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.DataAccess.deps.json
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.DataAccess.runtimeconfig.json
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.DataAccess.dll
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.DataAccess.pdb
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.Entities.dll
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\bin\Debug\net6.0\IlanSistemi.Entities.pdb
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.csproj.AssemblyReference.cache
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.AssemblyInfoInputs.cache
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.AssemblyInfo.cs
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.csproj.CopyComplete
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.dll
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\refint\IlanSistemi.DataAccess.dll
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.pdb
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\IlanSistemi.DataAccess.genruntimeconfig.cache
+C:\Users\EFEKAN\source\repos\p011-ilan-sistemi\IlanSistemi\IlanSistemi.DataAccess\obj\Debug\net6.0\ref\IlanSistemi.DataAccess.dll
