@@ -21,32 +21,33 @@ namespace IlanSistemi.Business.Concrete
 
 		public void TAdd(User t)
 		{
-			throw new NotImplementedException();
-		}
+			_userDal.Insert(t);
+
+        }
 
 		public void TDelete(User t)
 		{
-			throw new NotImplementedException();
+			_userDal.Delete(t);
 		}
 
 		public User TGetByID(int id)
 		{
-			throw new NotImplementedException();
+			return _userDal.GetByID(id);
 		}
 
 		public List<User> TGetList()
 		{
-			throw new NotImplementedException();
+			return _userDal.GetList();
 		}
 
 		public List<User> TGetListbyFilter(Expression<Func<User, bool>> filter)
 		{
-			throw new NotImplementedException();
+			return _userDal.GetByFilter(filter);
 		}
 
 		public void TUpdate(User t)
 		{
-			throw new NotImplementedException();
+			_userDal.Update(t);
 		}
 	}
 }
