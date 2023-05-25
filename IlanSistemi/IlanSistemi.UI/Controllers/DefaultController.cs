@@ -31,5 +31,9 @@ namespace IlanSistemi.UI.Controllers
         {
             return PartialView();
         }
+        public PartialViewResult HeadContentPartial()
+        {
+            return PartialView();
+        }
     }
 }
