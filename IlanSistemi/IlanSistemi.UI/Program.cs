@@ -26,4 +26,3 @@ app.MapControllerRoute(
 
 app.Run();
 
-// commit deðiþiklik
