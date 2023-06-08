@@ -1,0 +1,42 @@
+﻿@using IlanSistemi.Entities.Concrete
+@model List<Category>
+<div class="row mt-30">
+	<div class="col-sm-12 col-lg-4 col-md-6">
+		@foreach (var item in Model)
+		{
+			<div class="product-item bg-light">
+				<div class="card">
+					<div class="thumb-content">
+						<!-- <div class="price">$200</div> -->
+						<a href="single.html">
+							<img class="card-img-top img-fluid" src="@item.Description" alt="Card image cap">
+						</a>
+					</div>
+					<div class="card-body">
+						<h4 class="card-title"><a href="single.html">@item.Name</a></h4>
+						<ul class="list-inline product-meta">
+							<li class="list-inline-item">
+								<a href="single.html"><i class="fa fa-folder-open-o"></i>@item.Name</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><i class="fa fa-calendar"></i>@DateTime.Now.ToString("dd/mm/yyyy")</a>
+							</li>
+						</ul>
+						<p class="card-text">@item.Description</p>
+						<div class="product-ratings">
+							<ul class="list-inline">
+								<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		}
+	</div>
+</div>

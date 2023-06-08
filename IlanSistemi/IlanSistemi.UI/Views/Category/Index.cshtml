@@ -1,0 +1,161 @@
+﻿@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+<body class="body-wrapper">
+
+	<section class="page-search">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<!-- Advance Search -->
+					<div class="advance-search">
+						<form>
+							<div class="form-row">
+								<div class="form-group col-md-4">
+									<input type="text" class="form-control my-2 my-lg-0" id="inputtext4" placeholder="Aramak yapmak istediğiniz ürünü giriniz">
+								</div>
+								<div class="form-group col-md-3">
+									<input type="text" class="form-control my-2 my-lg-0" id="inputCategory4" placeholder="Kategori">
+								</div>
+								<div class="form-group col-md-3">
+									<input type="text" class="form-control my-2 my-lg-0" id="inputLocation4" placeholder="Şehir">
+								</div>
+								<div class="form-group col-md-2">
+
+									<button type="submit" class="btn btn-primary">Ara</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="search-result bg-gray">
+						<h2>Results For "Electronics"</h2>
+						<p>123 Results on 12 December, 2017</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="category-sidebar">
+						@await Component.InvokeAsync("CategoryList")
+
+
+						<div class="widget category-list">
+							@*burayı soracağım*@
+							<h4 class="widget-header">Yakın yerler</h4>
+							<ul class="category-list">
+								<li><a href="category.html">Ankara <span>93</span></a></li>
+								<li><a href="category.html">Eskişehir <span>233</span></a></li>
+								<li><a href="category.html">İstanbul  <span>183</span></a></li>
+								<li><a href="category.html">Kocaeli <span>120</span></a></li>
+								<li><a href="category.html">Muğla <span>40</span></a></li>
+								<li><a href="category.html">Antalya <span>81</span></a></li>
+							</ul>
+						</div>
+
+						<div class="widget filter">
+							<h4 class="widget-header">Şuna göre listele</h4>
+							<select>
+								<option>Popülerlik</option>
+								<option value="1">En Çok Oy Alan</option>
+								<option value="2">En düşük fiyat</option>
+								<option value="4">En yüksek fiyat</option>
+							</select>
+						</div>
+
+						<div class="widget price-range w-100">
+							<h4 class="widget-header">Fiyat Aralığı</h4>
+							<div class="block">
+								<input class="range-track w-100" type="text" data-slider-min="0" data-slider-max="5000" data-slider-step="5"
+									   data-slider-value="[0,5000]">
+								<div class="d-flex justify-content-between mt-2">
+									<span class="value">10₺ - 5000₺</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="widget product-shorting">
+							<h4 class="widget-header">Ürün Durumuna Göre</h4>
+							<div class="form-check">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" value="">
+									Sıfır Ürün
+								</label>
+							</div>
+							<div class="form-check">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" value="">
+									Çok Az Kullanılmış
+								</label>
+							</div>
+							<div class="form-check">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" value="">
+									2. El Ürün
+								</label>
+							</div>
+							<div class="form-check">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" value="">
+									Teşhir Ürünü
+								</label>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="category-search-filter">
+						<div class="row">
+							<div class="col-md-6">
+								<strong>Sıralama</strong>
+								<select>
+									<option>En Yeni</option>
+									<option value="1">En Popüler</option>
+									<option value="2">Düşük Fiyat</option>
+									<option value="4">Yüksek Fiyat</option>
+								</select>
+							</div>
+						</div>
+						<div class="product-grid-list">
+							@await Component.InvokeAsync("ProductList")
+
+						</div>
+						<div class="pagination justify-content-center">
+							<nav aria-label="Page navigation example">
+								<ul class="pagination">
+									<li class="page-item">
+										<a class="page-link" href="#" aria-label="Previous">
+											<span aria-hidden="true">&laquo;</span>
+											<span class="sr-only">Previous</span>
+										</a>
+									</li>
+									<li class="page-item active"><a class="page-link" href="#">1</a></li>
+									<li class="page-item"><a class="page-link" href="#">2</a></li>
+									<li class="page-item"><a class="page-link" href="#">3</a></li>
+									<li class="page-item">
+										<a class="page-link" href="#" aria-label="Next">
+											<span aria-hidden="true">&raquo;</span>
+											<span class="sr-only">Next</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+
+</body>
+
