@@ -1,7 +1,17 @@
+using IlanSistemi.DataAccess.Concrete;
+using IlanSistemi.Entities.Concrete;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<DataContext>();
+builder.Services.AddIdentity<AdminUser, AdminRole>().AddEntityFrameworkStores<DataContext>();
 builder.Services.AddControllersWithViews();
+
+
 
 var app = builder.Build();
 
@@ -13,6 +23,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -23,5 +35,12 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Default}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    );
+});
 
 app.Run();

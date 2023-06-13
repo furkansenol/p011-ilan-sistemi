@@ -1,4 +1,5 @@
 ﻿using IlanSistemi.Entities.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace IlanSistemi.DataAccess.Concrete
 {
-    public class DataContext : DbContext
+    public class DataContext : IdentityDbContext<AdminUser, AdminRole, int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=MERT; Database=IlanSistemi; User Id=sa; Password =123");
+            optionsBuilder.UseSqlServer("Server=EFE\\SQL2019; Database=IlanSistemi; User Id=sa; Password =123");
             // Sql de bunu nasıl public yapacağımızı bilemedik yaparsanız seviniriz... =)
 
 
