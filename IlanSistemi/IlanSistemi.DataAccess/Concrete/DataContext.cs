@@ -14,32 +14,70 @@ namespace IlanSistemi.DataAccess.Concrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=MERT; Database=IlanSistemi; User Id=sa; Password =123");
+            optionsBuilder.UseSqlServer("Data Source=ERAY\\SQLEXPRESS; Database=IlanProjesi2; Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
             // Sql de bunu nasıl public yapacağımızı bilemedik yaparsanız seviniriz... =)
 
 
         }
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
-		{
-			modelBuilder.Entity<AdvertComment>()
-				.HasKey(c => c.Id);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<AdvertComment>()
+                .HasKey(c => c.Id);
 
-			modelBuilder.Entity<AdvertComment>()
-				.HasOne(c => c.User)
-				.WithMany()
-				.HasForeignKey(c => c.Id)
-				.OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<AdvertComment>()
+                .HasOne(c => c.User)
+                .WithMany()
+                .HasForeignKey(c => c.Id)
+                .OnDelete(DeleteBehavior.Restrict);
 
-			modelBuilder.Entity<AdvertComment>()
-				.HasOne(c => c.Advert)
-				.WithMany()
-				.HasForeignKey(c => c.Id)
-				.OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<AdvertComment>()
+                .HasOne(c => c.Advert)
+                .WithMany()
+                .HasForeignKey(c => c.Id)
+                .OnDelete(DeleteBehavior.Restrict);
 
-			base.OnModelCreating(modelBuilder);
-		}
+            //Seed Data for Category Model
+            modelBuilder.Entity<Category>().HasData(
+                new List<Category>()
+                {
+                    new Category
+                    {
+                        Id = 1,
+                        Name = "Elektronik",
+                        Description = "Elektronik eşyalar"
+                    },
+                    new Category
+                    {
+                        Id = 2,
+                        Name = "Moda",
+                        Description = "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler."
+                    },
+                    new Category
+                    {
+                        Id = 3,
+                        Name = "Ev, Yaşam",
+                        Description = "Ev Tekstili, Mutfak Gereçleri"
+                    },
+                    new Category
+                    {
+                        Id = 4,
+                        Name = "Spor, Outdoor",
+                        Description = "Aradığınız tüm spor ürünleri"
+                    },
+                    new Category
+                    {
+                        Id = 5,
+                        Name = "Kozmetik",
+                        Description = "Kişisel bakım ve makyaj malzemeleri"
+                    },
+                }
+            );
 
-		public DataContext()
+
+            base.OnModelCreating(modelBuilder);
+        }
+
+        public DataContext()
         {
         }
 

@@ -1,7 +1,20 @@
+using IlanSistemi.Business.Abstract;
+using IlanSistemi.Business.Concrete;
+using IlanSistemi.DataAccess.Abstract;
+using IlanSistemi.DataAccess.EntityFramework;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//DependencyInjections
+builder.Services.AddScoped<IUserDal, EfUserDal>();
+builder.Services.AddScoped<IUserService, UserManager>();
+
+builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
+builder.Services.AddScoped<ICategoryService, CategoryManager>();
+
 
 var app = builder.Build();
 

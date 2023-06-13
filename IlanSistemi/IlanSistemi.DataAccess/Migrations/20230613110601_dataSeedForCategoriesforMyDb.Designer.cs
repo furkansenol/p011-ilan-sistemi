@@ -4,6 +4,7 @@ using IlanSistemi.DataAccess.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IlanSistemi.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230613110601_dataSeedForCategoriesforMyDb")]
+    partial class dataSeedForCategoriesforMyDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -155,20 +157,20 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 3,
-                            Description = "Ev Tekstili, Mutfak Gereçleri",
+                            Description = "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler.",
                             Name = "Ev, Yaşam"
                         },
                         new
                         {
                             Id = 4,
-                            Description = "Aradığınız tüm spor ürünleri",
+                            Description = "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler.",
                             Name = "Spor, Outdoor"
                         },
                         new
                         {
                             Id = 5,
-                            Description = "Kişisel bakım ve makyaj malzemeleri",
-                            Name = "Kozmetik"
+                            Description = "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler.",
+                            Name = "FKozmetik"
                         });
                 });
 
