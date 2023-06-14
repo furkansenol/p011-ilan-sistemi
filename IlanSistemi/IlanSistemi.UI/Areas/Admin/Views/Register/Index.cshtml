@@ -32,9 +32,10 @@
                 <div class="row w-100 mx-0">
                     <div class="col-lg-4 mx-auto">
                         <div class="auth-form-light text-left py-5 px-4 px-sm-5">
-                            <div class="brand-logo">
-                                <img src="~/skydash/images/logo.svg" alt="logo">
+                            <div class="brand-logo-mini">
+                                <img style="display: block; margin: auto;" src="~/template/images/logo.png" alt="logo">
                             </div>
+                            <br />
                             <h4>Bir hesabin yok mu?</h4>
                             <h6 class="font-weight-light">Hemen Kayit Ol!</h6>
                             <form class="pt-3" method="post">
@@ -47,12 +48,7 @@
                                     <label>Soyadiniz</label>
                                     <span asp-validation-for="Surname" class="text-danger"></span>
                                     <input type="text" asp-for="Surname" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <label>Gorsel URL</label>
-                                    <span asp-validation-for="ImagURL" class="text-danger"></span>
-                                    <input type="text" asp-for="ImagURL" class="form-control" />
-                                </div>
+                                </div>                                
                                 <div class="form-group">
                                     <label>Bir Kullanici Adi Belirleyin</label>
                                     <span asp-validation-for="UserName" class="text-danger"></span>
@@ -64,12 +60,12 @@
                                     <input type="text" asp-for="Mail" class="form-control" />
                                 </div>
                                 <div class="form-group">
-                                    <label>Sifreniz</label>
+                                    <label>Şifreniz</label>
                                     <span asp-validation-for="Password" class="text-danger"></span>
                                     <input type="text" asp-for="Password" class="form-control" />
                                 </div>
                                 <div class="form-group">
-                                    <label>Sifre Tekrar</label>
+                                    <label>Şifre Tekrar</label>
                                     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                                     <input type="text" asp-for="ConfirmPassword" class="form-control" />
                                 </div>
@@ -77,25 +73,17 @@
                                 </div>
                                 <div class="mt-3">
                                     <button class="btn btn-primary">Kayit Ol</button>
-                                    @* <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" asp-action="">Kayit Ol</a>*@
                                 </div>
-                                @*<div class="text-center mt-4 font-weight-light">
-                                Already have an account? <a href="login.html" class="text-primary">Login</a>
-                                </div>*@
+                                
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- content-wrapper ends -->
+           
         </div>
-        <!-- page-body-wrapper ends -->
     </div>
     <script src="~/skydash/vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
     <script src="~/skydash/js/off-canvas.js"></script>
     <script src="~/skydash/js/hoverable-collapse.js"></script>
     <script src="~/skydash/js/template.js"></script>

@@ -40,5 +40,12 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
             }
             return View();
         }
-    }
+
+		public async Task<IActionResult> LogOut()
+		{
+			await _signInManager.SignOutAsync();
+
+			return RedirectToAction("Index", "Login");
+		}
+	}
 }

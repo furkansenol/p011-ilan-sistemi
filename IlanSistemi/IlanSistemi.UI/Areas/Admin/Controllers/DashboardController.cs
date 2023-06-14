@@ -17,7 +17,7 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
             _userManager = userManager;
         }
 
-		public async Task<IActionResult> Index()
+		public async Task <IActionResult> Index()
 		{
 			var values = await _userManager.FindByNameAsync(User.Identity.Name);
 			ViewBag.v = values.Name + " " + values.Surname;
@@ -31,7 +31,7 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
 			ViewBag.v1 = c.adverts.Count();
 			ViewBag.v2 = c.categories.Count();
 			ViewBag.v3 = c.Users.Count();
-			
+
 			return View();
 		}
 	}

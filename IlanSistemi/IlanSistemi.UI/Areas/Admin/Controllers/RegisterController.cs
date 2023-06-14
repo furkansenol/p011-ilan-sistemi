@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace IlanSistemi.UI.Areas.Admin.Controllers
 {
-    
+
+    [AllowAnonymous]
+    [Route("Admin/[controller]/[action]")]
     [Area("Admin")]
     public class RegisterController : Controller
     {
@@ -21,11 +23,11 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View(); 
+            return View();
         }
 
         [HttpPost]
-        public async Task <IActionResult> Index(UserRegisterViewModel p)
+        public async Task<IActionResult> Index(UserRegisterViewModel p)
         {
             if (ModelState.IsValid)
             {
@@ -56,10 +58,8 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
                     }
 
                 }
-
-
             }
-            return View(); 
+            return View();
         }
 
     }
