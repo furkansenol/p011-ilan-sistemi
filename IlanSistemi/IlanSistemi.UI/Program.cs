@@ -1,5 +1,8 @@
 using IlanSistemi.Business.Abstract;
 using IlanSistemi.Business.Concrete;
+using IlanSistemi.DataAccess.Abstract;
+using IlanSistemi.DataAccess.Concrete;
+using IlanSistemi.DataAccess.EntityFramework;
 using IlanSistemi.DataAccess.Concrete;
 using IlanSistemi.Entities.Concrete;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -14,6 +17,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddIdentity<AdminUser, AdminRole>().AddEntityFrameworkStores <DataContext>();
 builder.Services.AddControllersWithViews();
+
+//DependencyInjections
+builder.Services.AddScoped<IUserDal, EfUserDal>();
+builder.Services.AddScoped<IUserService, UserManager>();
+
+builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
+builder.Services.AddScoped<ICategoryService, CategoryManager>();
+
+builder.Services.AddScoped<IAdvertDal, EfAdvertDal>();
+builder.Services.AddScoped<IAdvertService, AdvertManager>();
+
 
 
 builder.Services.AddMvc(config =>

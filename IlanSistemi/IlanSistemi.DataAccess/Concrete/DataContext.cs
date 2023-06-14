@@ -1,12 +1,6 @@
 ﻿using IlanSistemi.Entities.Concrete;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IlanSistemi.DataAccess.Concrete
 {
@@ -15,32 +9,148 @@ namespace IlanSistemi.DataAccess.Concrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=MERT; Database=IlanSistemi; User Id=sa; Password =123");
+            optionsBuilder.UseSqlServer("Data Source=ERAY\\SQLEXPRESS; Database=IlanProjesi2; Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
             // Sql de bunu nasıl public yapacağımızı bilemedik yaparsanız seviniriz... =)
 
 
         }
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
-		{
-			modelBuilder.Entity<AdvertComment>()
-				.HasKey(c => c.Id);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<AdvertComment>()
+                .HasKey(c => c.Id);
 
-			modelBuilder.Entity<AdvertComment>()
-				.HasOne(c => c.User)
-				.WithMany()
-				.HasForeignKey(c => c.Id)
-				.OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<AdvertComment>()
+                .HasOne(c => c.User)
+                .WithMany()
+                .HasForeignKey(c => c.Id)
+                .OnDelete(DeleteBehavior.Restrict);
 
-			modelBuilder.Entity<AdvertComment>()
-				.HasOne(c => c.Advert)
-				.WithMany()
-				.HasForeignKey(c => c.Id)
-				.OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<AdvertComment>()
+                .HasOne(c => c.Advert)
+                .WithMany()
+                .HasForeignKey(c => c.Id)
+                .OnDelete(DeleteBehavior.Restrict);
 
-			base.OnModelCreating(modelBuilder);
-		}
+            //Seed Data for Category Model
+            modelBuilder.Entity<Category>().HasData(
+                new List<Category>()
+                {
+                    new Category
+                    {
+                        Id = 1,
+                        Name = "Elektronik",
+                        Description = "Elektronik eşyalar"
+                    },
+                    new Category
+                    {
+                        Id = 2,
+                        Name = "Moda",
+                        Description = "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler."
+                    },
+                    new Category
+                    {
+                        Id = 3,
+                        Name = "Ev, Yaşam",
+                        Description = "Ev Tekstili, Mutfak Gereçleri"
+                    },
+                    new Category
+                    {
+                        Id = 4,
+                        Name = "Spor, Outdoor",
+                        Description = "Aradığınız tüm spor ürünleri"
+                    },
+                    new Category
+                    {
+                        Id = 5,
+                        Name = "Kozmetik",
+                        Description = "Kişisel bakım ve makyaj malzemeleri"
+                    },
+                }
+            );
 
-		public DataContext()
+            //Seed Data for User model
+            modelBuilder.Entity<User>().HasData(
+                    new User()
+                    {
+                        Id = 1,
+                        Email = "sample@user.com",
+                        Password = "123456",
+                        Name = "Sample",
+                        Address = "Türkiye",
+                        Phone = "0543212340",
+                        CreatedAt = DateTime.Now,
+                    });
+
+            //Seed Data for Advert
+            modelBuilder.Entity<Advert>().HasData(
+                    new List<Advert>()
+                    {
+                        new Advert()
+                        {
+                            Id = 1,
+                            UserId = 1,
+                            Title = "Laptop Bal Almayan Mal",
+                            Description = "Sahibinden garantisiz laptop",
+                            CreatedAt = DateTime.Now,
+                        },
+
+                        new Advert()
+                        {
+                            Id = 2,
+                            UserId = 1,
+                            Title = "Yürüyen Uçak",
+                            Description = "Yürüyeni iyi uçak",
+                            CreatedAt = DateTime.Now,
+                        },
+
+                        new Advert()
+                        {
+                            Id = 3,
+                            UserId = 1,
+                            Title = "Gemicik",
+                            Description = "Krediye uygun gemicik",
+                            CreatedAt = DateTime.Now,
+                        },
+                        new Advert()
+                        {
+                            Id = 4,
+                            UserId = 1,
+                            Title = "Röpteşambır",
+                            Description = "Zengin pijaması",
+                            CreatedAt = DateTime.Now,
+                        },
+                    }
+                );
+
+            modelBuilder.Entity<CategoryAdvert>().HasData(
+                new List<CategoryAdvert>()
+                {
+                    new CategoryAdvert()
+                    {
+                        Id = 1,
+                        CategoryId = 1,
+                        AdvertId = 1,
+                    },
+                    new CategoryAdvert()
+                    {
+                        Id = 2,
+                        CategoryId = 1,
+                        AdvertId = 2,
+                    },
+                    new CategoryAdvert()
+                    {
+                        Id = 3,
+                        CategoryId = 2,
+                        AdvertId = 4,
+                    },
+                }
+                );
+
+
+            base.OnModelCreating(modelBuilder);
+        }
+
+        public DataContext()
         {
         }
 

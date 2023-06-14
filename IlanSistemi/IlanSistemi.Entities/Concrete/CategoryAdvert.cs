@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace IlanSistemi.Entities.Concrete
 {
-	public class CategoryAdvert : IAuditEntity
+    public class CategoryAdvert : IAuditEntity
 	{
 
 		[Key]
@@ -21,9 +21,10 @@ namespace IlanSistemi.Entities.Concrete
 		public virtual Advert adverts { get; set; }
 		public virtual Category category { get; set; }
 
+
         //TODO
-        public DateTime CreatedAt { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-		public DateTime UpdatedAt { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-		public DateTime DeletedAt { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-	}
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public DateTime? DeletedAt { get; set; }
+    }
 }

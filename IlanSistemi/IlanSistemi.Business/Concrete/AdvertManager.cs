@@ -21,22 +21,22 @@ namespace IlanSistemi.Business.Concrete
 
 		public void TAdd(Advert t)
 		{
-			throw new NotImplementedException();
+			_advertDal.Insert(t);
 		}
 
 		public void TDelete(Advert t)
 		{
-			throw new NotImplementedException();
+			_advertDal.Delete(t);
 		}
 
 		public Advert TGetByID(int id)
 		{
-			throw new NotImplementedException();
+			return _advertDal.GetByID(id);
 		}
 
 		public List<Advert> TGetList()
 		{
-			throw new NotImplementedException();
+			return _advertDal.GetList();
 		}
 
 		public List<Advert> TGetListbyFilter(Expression<Func<Advert, bool>> filter)
@@ -46,7 +46,7 @@ namespace IlanSistemi.Business.Concrete
 
 		public void TUpdate(Advert t)
 		{
-			throw new NotImplementedException();
+			_advertDal.Update(t);
 		}
 	}
 }

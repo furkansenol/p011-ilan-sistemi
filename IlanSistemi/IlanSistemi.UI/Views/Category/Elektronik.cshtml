@@ -1,5 +1,8 @@
-﻿@using IlanSistemi.Entities.Concrete
-@model List<Advert>
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+@model List<IlanSistemi.Entities.Concrete.Advert>;
 
 <div class="row mt-30">
 
@@ -41,3 +44,6 @@
 
     }
 </div>
+
+
+

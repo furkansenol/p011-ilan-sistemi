@@ -1,18 +1,33 @@
 ﻿@using IlanSistemi.Entities.Concrete
 @model List<Category>
+
+@{
+    string desc = "";
+}
 <div class="widget category-list">
-	<h4 class="widget-header">Kategoriler</h4>
-	@foreach (var item in Model)
-	{
-		<div class="widget category-list">
-			<h4 class="widget-header">Kategori</h4>
-			<ul class="category-list">
-				
-				<li><a href="category.html">@item.Name <span>@item.Description</span></a></li>
-				
-			</ul>
-		</div>
+    <h4 class="widget-header">Kategoriler</h4>
+    <div class="widget category-list">
+        <h4 class="widget-header">Kategori</h4>
+        @foreach (var item in Model)
+        {
+            @if (item.Description.Length > 10)
+                desc = item.Description.Substring(0, 9) + "...";
+            else
+                desc = item.Description;
 
-	}
 
+            <ul class="category-list">
+
+                <li>
+                    <a asp-controller="Category" asp-action="@item.Name">
+                        @item.Name <span>@desc</span>
+                    </a>
+                </li>
+
+            </ul>
+
+
+
+        }
+    </div>
 </div>
