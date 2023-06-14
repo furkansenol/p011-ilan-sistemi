@@ -4,6 +4,7 @@ using IlanSistemi.DataAccess.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IlanSistemi.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230613143831_mig_add_adminuser_adminrole")]
+    partial class mig_add_adminuser_adminrole
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -143,7 +145,7 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
+                    b.Property<DateTime>("DeletedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
@@ -155,7 +157,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
-                    b.Property<DateTime?>("UpdatedAt")
+                    b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("UserId")
@@ -166,40 +168,6 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("adverts");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(2023, 6, 14, 16, 12, 27, 434, DateTimeKind.Local).AddTicks(7818),
-                            Description = "Sahibinden garantisiz laptop",
-                            Title = "Laptop Bal Almayan Mal",
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreatedAt = new DateTime(2023, 6, 14, 16, 12, 27, 434, DateTimeKind.Local).AddTicks(7824),
-                            Description = "Yürüyeni iyi uçak",
-                            Title = "Yürüyen Uçak",
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreatedAt = new DateTime(2023, 6, 14, 16, 12, 27, 434, DateTimeKind.Local).AddTicks(7826),
-                            Description = "Krediye uygun gemicik",
-                            Title = "Gemicik",
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CreatedAt = new DateTime(2023, 6, 14, 16, 12, 27, 434, DateTimeKind.Local).AddTicks(7827),
-                            Description = "Zengin pijaması",
-                            Title = "Röpteşambır",
-                            UserId = 1
-                        });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertComment", b =>
@@ -217,13 +185,13 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
+                    b.Property<DateTime>("DeletedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime?>("UpdatedAt")
+                    b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<int?>("UserId")
@@ -282,38 +250,6 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("categories");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Description = "Elektronik eşyalar",
-                            Name = "Elektronik"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Description = "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler.",
-                            Name = "Moda"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Description = "Ev Tekstili, Mutfak Gereçleri",
-                            Name = "Ev, Yaşam"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Description = "Aradığınız tüm spor ürünleri",
-                            Name = "Spor, Outdoor"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Description = "Kişisel bakım ve makyaj malzemeleri",
-                            Name = "Kozmetik"
-                        });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.CategoryAdvert", b =>
@@ -333,10 +269,10 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
+                    b.Property<DateTime>("DeletedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("UpdatedAt")
+                    b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
@@ -346,29 +282,6 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("categoryAdverts");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            AdvertId = 1,
-                            CategoryId = 1,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 2,
-                            AdvertId = 2,
-                            CategoryId = 1,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 3,
-                            AdvertId = 4,
-                            CategoryId = 2,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Page", b =>
@@ -386,7 +299,7 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
+                    b.Property<DateTime>("DeletedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("IsActive")
@@ -397,7 +310,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
-                    b.Property<DateTime?>("UpdatedAt")
+                    b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
@@ -449,7 +362,7 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
+                    b.Property<DateTime>("DeletedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
@@ -472,24 +385,12 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("varchar(20)");
 
-                    b.Property<DateTime?>("UpdatedAt")
+                    b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.ToTable("users");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Address = "Türkiye",
-                            CreatedAt = new DateTime(2023, 6, 14, 16, 12, 27, 434, DateTimeKind.Local).AddTicks(7638),
-                            Email = "sample@user.com",
-                            Name = "Sample",
-                            Password = "123456",
-                            Phone = "0543212340"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>

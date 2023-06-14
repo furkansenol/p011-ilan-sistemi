@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IlanSistemi.DataAccess", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IlanSistemi.Business", "IlanSistemi.Business\IlanSistemi.Business.csproj", "{60D6370D-39BD-4895-8BC6-D0D34066D3CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IlanSistemi.UI", "IlanSistemi.UI\IlanSistemi.UI.csproj", "{9EB21937-FB1F-41EC-AB29-32D38EE11859}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IlanSistemi.UI", "IlanSistemi.UI\IlanSistemi.UI.csproj", "{9EB21937-FB1F-41EC-AB29-32D38EE11859}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

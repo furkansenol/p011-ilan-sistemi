@@ -1,9 +1,10 @@
 ﻿using IlanSistemi.Entities.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace IlanSistemi.DataAccess.Concrete
 {
-    public class DataContext : DbContext
+    public class DataContext : IdentityDbContext<AdminUser, AdminRole, int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
