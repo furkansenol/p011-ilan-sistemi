@@ -1,4 +1,5 @@
-﻿using IlanSistemi.Business.Concrete;
+﻿using IlanSistemi.Business.Abstract;
+using IlanSistemi.Business.Concrete;
 using IlanSistemi.DataAccess.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,10 +7,16 @@ namespace IlanSistemi.UI.ViewComponents
 {
 	public class ProductList : ViewComponent
 	{
-		CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
-		public IViewComponentResult Invoke()
+		IAdvertService _advertManager;
+
+        public ProductList(IAdvertService advertManager)
+        {
+            _advertManager = advertManager;
+        }
+
+        public IViewComponentResult Invoke()
 		{
-			var values = categoryManager.TGetList();
+			var values = _advertManager.TGetList();
 			return View(values);
 		}
 	}

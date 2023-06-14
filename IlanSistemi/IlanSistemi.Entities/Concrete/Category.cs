@@ -14,7 +14,7 @@ namespace IlanSistemi.Entities.Concrete
         [Key]
         public int Id { get; set; }
 
-        [DisplayName("İlan Adı")]
+        [DisplayName("Kategori Adı")]
         [MaxLength(100,ErrorMessage ="{0} {1} karakterden uzun olamaz")]
         public string Name { get; set; }
 

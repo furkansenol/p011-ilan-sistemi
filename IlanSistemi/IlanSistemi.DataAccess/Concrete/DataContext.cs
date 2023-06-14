@@ -1,11 +1,5 @@
 ﻿using IlanSistemi.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IlanSistemi.DataAccess.Concrete
 {
@@ -72,6 +66,84 @@ namespace IlanSistemi.DataAccess.Concrete
                     },
                 }
             );
+
+            //Seed Data for User model
+            modelBuilder.Entity<User>().HasData(
+                    new User()
+                    {
+                        Id = 1,
+                        Email = "sample@user.com",
+                        Password = "123456",
+                        Name = "Sample",
+                        Address = "Türkiye",
+                        Phone = "0543212340",
+                        CreatedAt = DateTime.Now,
+                    });
+
+            //Seed Data for Advert
+            modelBuilder.Entity<Advert>().HasData(
+                    new List<Advert>()
+                    {
+                        new Advert()
+                        {
+                            Id = 1,
+                            UserId = 1,
+                            Title = "Laptop Bal Almayan Mal",
+                            Description = "Sahibinden garantisiz laptop",
+                            CreatedAt = DateTime.Now,
+                        },
+
+                        new Advert()
+                        {
+                            Id = 2,
+                            UserId = 1,
+                            Title = "Yürüyen Uçak",
+                            Description = "Yürüyeni iyi uçak",
+                            CreatedAt = DateTime.Now,
+                        },
+
+                        new Advert()
+                        {
+                            Id = 3,
+                            UserId = 1,
+                            Title = "Gemicik",
+                            Description = "Krediye uygun gemicik",
+                            CreatedAt = DateTime.Now,
+                        },
+                        new Advert()
+                        {
+                            Id = 4,
+                            UserId = 1,
+                            Title = "Röpteşambır",
+                            Description = "Zengin pijaması",
+                            CreatedAt = DateTime.Now,
+                        },
+                    }
+                );
+
+            modelBuilder.Entity<CategoryAdvert>().HasData(
+                new List<CategoryAdvert>()
+                {
+                    new CategoryAdvert()
+                    {
+                        Id = 1,
+                        CategoryId = 1,
+                        AdvertId = 1,
+                    },
+                    new CategoryAdvert()
+                    {
+                        Id = 2,
+                        CategoryId = 1,
+                        AdvertId = 2,
+                    },
+                    new CategoryAdvert()
+                    {
+                        Id = 3,
+                        CategoryId = 2,
+                        AdvertId = 4,
+                    },
+                }
+                );
 
 
             base.OnModelCreating(modelBuilder);
