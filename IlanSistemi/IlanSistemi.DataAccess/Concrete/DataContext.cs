@@ -15,7 +15,7 @@ namespace IlanSistemi.DataAccess.Concrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=EFE\\SQL2019; Database=IlanSistemi; User Id=sa; Password =123");
+            optionsBuilder.UseSqlServer("Server=MERT; Database=IlanSistemi; User Id=sa; Password =123");
             // Sql de bunu nasıl public yapacağımızı bilemedik yaparsanız seviniriz... =)
 
 
