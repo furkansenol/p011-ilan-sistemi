@@ -27,9 +27,11 @@
                 </a>
 
                @*@await Component.InvokeAsync("Notification")*@ 
-
+               
             </li>
-            @*@await Component.InvokeAsync("Navbar")*@
+            <li class="nav-item nav-profile dropdown">
+                @await Component.InvokeAsync("Navbar")
+            </li>
         </ul>
     </div>
 </nav>

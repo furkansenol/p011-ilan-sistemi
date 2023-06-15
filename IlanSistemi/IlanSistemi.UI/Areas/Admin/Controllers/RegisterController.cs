@@ -37,9 +37,9 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
                     Surname = p.Surname,
                     Email = p.Mail,
                     UserName = p.UserName,
-                    ImageUrl = p.ImagURL
+                    ImageUrl = p.ImagURL = "/wwwroot/DefaultImage/profil.jpg/"
 
-                };
+				};
 
                 if (p.Password == p.ConfirmPassword)
                 {
