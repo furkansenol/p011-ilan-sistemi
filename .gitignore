@@ -1,4 +1,7 @@
 .vs/
+**/bin/*
+**/obj/*
+**/.vs/*
 *.csproj.user
 ###################
 # compiled source #
