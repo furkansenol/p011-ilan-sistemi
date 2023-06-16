@@ -1,0 +1,39 @@
+﻿@model IlanSistemi.Entities.Concrete.Advert
+@using Microsoft.AspNetCore.Http
+@{
+	ViewData["Title"] = "AddAdvert";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<h3 class="mt-4">Yeni Ürün Ekle</h3>
+
+<form asp-action="AddAdvert" enctype="multipart/form-data">
+	<div class="form-group">
+		<label asp-for="UserId" class="control-label">Kullanıcı No:</label>
+		<input asp-for="UserId" class="form-control" />
+		<span asp-validation-for="UserId" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Title" class="control-label">Ürün Adı:</label>
+		<input asp-for="Title" class="form-control" />
+		<span asp-validation-for="Title" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="Description" class="control-label">Ürün Açıklaması:</label>
+		<textarea asp-for="Description" class="form-control"></textarea>
+		<span asp-validation-for="Description" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="advertImages" class="control-label">Resim:</label>
+		<input asp-for="advertImages" type="file" class="form-control" />
+		<span asp-validation-for="advertImages" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<button type="submit" class="btn btn-primary">Kaydet</button>
+	</div>
+</form>

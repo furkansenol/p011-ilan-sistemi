@@ -4,6 +4,7 @@ using IlanSistemi.DataAccess.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IlanSistemi.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230615201703_deneme1")]
+    partial class deneme1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -286,7 +288,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            Description = "Elektronik",
+                            Description = "Elektronik eşyalar",
                             Name = "Elektronik"
                         },
                         new
@@ -299,13 +301,13 @@ namespace IlanSistemi.DataAccess.Migrations
                         {
                             Id = 3,
                             Description = "Ev Tekstili, Mutfak Gereçleri",
-                            Name = "Ev-Yasam"
+                            Name = "Ev, Yaşam"
                         },
                         new
                         {
                             Id = 4,
                             Description = "Aradığınız tüm spor ürünleri",
-                            Name = "Spor-Outdoor"
+                            Name = "Spor, Outdoor"
                         },
                         new
                         {

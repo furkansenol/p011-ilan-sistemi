@@ -3,7 +3,6 @@ using IlanSistemi.Business.Concrete;
 using IlanSistemi.DataAccess.Abstract;
 using IlanSistemi.DataAccess.Concrete;
 using IlanSistemi.DataAccess.EntityFramework;
-using IlanSistemi.DataAccess.Concrete;
 using IlanSistemi.Entities.Concrete;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
@@ -44,8 +43,8 @@ builder.Services.ConfigureApplicationCookie(options =>
 {
     options.Cookie.HttpOnly = true;
     options.ExpireTimeSpan = TimeSpan.FromMinutes(100);
-    options.AccessDeniedPath = "/ErrorPage/Index/";
-    options.LoginPath = "/Admin/Login/Index/";
+  //  options.AccessDeniedPath = "/ErrorPage/Index/";
+    options.LoginPath = "/User/Login/Index/";
 });
 
 
