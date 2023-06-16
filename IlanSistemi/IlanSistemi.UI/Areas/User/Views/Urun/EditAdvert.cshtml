@@ -1,0 +1,30 @@
+﻿@model IlanSistemi.Entities.Concrete.Advert
+@{
+    ViewData["Title"] = "EditAdvert";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("EditAdvert", "Urun", FormMethod.Post))
+{
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Yeni Belge Düzenleme Sayfası</h4>
+                <p class="card-description">Yeni Belge Düzenle</p>
+
+                <div class="form-group">
+                    <label for="Title">Başlık</label>
+                    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    <label for="Description">Açıklama</label>
+                    @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
+                </div>
+
+                <button type="submit" class="btn btn-primary">Güncelle</button>
+            </div>
+        </div>
+    </div>
+}
+
