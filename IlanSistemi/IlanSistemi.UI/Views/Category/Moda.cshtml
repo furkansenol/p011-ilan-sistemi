@@ -1,0 +1,7 @@
+﻿@{
+    ViewData["Title"] = "Moda-Giyim";
+    Layout = "~/Views/Shared/_CategoryLayout.cshtml";
+}
+@model IEnumerable<IlanSistemi.Entities.Concrete.Advert>;
+
+@await Html.PartialAsync("/Views/Default/CategoryPartial.cshtml", Model)
