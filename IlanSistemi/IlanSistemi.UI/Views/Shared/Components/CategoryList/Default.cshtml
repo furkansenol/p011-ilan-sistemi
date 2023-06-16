@@ -19,7 +19,7 @@
             <ul class="category-list">
 
                 <li>
-                    <a asp-controller="Category" asp-action="@item.Name">
+                    <a asp-controller="Category" asp-action="@string.Join("",item.Name.Split('-'))">
                         @item.Name <span>@desc</span>
                     </a>
                 </li>

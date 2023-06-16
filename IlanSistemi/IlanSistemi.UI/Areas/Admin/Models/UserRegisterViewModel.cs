@@ -10,8 +10,7 @@ namespace IlanSistemi.UI.Areas.Admin.Models
         [Required(ErrorMessage = "Lutfen Soyadinizi Girin")]
         public string Surname { get; set; }
 
-        [Required(ErrorMessage = "Lutfen Resim URL'i Girin")]
-        public string ImagURL { get; set; }
+        public string? ImagURL { get; set; }
 
         [Required(ErrorMessage = "Lutfen Kullanici Adinizi Girin")]
         public string UserName { get; set; }

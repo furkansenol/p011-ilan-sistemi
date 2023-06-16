@@ -4,6 +4,7 @@ using IlanSistemi.DataAccess.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IlanSistemi.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230616101921_sss2")]
+    partial class sss2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -75,6 +77,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("ImageUrl")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -170,7 +173,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2023, 6, 16, 18, 48, 50, 430, DateTimeKind.Local).AddTicks(8928),
+                            CreatedAt = new DateTime(2023, 6, 16, 13, 19, 21, 177, DateTimeKind.Local).AddTicks(4329),
                             Description = "Sahibinden garantisiz laptop",
                             Title = "Laptop Bal Almayan Mal",
                             UserId = 1
@@ -178,7 +181,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2023, 6, 16, 18, 48, 50, 430, DateTimeKind.Local).AddTicks(8937),
+                            CreatedAt = new DateTime(2023, 6, 16, 13, 19, 21, 177, DateTimeKind.Local).AddTicks(4335),
                             Description = "Yürüyeni iyi uçak",
                             Title = "Yürüyen Uçak",
                             UserId = 1
@@ -186,7 +189,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2023, 6, 16, 18, 48, 50, 430, DateTimeKind.Local).AddTicks(8939),
+                            CreatedAt = new DateTime(2023, 6, 16, 13, 19, 21, 177, DateTimeKind.Local).AddTicks(4337),
                             Description = "Krediye uygun gemicik",
                             Title = "Gemicik",
                             UserId = 1
@@ -194,7 +197,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2023, 6, 16, 18, 48, 50, 430, DateTimeKind.Local).AddTicks(8941),
+                            CreatedAt = new DateTime(2023, 6, 16, 13, 19, 21, 177, DateTimeKind.Local).AddTicks(4338),
                             Description = "Zengin pijaması",
                             Title = "Röpteşambır",
                             UserId = 1
@@ -286,7 +289,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            Description = "Elektronik",
+                            Description = "Elektronik eşyalar",
                             Name = "Elektronik"
                         },
                         new
@@ -299,13 +302,13 @@ namespace IlanSistemi.DataAccess.Migrations
                         {
                             Id = 3,
                             Description = "Ev Tekstili, Mutfak Gereçleri",
-                            Name = "Ev-Yasam"
+                            Name = "Ev, Yaşam"
                         },
                         new
                         {
                             Id = 4,
                             Description = "Aradığınız tüm spor ürünleri",
-                            Name = "Spor-Outdoor"
+                            Name = "Spor, Outdoor"
                         },
                         new
                         {
@@ -483,7 +486,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         {
                             Id = 1,
                             Address = "Türkiye",
-                            CreatedAt = new DateTime(2023, 6, 16, 18, 48, 50, 430, DateTimeKind.Local).AddTicks(8492),
+                            CreatedAt = new DateTime(2023, 6, 16, 13, 19, 21, 177, DateTimeKind.Local).AddTicks(4111),
                             Email = "sample@user.com",
                             Name = "Sample",
                             Password = "123456",

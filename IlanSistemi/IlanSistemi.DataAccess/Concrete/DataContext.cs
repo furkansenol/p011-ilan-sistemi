@@ -39,7 +39,7 @@ namespace IlanSistemi.DataAccess.Concrete
                     {
                         Id = 1,
                         Name = "Elektronik",
-                        Description = "Elektronik eşyalar"
+                        Description = "Elektronik"
                     },
                     new Category
                     {
@@ -50,13 +50,13 @@ namespace IlanSistemi.DataAccess.Concrete
                     new Category
                     {
                         Id = 3,
-                        Name = "Ev, Yaşam",
+                        Name = "Ev-Yasam",
                         Description = "Ev Tekstili, Mutfak Gereçleri"
                     },
                     new Category
                     {
                         Id = 4,
-                        Name = "Spor, Outdoor",
+                        Name = "Spor-Outdoor",
                         Description = "Aradığınız tüm spor ürünleri"
                     },
                     new Category
