@@ -1,0 +1,44 @@
+﻿@using IlanSistemi.Entities.Concrete
+@model List<User>
+<div class="col-md-6 grid-margin stretch-card">
+	<div class="card">
+		<div class="card-body">
+			<div class="d-sm-flex align-items-center mb-4">
+				<h4 class="card-title mb-sm-0">Kullanıcılar</h4>
+			</div>
+			<div class="table-responsive border rounded p-1">
+				<table class="table">
+					<thead>
+						<tr>
+							<th class="font-weight-bold">Kullanıcı Adı</th>
+
+							<th class="font-weight-bold">Katılış Yılı</th>
+
+							<th class="font-weight-bold">Durum</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var item in Model)
+						{
+							<tr>
+								<td>
+									<img class="img-sm rounded-circle" src="/Stellar-master/images/faces/face1.jpg" alt="profile image"> @item.Name
+								</td>
+
+
+								<td>@item.CreatedAt.Year</td>
+
+								<td>
+									<div class="badge badge-success p-2">Aktif Kullanıcı</div>
+								</td>
+							</tr>
+						}
+
+
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+	</div>
+</div>

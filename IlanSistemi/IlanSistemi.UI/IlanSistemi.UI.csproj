@@ -7,26 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\Admin\ViewComponents\**" />
-    <Compile Remove="Areas\Admin\Views\Shared\**" />
     <Compile Remove="Areas\User\Data\**" />
     <Compile Remove="Data\**" />
     <Compile Remove="wwwroot\images\**" />
     <Compile Remove="wwwroot\Productimage\**" />
-    <Content Remove="Areas\Admin\ViewComponents\**" />
-    <Content Remove="Areas\Admin\Views\Shared\**" />
     <Content Remove="Areas\User\Data\**" />
     <Content Remove="Data\**" />
     <Content Remove="wwwroot\images\**" />
     <Content Remove="wwwroot\Productimage\**" />
-    <EmbeddedResource Remove="Areas\Admin\ViewComponents\**" />
-    <EmbeddedResource Remove="Areas\Admin\Views\Shared\**" />
     <EmbeddedResource Remove="Areas\User\Data\**" />
     <EmbeddedResource Remove="Data\**" />
     <EmbeddedResource Remove="wwwroot\images\**" />
     <EmbeddedResource Remove="wwwroot\Productimage\**" />
-    <None Remove="Areas\Admin\ViewComponents\**" />
-    <None Remove="Areas\Admin\Views\Shared\**" />
     <None Remove="Areas\User\Data\**" />
     <None Remove="Data\**" />
     <None Remove="wwwroot\images\**" />
