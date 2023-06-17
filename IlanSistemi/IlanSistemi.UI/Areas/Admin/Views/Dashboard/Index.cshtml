@@ -1,0 +1,150 @@
+﻿@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row quick-action-toolbar">
+	<div class="col-md-12 grid-margin">
+		<div class="card">
+			<div class="card-header d-block d-md-flex">
+				<h5 class="mb-0">Kolay Erişim</h5>
+			</div>
+			<div class="d-md-flex row m-0 quick-action-btns" role="group" aria-label="Quick action buttons">
+				<div class="col-sm-6 col-md-4 p-3 text-center btn-wrapper">
+					<button type="button" class="btn px-0"> <i class="icon-user mr-2"></i>Kullanıcı İşlemleri</button>
+				</div>
+				<div class="col-sm-6 col-md-4 p-3 text-center btn-wrapper">
+					<button type="button" class="btn px-0"><i class="icon-docs mr-2"></i> Kategori İşlemleri</button>
+				</div>
+				<div class="col-sm-6 col-md-3 p-3 text-center btn-wrapper">
+					<button type="button" class="btn px-0"><i class="icon-folder mr-2"></i> Ürün İşlemleri</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6 grid-margin stretch-card">
+		<div class="card">
+			<div class="card-body">
+				<div class="d-sm-flex align-items-center mb-4">
+					<h4 class="card-title mb-sm-0">Kullanıcılar</h4>
+				</div>
+				<div class="table-responsive border rounded p-1">
+					<table class="table">
+						<thead>
+							<tr>
+								<th class="font-weight-bold">Kullanıcı Adı</th>
+
+								<th class="font-weight-bold">Katılış Tarihi</th>
+
+								<th class="font-weight-bold">Status</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img class="img-sm rounded-circle" src="/Stellar-master/images/faces/face1.jpg" alt="profile image"> Katie Holmes
+								</td>
+
+
+								<td>04 Jun 2019</td>
+
+								<td>
+									<div class="badge badge-success p-2">Paid</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img class="img-sm rounded-circle" src="/Stellar-master/images/faces/face2.jpg" alt="profile image"> Minnie Copeland
+								</td>
+
+
+								<td>25 Sep 2019</td>
+
+								<td>
+									<div class="badge badge-danger p-2">Pending</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img class="img-sm rounded-circle" src="/Stellar-master/images/faces/face3.jpg" alt="profile image"> Rodney Sims
+								</td>
+
+
+								<td>12 dec 2019</td>
+
+								<td>
+									<div class="badge badge-warning p-2">Failed</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img class="img-sm rounded-circle" src="/Stellar-master/images/faces/face4.jpg" alt="profile image"> Carolyn Barker
+								</td>
+
+
+								<td>30 Sep 2019</td>
+
+								<td>
+									<div class="badge badge-success p-2">Paid</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 grid-margin stretch-card">
+		<div class="card">
+			<div class="card-body">
+				<h4 class="card-title">İlanda Olan Ürünler</h4>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>Kullanıcı</th>
+							<th>Ürün</th>
+							<th>Satış</th>
+							<th>Stats</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Jacob</td>
+							<td>Photoshop</td>
+							<td class="text-danger"> 28.76% <i class="icon-arrow-down-circle"></i></td>
+							<td><label class="badge badge-danger">Pending</label></td>
+						</tr>
+						<tr>
+							<td>Messsy</td>
+							<td>Flash</td>
+							<td class="text-danger"> 21.06% <i class="icon-arrow-down-circle"></i></td>
+							<td><label class="badge badge-warning">In progress</label></td>
+						</tr>
+						<tr>
+							<td>John</td>
+							<td>Premier</td>
+							<td class="text-danger"> 35.00% <i class="icon-arrow-down-circle"></i></td>
+							<td><label class="badge badge-info">Fixed</label></td>
+						</tr>
+						<tr>
+							<td>Peter</td>
+							<td>After effects</td>
+							<td class="text-success"> 82.00% <i class="icon-arrow-up-circle"></i></td>
+							<td><label class="badge badge-success">Completed</label></td>
+						</tr>
+						<tr>
+							<td>Dave</td>
+							<td>53275535</td>
+							<td class="text-success"> 98.05% <i class="icon-arrow-up-circle"></i></td>
+							<td><label class="badge badge-warning">In progress</label></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
