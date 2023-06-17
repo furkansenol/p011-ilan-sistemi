@@ -4,20 +4,20 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Xml.Linq;
 
-namespace IlanSistemi.UI.Areas.Admin.Controllers
+namespace IlanSistemi.UI.Areas.User.Controllers
 {
-    [Area("User")]
-    [Route("User/[controller]/[action]")]
-    public class DashboardController : Controller
-    {
-        private readonly UserManager<AdminUser> _userManager;
+	[Area("User")]
+	[Route("User/[controller]/[action]")]
+	public class DashboardController : Controller
+	{
+		private readonly UserManager<AdminUser> _userManager;
 
-        public DashboardController(UserManager<AdminUser> userManager)
-        {
-            _userManager = userManager;
-        }
+		public DashboardController(UserManager<AdminUser> userManager)
+		{
+			_userManager = userManager;
+		}
 
-		public async Task <IActionResult> Index()
+		public async Task<IActionResult> Index()
 		{
 			var values = await _userManager.FindByNameAsync(User.Identity.Name);
 			ViewBag.v = values.Name + " " + values.Surname;

@@ -4,7 +4,7 @@ using IlanSistemi.DataAccess.EntityFramework;
 using IlanSistemi.Entities.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IlanSistemi.UI.Areas.Admin.Controllers
+namespace IlanSistemi.UI.Areas.User.Controllers
 {
 	[Area("User")]
 	[Route("User/[controller]/[action]")]

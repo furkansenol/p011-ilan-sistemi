@@ -1,11 +1,13 @@
 ﻿using IlanSistemi.Entities.Concrete;
-using IlanSistemi.UI.Areas.Admin.Models;
+using IlanSistemi.UI.Areas.User.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IlanSistemi.UI.Areas.Admin.Controllers
+namespace IlanSistemi.UI.Areas.User.Controllers
 {
+
+
     [AllowAnonymous]
     [Route("User/[controller]/[action]")]
     [Area("User")]
@@ -41,11 +43,12 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
             return View();
         }
 
-		public async Task<IActionResult> LogOut()
-		{
-			await _signInManager.SignOutAsync();
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
 
-			return RedirectToAction("Index", "Login");
-		}
-	}
+            return RedirectToAction("Index", "Login");
+        }
+    }
 }
+

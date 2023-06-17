@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Xml.Linq;
 
-namespace IlanSistemi.UI.Areas.Admin.Models
+namespace IlanSistemi.UI.Areas.User.Models
 {
     public class UserLoginViewModel
     {
