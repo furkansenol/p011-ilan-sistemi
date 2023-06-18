@@ -10,9 +10,9 @@ namespace IlanSistemi.UI.Areas.User.Controllers
 	[Route("User/[controller]/[action]")]
 	public class DashboardController : Controller
 	{
-		private readonly UserManager<AdminUser> _userManager;
+		private readonly UserManager<Users> _userManager;
 
-		public DashboardController(UserManager<AdminUser> userManager)
+		public DashboardController(UserManager<Users> userManager)
 		{
 			_userManager = userManager;
 		}

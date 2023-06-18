@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace IlanSistemi.Business.Abstract
 {
-    public interface IUserService : IGenericService<User>
+    public interface IUserService : IGenericService<Users>
     {
 
     }

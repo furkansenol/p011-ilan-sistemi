@@ -13,9 +13,9 @@ namespace IlanSistemi.UI.Areas.User.Controllers
     [Area("User")]
     public class LoginController : Controller
     {
-        private readonly SignInManager<AdminUser> _signInManager;
+        private readonly SignInManager<Users> _signInManager;
 
-        public LoginController(SignInManager<AdminUser> signInManager)
+        public LoginController(SignInManager<Users> signInManager)
         {
             _signInManager = signInManager;
         }

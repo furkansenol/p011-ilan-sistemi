@@ -19,33 +19,33 @@ namespace IlanSistemi.Business.Concrete
             _userDal = userDal;
         }
 
-		public void TAdd(User t)
+		public void TAdd(Users t)
 		{
 			_userDal.Insert(t);
 
         }
 
-		public void TDelete(User t)
+		public void TDelete(Users t)
 		{
 			_userDal.Delete(t);
 		}
 
-		public User TGetByID(int id)
+		public Users TGetByID(int id)
 		{
 			return _userDal.GetByID(id);
 		}
 
-		public List<User> TGetList()
+		public List<Users> TGetList()
 		{
 			return _userDal.GetList();
 		}
 
-		public List<User> TGetListbyFilter(Expression<Func<User, bool>> filter)
+		public List<Users> TGetListbyFilter(Expression<Func<Users, bool>> filter)
 		{
 			return _userDal.GetByFilter(filter);
 		}
 
-		public void TUpdate(User t)
+		public void TUpdate(Users t)
 		{
 			_userDal.Update(t);
 		}

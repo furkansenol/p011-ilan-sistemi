@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IlanSistemi.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230615200736_deneme")]
-    partial class deneme
+    [Migration("20230618143628_1001_first_migration")]
+    partial class _1001_first_migration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -54,85 +54,6 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.ToTable("AspNetRoles", (string)null);
                 });
 
-            modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdminUser", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .IsConcurrencyToken()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("LockoutEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("PhoneNumberConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("SecurityStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Surname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("TwoFactorEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("UserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NormalizedEmail")
-                        .HasDatabaseName("EmailIndex");
-
-                    b.HasIndex("NormalizedUserName")
-                        .IsUnique()
-                        .HasDatabaseName("UserNameIndex")
-                        .HasFilter("[NormalizedUserName] IS NOT NULL");
-
-                    b.ToTable("AspNetUsers", (string)null);
-                });
-
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Advert", b =>
                 {
                     b.Property<int>("Id")
@@ -149,22 +70,21 @@ namespace IlanSistemi.DataAccess.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("ntext");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("UserId")
+                    b.Property<int>("UsersId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("UsersId");
 
                     b.ToTable("adverts");
 
@@ -172,34 +92,34 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2023, 6, 15, 23, 7, 36, 278, DateTimeKind.Local).AddTicks(2829),
+                            CreatedAt = new DateTime(2023, 6, 18, 17, 36, 28, 584, DateTimeKind.Local).AddTicks(9970),
                             Description = "Sahibinden garantisiz laptop",
                             Title = "Laptop Bal Almayan Mal",
-                            UserId = 1
+                            UsersId = 4
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2023, 6, 15, 23, 7, 36, 278, DateTimeKind.Local).AddTicks(2832),
+                            CreatedAt = new DateTime(2023, 6, 18, 17, 36, 28, 584, DateTimeKind.Local).AddTicks(9972),
                             Description = "Yürüyeni iyi uçak",
                             Title = "Yürüyen Uçak",
-                            UserId = 1
+                            UsersId = 4
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2023, 6, 15, 23, 7, 36, 278, DateTimeKind.Local).AddTicks(2833),
+                            CreatedAt = new DateTime(2023, 6, 18, 17, 36, 28, 584, DateTimeKind.Local).AddTicks(9973),
                             Description = "Krediye uygun gemicik",
                             Title = "Gemicik",
-                            UserId = 1
+                            UsersId = 4
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2023, 6, 15, 23, 7, 36, 278, DateTimeKind.Local).AddTicks(2834),
+                            CreatedAt = new DateTime(2023, 6, 18, 17, 36, 28, 584, DateTimeKind.Local).AddTicks(9974),
                             Description = "Zengin pijaması",
                             Title = "Röpteşambır",
-                            UserId = 1
+                            UsersId = 4
                         });
                 });
 
@@ -227,14 +147,14 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("UserId")
+                    b.Property<int?>("UsersId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("AdvertId1");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("UsersId");
 
                     b.ToTable("advertComments");
                 });
@@ -288,7 +208,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            Description = "Elektronik eşyalar",
+                            Description = "Elektronik",
                             Name = "Elektronik"
                         },
                         new
@@ -301,13 +221,13 @@ namespace IlanSistemi.DataAccess.Migrations
                         {
                             Id = 3,
                             Description = "Ev Tekstili, Mutfak Gereçleri",
-                            Name = "Ev, Yaşam"
+                            Name = "Ev-Yasam"
                         },
                         new
                         {
                             Id = 4,
                             Description = "Aradığınız tüm spor ürünleri",
-                            Name = "Spor, Outdoor"
+                            Name = "Spor-Outdoor"
                         },
                         new
                         {
@@ -434,7 +354,7 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.ToTable("settings");
                 });
 
-            modelBuilder.Entity("IlanSistemi.Entities.Concrete.User", b =>
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.Users", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -442,10 +362,15 @@ namespace IlanSistemi.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
                     b.Property<string>("Address")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -454,42 +379,96 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("varchar(200)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("IsBanned")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("IsSuspended")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Surname")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("varchar(20)");
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
                     b.HasKey("Id");
 
-                    b.ToTable("users");
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
 
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            Id = 4,
+                            AccessFailedCount = 0,
                             Address = "Türkiye",
-                            CreatedAt = new DateTime(2023, 6, 15, 23, 7, 36, 278, DateTimeKind.Local).AddTicks(2728),
+                            ConcurrencyStamp = "3a15da83-f416-498c-baa2-6f92eaacde5b",
+                            CreatedAt = new DateTime(2023, 6, 18, 17, 36, 28, 584, DateTimeKind.Local).AddTicks(9870),
                             Email = "sample@user.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
                             Name = "Sample",
-                            Password = "123456",
-                            Phone = "0543212340"
+                            Phone = "0543212340",
+                            PhoneNumberConfirmed = false,
+                            Surname = "123456",
+                            TwoFactorEnabled = false
                         });
                 });
 
@@ -598,9 +577,9 @@ namespace IlanSistemi.DataAccess.Migrations
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Advert", b =>
                 {
-                    b.HasOne("IlanSistemi.Entities.Concrete.User", "User")
+                    b.HasOne("IlanSistemi.Entities.Concrete.Users", "User")
                         .WithMany("adverts")
-                        .HasForeignKey("UserId")
+                        .HasForeignKey("UsersId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -619,15 +598,15 @@ namespace IlanSistemi.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("IlanSistemi.Entities.Concrete.User", "User")
+                    b.HasOne("IlanSistemi.Entities.Concrete.Users", "User")
                         .WithMany()
                         .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("IlanSistemi.Entities.Concrete.User", null)
+                    b.HasOne("IlanSistemi.Entities.Concrete.Users", null)
                         .WithMany("advertComments")
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UsersId");
 
                     b.Navigation("Advert");
 
@@ -666,7 +645,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Setting", b =>
                 {
-                    b.HasOne("IlanSistemi.Entities.Concrete.User", "User")
+                    b.HasOne("IlanSistemi.Entities.Concrete.Users", "User")
                         .WithMany("settings")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -686,7 +665,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<int>", b =>
                 {
-                    b.HasOne("IlanSistemi.Entities.Concrete.AdminUser", null)
+                    b.HasOne("IlanSistemi.Entities.Concrete.Users", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -695,7 +674,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<int>", b =>
                 {
-                    b.HasOne("IlanSistemi.Entities.Concrete.AdminUser", null)
+                    b.HasOne("IlanSistemi.Entities.Concrete.Users", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -710,7 +689,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("IlanSistemi.Entities.Concrete.AdminUser", null)
+                    b.HasOne("IlanSistemi.Entities.Concrete.Users", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -719,7 +698,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<int>", b =>
                 {
-                    b.HasOne("IlanSistemi.Entities.Concrete.AdminUser", null)
+                    b.HasOne("IlanSistemi.Entities.Concrete.Users", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -740,7 +719,7 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.Navigation("categoryAdverts");
                 });
 
-            modelBuilder.Entity("IlanSistemi.Entities.Concrete.User", b =>
+            modelBuilder.Entity("IlanSistemi.Entities.Concrete.Users", b =>
                 {
                     b.Navigation("advertComments");
 

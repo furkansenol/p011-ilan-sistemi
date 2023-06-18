@@ -8,9 +8,9 @@ namespace Cv.UI.Areas.Writer.ViewComponents
 {
     public class Navbar : ViewComponent
     {
-        private readonly UserManager<AdminUser> _userManager;
+        private readonly UserManager<Users> _userManager;
 
-        public Navbar(UserManager<AdminUser> userManager)
+        public Navbar(UserManager<Users> userManager)
         {
             _userManager = userManager;
         }

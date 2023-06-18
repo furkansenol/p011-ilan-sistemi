@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace IlanSistemi.DataAccess.Abstract
 {
-    public interface IUserDal : IGenericDal<User>
+    public interface IUserDal : IGenericDal<Users>
     {
     }
 }
