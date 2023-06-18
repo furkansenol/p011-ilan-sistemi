@@ -13,8 +13,7 @@
 				<table class="table">
 					<thead>
 						<tr>
-							<th> <b>Sil</b></th>
-							<th> <b> Düzenle </b> </th>
+							<th> <b>İşlemler</b></th>
 							<th> <b> Kategori Adı </b> </th>
 							<th> <b> Açıklama </b></th>
 						</tr>
@@ -23,8 +22,10 @@
 						@foreach (var item in Model)
 						{
 							<tr>
-								<td> <a asp-controller="Kategori" asp-action="DeleteKategori" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a> </td>
-								<td> <a asp-controller="Kategori" asp-action="EditKategori" asp-route-id="@item.Id" class="btn btn-outline-success">Düzenle</a> </td>
+								<td>
+									<a asp-controller="Kategori" asp-action="DeleteKategori" asp-route-id="@item.Id" class="btn btn-inverse-danger">Sil</a>
+									<a asp-controller="Kategori" asp-action="EditKategori" asp-route-id="@item.Id" class="btn btn-inverse-success">Düzenle</a>
+								</td>								
 								<td>
 									@item.Name
 								</td>
@@ -35,7 +36,7 @@
 						}
 					</tbody>
 				</table>
-				<a asp-controller="Kategori" asp-action="AddKategori" class="btn btn-outline-info"> Yeni Kategori Ekle </a>
+				<a asp-controller="Kategori" asp-action="AddKategori" class="btn btn-inverse-info"> Yeni Kategori Ekle </a>
 			</div>
 		</div>
 	</div>

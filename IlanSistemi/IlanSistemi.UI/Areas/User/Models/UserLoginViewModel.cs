@@ -11,5 +11,6 @@ namespace IlanSistemi.UI.Areas.User.Models
         [Display(Name = "Sifre")]
         [Required(ErrorMessage = "Lutfen Sifrenizi Giriniz!")]
         public string Password { get; set; }
+
     }
 }

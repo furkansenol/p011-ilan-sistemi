@@ -1,5 +1,6 @@
 ﻿using IlanSistemi.Business.Abstract;
 using IlanSistemi.DataAccess.Abstract;
+using IlanSistemi.DataAccess.Concrete;
 using IlanSistemi.Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,27 @@ namespace IlanSistemi.Business.Concrete
         {
             _userDal = userDal;
         }
+
+		public async Task BanUser(int userId)
+		{
+			var user =  _userDal.GetByID(userId);
+
+			if (user != null)
+			{
+				user.IsBanned = true;
+			    _userDal.Update(user);
+			}
+		}
+		public async Task UnbanUser(int userId)
+		{
+			var user = _userDal.GetByID(userId);
+
+			if (user != null)
+			{
+				user.IsBanned = false; // Ban durumunu kaldır
+				_userDal.Update(user);
+			}
+		}
 
 		public void TAdd(Users t)
 		{
@@ -49,5 +71,7 @@ namespace IlanSistemi.Business.Concrete
 		{
 			_userDal.Update(t);
 		}
+
+		
 	}
 }

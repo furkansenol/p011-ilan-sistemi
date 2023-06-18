@@ -25,25 +25,41 @@ namespace IlanSistemi.UI.Areas.User.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Index(UserLoginViewModel p)
-        {
-            if (ModelState.IsValid)
-            {
-                var result = await _signInManager.PasswordSignInAsync(p.Username, p.Password, true, true);
-                if (result.Succeeded)
-                {
-                    return RedirectToAction("Index", "Dashboard");
-                }
-                else
-                {
-                    ModelState.AddModelError("", "Hatali kullanici adi veya sifre");
-                }
-            }
-            return View();
-        }
+		[HttpPost]
+		public async Task<IActionResult> Index(UserLoginViewModel model)
+		{
+			if (ModelState.IsValid)
+			{
+				var user = await _signInManager.UserManager.FindByNameAsync(model.Username);
 
-        public async Task<IActionResult> LogOut()
+				if (user != null && user.IsBanned.HasValue && user.IsBanned.Value)
+				{
+					ModelState.AddModelError(string.Empty, "Hesabınız banlanmıştır. Giriş yapmanız engellenmiştir.");
+					
+					TempData["BanAlert"] = "Hesabiniz banlanmistir. Giris yapmaniz engellenmistir.";
+
+					return View("Index");
+				}
+
+				var result = await _signInManager.PasswordSignInAsync(user, model.Password, false, lockoutOnFailure: false);
+
+				if (result.Succeeded)
+				{
+					// Başarılı giriş durumunda yapılacak işlemler
+					return RedirectToAction("Index", "Dashboard");
+				}
+				else
+				{
+					ModelState.AddModelError("", "Hatalı kullanıcı adı veya şifre");
+				}
+			}
+
+			return View();
+		}
+
+
+
+		public async Task<IActionResult> LogOut()
         {
             await _signInManager.SignOutAsync();
 
