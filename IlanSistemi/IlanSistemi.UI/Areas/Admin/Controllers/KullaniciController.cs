@@ -1,4 +1,6 @@
-﻿using IlanSistemi.DataAccess.Concrete;
+﻿using IlanSistemi.Business.Concrete;
+using IlanSistemi.DataAccess.Concrete;
+using IlanSistemi.DataAccess.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IlanSistemi.UI.Areas.Admin.Controllers
@@ -7,12 +9,15 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
 	[Route("Admin/[controller]/[action]")]
 	public class KullaniciController : Controller
 	{
+		UserManager _userManager = new UserManager(new EfUserDal());
 	
 
         public IActionResult Index()
 		{
+
+			var values = _userManager.TGetList();
 			
-			return View();
+			return View(values);
 		}
 	}
 }
