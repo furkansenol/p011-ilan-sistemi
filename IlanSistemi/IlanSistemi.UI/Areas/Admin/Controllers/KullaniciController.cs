@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using IlanSistemi.DataAccess.Concrete;
+using Microsoft.AspNetCore.Mvc;
 
 namespace IlanSistemi.UI.Areas.Admin.Controllers
 {
@@ -6,8 +7,11 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
 	[Route("Admin/[controller]/[action]")]
 	public class KullaniciController : Controller
 	{
-		public IActionResult Index()
+	
+
+        public IActionResult Index()
 		{
+			
 			return View();
 		}
 	}
