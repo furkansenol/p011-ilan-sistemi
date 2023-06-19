@@ -1,0 +1,56 @@
+﻿@using IlanSistemi.Entities.Concrete
+@model List<Category>
+@{
+	string color = "";
+}
+
+<div class="col-lg-8 grid-margin stretch-card">
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">Kategoriler</h4>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th> <b>#</b> </th>
+						<th> <b>Açıklama</b> </th>
+						<th><b>Tür</b></th>
+					
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model)
+					{
+						if (item.Name == "Elektronik")
+						{
+							color = "badge badge-danger";
+						}
+						if (item.Name == "Moda")
+						{
+							color = "badge badge-warning";
+						}
+						if (item.Name == "Ev-Yaşam")
+						{
+							color = "badge badge-info";
+						}
+						if (item.Name == "Spor-Outdoor")
+						{
+							color = "badge badge-success";
+						}
+						if (item.Name == "Kozmetik")
+						{
+							color = "badge badge-primary";
+						}
+						<tr>
+							<th>@item.Id</th>
+							<td>@item.Description</td>
+							<td><label class="@color">@item.Name</label></td>
+						</tr>
+					}
+
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+

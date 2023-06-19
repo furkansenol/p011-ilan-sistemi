@@ -50,7 +50,7 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
 		//public async Task<IActionResult> SuspendUser(int Id)
 		//{
 		//	await _userManager.SuspendUser(Id);
-		//	return RedirectToAction("Index"); // İstenilen bir sayfaya yönlendirme yapabilirsiniz
+		//	return RedirectToAction("Index"); 
 		//}
 
 
