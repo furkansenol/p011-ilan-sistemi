@@ -27,7 +27,7 @@ namespace IlanSistemi.Entities.Concrete
 		public virtual Advert Advert { get; set; }
 
 		
-		public virtual User User { get; set; }
+		public virtual Users User { get; set; }
 
 
         // TODO

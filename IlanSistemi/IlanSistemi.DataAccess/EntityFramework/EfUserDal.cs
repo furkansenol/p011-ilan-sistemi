@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace IlanSistemi.DataAccess.EntityFramework
 {
-    public class EfUserDal : GenericRepository<User>, IUserDal
+    public class EfUserDal : GenericRepository<Users>, IUserDal
     {
     }
 }

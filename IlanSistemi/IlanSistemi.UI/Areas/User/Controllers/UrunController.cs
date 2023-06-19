@@ -30,7 +30,6 @@ namespace IlanSistemi.UI.Areas.User.Controllers
 
 			if (advert == null)
 			{
-				// İstenilen ID'ye sahip reklam bulunamadı, gerekli işlemleri yapabilirsiniz.
 				return RedirectToAction("Index");
 			}
 

@@ -13,9 +13,9 @@ namespace IlanSistemi.UI.Areas.User.Controllers
     [Area("User")]
     public class RegisterController : Controller
     {
-        private readonly UserManager<AdminUser> _userManager;
+        private readonly UserManager<Users> _userManager;
 
-        public RegisterController(UserManager<AdminUser> userManager)
+        public RegisterController(UserManager<Users> userManager)
         {
             _userManager = userManager;
         }
@@ -31,12 +31,13 @@ namespace IlanSistemi.UI.Areas.User.Controllers
         {
             if (ModelState.IsValid)
             {
-                AdminUser w = new AdminUser()
+                Users w = new Users()
                 {
                     Name = p.Name,
                     Surname = p.Surname,
                     Email = p.Mail,
                     UserName = p.UserName,
+                    CreatedAt = DateTime.Now,
                     ImageUrl = p.ImagURL = "/Tamplate/images/profil.jpg/"
 
 				};
