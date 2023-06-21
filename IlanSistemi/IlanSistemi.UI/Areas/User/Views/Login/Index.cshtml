@@ -12,6 +12,16 @@
         </script>
     }
 }
+@{
+    var suspendAlert = TempData["SuspendAlert"] as string;
+}
+
+@if (!string.IsNullOrEmpty(suspendAlert))
+{
+    <div class="alert alert-warning">@suspendAlert</div>
+}
+
+
 <!DOCTYPE html>
 <html lang="en">
 

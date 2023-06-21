@@ -1,28 +1,25 @@
-﻿<nav class="sidebar sidebar-offcanvas" id="sidebar">
-	<ul class="nav">
-		<li class="nav-item">
-			<a class="nav-link" href="/User/Dashboard/Index/">
-				<i class="icon-grid menu-icon"></i>
-				<span class="menu-title">Dashboard</span>
-			</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="/User/Urun/Index/">
-				<i class="mdi mdi-tag-text-outline"></i>
-				<span class="menu-title">Ürün Kontrol</span>
-			</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="/User/Profile/Index/">
-				<i class="mdi mdi-face menu-icon"></i>
-				<span class="menu-title">Profil</span>
-			</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="/User/Login/LogOut/">
-				<i class="mdi mdi-exit-to-app menu-icon"></i>
-				<span class="menu-title">Çikis Yap</span>
-			</a>
-		</li>
-	</ul>
-</nav>
+﻿<div class="sidebar">
+	<!-- User Widget -->
+	<div class="widget user-dashboard-profile">
+		@await Component.InvokeAsync("Navbar")
+
+	</div>
+	<!-- Dashboard Links -->
+	<div class="widget user-dashboard-menu">
+		<ul>
+			<li class="active">
+				<a href="~/User/Dashboard/index"><i class="fa fa-user"></i> Ana Sayfa</a>
+			</li>
+			<li>
+				<a href="~/User/Urun/index"><i class="fa fa-bookmark-o"></i> Ürün Düzenleme </a>
+			</li>
+
+			<li>
+				<a href="~/User/Login/LogOut"><i class="fa fa-cog"></i> Çıkış</a>
+				<i class=""></i>
+			</li>
+
+		</ul>
+	</div>
+
+</div>

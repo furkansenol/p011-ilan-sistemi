@@ -38,7 +38,7 @@ namespace IlanSistemi.UI.Areas.User.Controllers
                     Email = p.Mail,
                     UserName = p.UserName,
                     CreatedAt = DateTime.Now,
-                    ImageUrl = p.ImagURL = "/Tamplate/images/profil.jpg/"
+                    ImageUrl = p.ImagURL
 
 				};
 

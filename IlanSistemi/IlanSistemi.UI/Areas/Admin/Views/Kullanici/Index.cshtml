@@ -14,9 +14,10 @@
 					<thead>
 						<tr>
 							<th> <b>İşlemler</b></th>
-							<th> <b> Adı </b> </th>
-							<th> <b> Soyadı </b> </th>
-							<th> <b> Oluşturma Tarihi </b></th>
+							<th> <b>Kullanıcı No</b></th>
+							<th> <b> Kullanıcı Adı </b> </th>
+							<th> <b> Ban Durumu </b></th>
+							<th> <b> Suspend Durumu </b></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -26,18 +27,32 @@
 								<td>
 									<a asp-controller="Kullanici" asp-action="DeleteKullanici" asp-route-id="@item.Id" class="btn btn-inverse-danger">Sil</a>
 									<a asp-controller="Kullanici" asp-action="DetailKullanici" asp-route-id="@item.Id" class="btn btn-inverse-primary">Detaylar</a>
-									<a asp-controller="Kullanici" asp-action="BanUser" asp-route-id="@item.Id" class="btn btn-inverse-dark">Kullanıcıyı Banla</a>
-									<a asp-controller="Kullanici" asp-action="UnbanUser" asp-route-id="@item.Id" class="btn btn-inverse-success">Kullanıcı Banı Kaldır</a>
+
+									@if(item.IsBanned == true)
+									{
+										<a asp-controller="Kullanici" asp-action="UnbanUser" asp-route-id="@item.Id" class="btn btn-inverse-success">Hesabın Banını Kaldır</a>
+									}
+									else
+									{
+										<a asp-controller="Kullanici" asp-action="BanUser" asp-route-id="@item.Id" class="btn btn-inverse-dark">Hesabı Banla</a>
+									}
+									
+									
+									<a asp-controller="Kullanici" asp-action="SuspendUser" asp-route-id="@item.Id" class="btn btn-inverse-info">Hesabı Askıya Al</a>
 
 								</td>
 								<td>
-									<img class="img-sm rounded-circle" src="~/Stellar-master/images/faces/face3.jpg" alt="profile image"> @item.Name
+									@item.Id
 								</td>
 								<td>
-									@item.Surname
+									 @item.Name
+								</td>
+								
+								<td>
+									@item.IsBanned 
 								</td>
 								<td>
-									@item.CreatedAt.Year
+									@item.IsSuspended
 								</td>
 
 							</tr>
