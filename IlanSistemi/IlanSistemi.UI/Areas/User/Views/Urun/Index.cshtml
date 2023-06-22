@@ -1,43 +1,43 @@
-﻿@using IlanSistemi.Entities.Concrete
-@model List<Advert>
+﻿@using IlanSistemi.UI.Areas.User.Controllers
+
+@model List<AdvertViewModel>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
 
 <div class="col-lg-12 grid-margin stretch-card">
-	<div class="card">
-		<div class="card-body">
-			<h4 class="card-title"> Ürün Kontrol Sayfası </h4>
-			<div class="table-responsive">
-				<table class="table">
-					<thead>
-						<tr>
-							<th>Başlık</th>
-							<th>Açıklama</th>
-							<th>Sil</th>
-							<th>Düzenle</th>
-						</tr>
-					</thead>
-					<tbody>
-						@foreach (var item in Model)
-						{
-							<tr>
-								<th>
-									@item.Title
-								</th>
-								<td>
-									@item.Description
-								</td>
-								<td> <a asp-controller="Urun" asp-action="DeleteAdvert" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a> </td>
-								<td> <a asp-controller="Urun" asp-action="EditAdvert" asp-route-id="@item.Id" class="btn btn-outline-success">Güncelle</a> </td>
-							</tr>
-						}
-					</tbody>
-				</table>
-				<a asp-controller="Urun" asp-action="AddAdvert"  class="btn btn-outline-info"> Yeni Ürün Ekle </a>
-			</div>
-		</div>
-	</div>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title"> Ürün Kontrol Sayfası </h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Başlık</th>
+                            <th>Açıklama</th>
+                            <th>Sil</th>
+                            <th>Düzenle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @item.Advert.Title
+                                </td>
+                                <td>
+                                    @item.Advert.Description
+                                </td>
+                                <td> <a asp-controller="Urun" asp-action="DeleteAdvert" asp-route-id="@item.Advert.Id" class="btn btn-outline-danger">Sil</a> </td>
+                                <td> <a asp-controller="Urun" asp-action="EditAdvert" asp-route-id="@item.Advert.Id" class="btn btn-outline-success">Güncelle</a> </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a asp-controller="Urun" asp-action="AddAdvert" class="btn btn-outline-info"> Yeni Ürün Ekle </a>
+            </div>
+        </div>
+    </div>
 </div>
-

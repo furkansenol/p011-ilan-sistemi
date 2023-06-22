@@ -27,7 +27,7 @@ namespace IlanSistemi.Entities.Concrete
         public bool? IsSuspended { get; set; }
 
         // TODO
-        public DateTime CreatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
         public DateTime? DeletedAt { get; set; }
 

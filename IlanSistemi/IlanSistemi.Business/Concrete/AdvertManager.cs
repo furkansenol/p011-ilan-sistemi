@@ -41,7 +41,7 @@ namespace IlanSistemi.Business.Concrete
 
 		public List<Advert> TGetListbyFilter(Expression<Func<Advert, bool>> filter)
 		{
-			throw new NotImplementedException();
+			return _advertDal.GetByFilter(filter);
 		}
 
 		public void TUpdate(Advert t)

@@ -107,7 +107,7 @@ namespace IlanSistemi.DataAccess.Concrete
 							UsersId = 4,
 							Title = "Yürüyen Uçak",
 							Description = "Yürüyeni iyi uçak",
-							CreatedAt = DateTime.Now,
+							
 						},
 
 						new Advert()

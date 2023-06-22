@@ -2,6 +2,7 @@
 using IlanSistemi.DataAccess.Concrete;
 using IlanSistemi.DataAccess.EntityFramework;
 using IlanSistemi.Entities.Concrete;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IlanSistemi.UI.Areas.User.Controllers
@@ -19,14 +20,21 @@ namespace IlanSistemi.UI.Areas.User.Controllers
         private readonly AdvertManager _advertManager = new AdvertManager(new EfAdvertDal());
         private readonly CategoryAdvertManager _categoryAdvertManager = new CategoryAdvertManager(new EfCategoryAdvertDal());
         private readonly CategoryManager _categoryManager = new CategoryManager(new EfCategoryDal());
+        private readonly UserManager _userManager = new UserManager(new EfUserDal());
 
         public IActionResult Index()
         {
-            var adverts = _advertManager.TGetList();
-            var categoryAdverts = _categoryAdvertManager.TGetList();
+            var userId = _userManager.TGetListbyFilter(u => u.UserName == User.Identity.Name)
+                                     .FirstOrDefault()?.Id;
 
-            var categoryIds = categoryAdverts.Select(ca => ca.CategoryId).Distinct().ToList();
-            var categories = _categoryManager.TGetListbyFilter(c => categoryIds.Contains(c.Id));
+            if (userId == null)
+            {
+                return RedirectToAction("Error");
+            }
+
+            var adverts = _advertManager.TGetListbyFilter(ad => ad.UsersId == userId);
+            var categoryAdverts = _categoryAdvertManager.TGetList();
+            var categories = _categoryManager.TGetList();
 
             var values = adverts.Select(ad => new AdvertViewModel
             {
@@ -37,7 +45,7 @@ namespace IlanSistemi.UI.Areas.User.Controllers
             }).ToList();
 
             return View(values);
-
         }
+
     }
 }

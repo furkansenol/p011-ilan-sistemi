@@ -21,32 +21,32 @@ namespace IlanSistemi.Business.Concrete
 
 		public void TAdd(AdvertImage t)
 		{
-			throw new NotImplementedException();
+			_advertImageDal.Insert(t);
 		}
 
 		public void TDelete(AdvertImage t)
 		{
-			throw new NotImplementedException();
+			_advertImageDal.Delete(t);
 		}
 
 		public AdvertImage TGetByID(int id)
 		{
-			throw new NotImplementedException();
+			return _advertImageDal.GetByID(id);
 		}
 
 		public List<AdvertImage> TGetList()
 		{
-			throw new NotImplementedException();
+			return _advertImageDal.GetList();
 		}
 
 		public List<AdvertImage> TGetListbyFilter(Expression<Func<AdvertImage, bool>> filter)
 		{
-			throw new NotImplementedException();
+			return _advertImageDal.GetByFilter(filter);
 		}
 
 		public void TUpdate(AdvertImage t)
 		{
-			throw new NotImplementedException();
+			_advertImageDal.Update(t);
 		}
 	}
 }
