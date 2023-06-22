@@ -9,5 +9,6 @@ namespace IlanSistemi.Business.Abstract
 {
 	public interface IAdvertService : IGenericService <Advert>
 	{
-	}
+        
+    }
 }

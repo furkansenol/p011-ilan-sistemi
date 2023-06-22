@@ -1,25 +1,52 @@
-﻿@model IlanSistemi.Entities.Concrete.Advert
+﻿@using IlanSistemi.UI.Areas.User.Controllers
+
+@model EditAdvertViewModel
 @{
     ViewData["Title"] = "EditAdvert";
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
+@if (TempData.ContainsKey("SuccessMessage"))
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
 
+@if (TempData.ContainsKey("ErrorMessage"))
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
 @using (Html.BeginForm("EditAdvert", "Urun", FormMethod.Post))
 {
+    @Html.HiddenFor(x => x.Advert.Id)
     <div class="col-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Yeni Belge Düzenleme Sayfası</h4>
-                <p class="card-description">Yeni Belge Düzenle</p>
+                <h4 class="card-title">Ürün Düzenleme Sayfası</h4>
+                <p class="card-description">Ürünü Düzenle</p>
 
                 <div class="form-group">
                     <label for="Title">Başlık</label>
-                    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+                    @Html.TextBoxFor(x => x.Advert.Title, new { @class = "form-control" })
                 </div>
 
                 <div class="form-group">
                     <label for="Description">Açıklama</label>
-                    @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
+                    @Html.TextAreaFor(x => x.Advert.Description, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    <label for="SelectedCategoryIds">Kategori</label>
+                    @Html.ListBoxFor(x => x.SelectedCategoryIds, new MultiSelectList(Model.Categories, "Id", "Name"), new { @class = "form-control" })
                 </div>
 
                 <button type="submit" class="btn btn-primary">Güncelle</button>
@@ -27,4 +54,3 @@
         </div>
     </div>
 }
-
