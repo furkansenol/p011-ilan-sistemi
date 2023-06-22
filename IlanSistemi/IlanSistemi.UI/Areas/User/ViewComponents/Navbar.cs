@@ -18,7 +18,10 @@ namespace Cv.UI.Areas.Writer.ViewComponents
         public async Task <IViewComponentResult> InvokeAsync ()
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
-            ViewBag.v=values.ImageUrl;
+			ViewBag.v = values.ImageUrl;
+			TempData["AD"] = values.Name;
+            TempData["Soyad"] = values.Surname;
+            TempData["Tarih"] = values.CreatedAt;
 
             return View();
         }

@@ -53,8 +53,9 @@ namespace IlanSistemi.UI.Areas.User.Controllers
 					ModelState.AddModelError("", "Hatalı kullanıcı adı veya şifre");
 				}
 			}
+            TempData["SuspendAlert"] = "Hesabiniz gecici olarak askıya alınmıştır. Lütfen daha sonra tekrar deneyin.";
 
-			return View();
+            return View();
 		}
 
 

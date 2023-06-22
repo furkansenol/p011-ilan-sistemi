@@ -5,6 +5,7 @@ using IlanSistemi.Entities.Concrete;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace IlanSistemi.UI.Areas.Admin.Controllers
 {
@@ -46,14 +47,33 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
 			return RedirectToAction("Index"); 
 		}
 
-		//[HttpPost]
-		//public async Task<IActionResult> SuspendUser(int Id)
-		//{
-		//	await _userManager.SuspendUser(Id);
-		//	return RedirectToAction("Index"); 
-		//}
+		public IActionResult SuspendUser(int Id) 
+		{
+			var values = _userManager.TGetByID(Id);
+			return View(values);
+		}
+
+        [HttpPost]
+        public async Task<IActionResult> SuspendUser(Users model, DateTime date)
+        {
+            var user = _userManager.TGetByID(model.Id);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+             var values =  DateTime.UtcNow.Subtract(date);
+
+             await _userManager.SuspendUserForDuration(user.Id, values);
+
+            return RedirectToAction("Index");
+        }
 
 
 
-	}
+
+
+
+    }
 }

@@ -11,23 +11,23 @@ using System.Threading.Tasks;
 
 namespace IlanSistemi.Business.Concrete
 {
-    public class UserManager : IUserService
-    {
-        IUserDal _userDal;
+	public class UserManager : IUserService
+	{
+		IUserDal _userDal;
 
-        public UserManager(IUserDal userDal)
-        {
-            _userDal = userDal;
-        }
+		public UserManager(IUserDal userDal)
+		{
+			_userDal = userDal;
+		}
 
 		public async Task BanUser(int userId)
 		{
-			var user =  _userDal.GetByID(userId);
+			var user = _userDal.GetByID(userId);
 
 			if (user != null)
 			{
 				user.IsBanned = true;
-			    _userDal.Update(user);
+				_userDal.Update(user);
 			}
 		}
 		public async Task UnbanUser(int userId)
@@ -45,7 +45,7 @@ namespace IlanSistemi.Business.Concrete
 		{
 			_userDal.Insert(t);
 
-        }
+		}
 
 		public void TDelete(Users t)
 		{
@@ -72,6 +72,30 @@ namespace IlanSistemi.Business.Concrete
 			_userDal.Update(t);
 		}
 
-		
+		public async Task SuspendUserForDuration(int userId, TimeSpan duration)
+		{
+			var user = _userDal.GetByID(userId);
+
+			if (user != null)
+			{
+				user.IsSuspended = true;
+				user.LockoutEnd = DateTime.UtcNow.Add(duration);
+				_userDal.Update(user);
+			}
+
+		}
+
+		public async Task UnsuspendUser(int userId)
+		{
+			var user = _userDal.GetByID(userId);
+
+			if (user != null)
+			{
+				user.IsSuspended = false;
+				user.LockoutEnd = null;
+				_userDal.Update(user);
+			}
+
+		}
 	}
 }
