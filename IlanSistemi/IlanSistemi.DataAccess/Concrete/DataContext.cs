@@ -77,16 +77,17 @@ namespace IlanSistemi.DataAccess.Concrete
 			//Seed Data for User model
 
 			modelBuilder.Entity<Users>().HasData(
-					new Users()
-					{
-						Id = 4,
-						Email = "sample@user.com",
-						Surname = "123456",
-						Name = "Sample",
-						Address = "Türkiye",
-						Phone = "0543212340",
-						CreatedAt = DateTime.Now,
-					});
+				new Users()
+				{
+					Id = 4,
+					Email = "sample@user.com",
+					Surname = "123456",
+					Name = "Sample",
+					Address = "Türkiye",
+					Phone = "0543212340",
+					CreatedAt = DateTime.Now,
+				}
+			);
 
 			//Seed Data for Advert
 			modelBuilder.Entity<Advert>().HasData(
@@ -130,28 +131,63 @@ namespace IlanSistemi.DataAccess.Concrete
 				);
 
 			modelBuilder.Entity<CategoryAdvert>().HasData(
-				new List<CategoryAdvert>()
-				{
-					new CategoryAdvert()
-					{
-						Id = 1,
-						CategoryId = 1,
-						AdvertId = 1,
-					},
-					new CategoryAdvert()
-					{
-						Id = 2,
-						CategoryId = 1,
-						AdvertId = 2,
-					},
-					new CategoryAdvert()
-					{
-						Id = 3,
-						CategoryId = 2,
-						AdvertId = 4,
-					},
-				}
-				);
+                new List<CategoryAdvert>()
+                {
+                    new CategoryAdvert()
+                    {
+                        Id = 1,
+                        CategoryId = 1,
+                        AdvertId = 1,
+                    },
+                    new CategoryAdvert()
+                    {
+                        Id = 2,
+                        CategoryId = 1,
+                        AdvertId = 2,
+                    },
+                    new CategoryAdvert()
+                    {
+                        Id = 3,
+                        CategoryId = 2,
+                        AdvertId = 4,
+                    },
+                    new CategoryAdvert()
+                    {
+                        Id = 4,
+                        CategoryId = 2,
+                        AdvertId = 3,
+                    },
+
+                }
+            )
+
+            modelBuilder.Entity<AdvertImage>().HasData(
+                    new List<AdvertImage>()
+                    {
+                        new AdvertImage() {
+                            Id = 1,
+                            AdvertId = 1,
+                            ImagePath = "/Productimage/laptop1.jpeg"
+                        },
+
+                        new AdvertImage() {
+                            Id = 2,
+                            AdvertId = 2,
+                            ImagePath = "/Productimage/yuruyenucak.png"
+                        },
+                        new AdvertImage() {
+                            Id = 3,
+                            AdvertId = 3,
+                            ImagePath = "/Productimage/gemicik.jpg"
+                        },
+                        new AdvertImage() {
+                            Id = 4,
+                            AdvertId = 4,
+                            ImagePath = "/Productimage/roptesambir.jpg"
+                        },
+
+                    }
+                );
 
 
 			
@@ -166,14 +202,14 @@ namespace IlanSistemi.DataAccess.Concrete
 		}
 
 
-		public DbSet<Advert> adverts { get; set; }
-		public DbSet<CategoryAdvert> categoryAdverts { get; set; }
-		public DbSet<AdvertComment> advertComments { get; set; }
-		public DbSet<AdvertImage> AdvertImages { get; set; }
-		public DbSet<Category> categories { get; set; }
-		public DbSet<Page> pages { get; set; }
-		public DbSet<Setting> settings { get; set; }
-		public DbSet<Users> users { get; set; }
+        public DbSet<Advert> adverts { get; set; }
+        public DbSet<CategoryAdvert> CategoryAdverts { get; set; }
+        public DbSet<AdvertComment> advertComments { get; set; }
+        public DbSet<AdvertImage> AdvertImages { get; set; }
+        public DbSet<Category> categories { get; set; }
+        public DbSet<Page> pages { get; set; }
+        public DbSet<Setting> settings { get; set; }
+        public DbSet<User> users { get; set; }
 
 	}
 }

@@ -1,15 +1,26 @@
 ﻿using IlanSistemi.DataAccess.Abstract;
+using IlanSistemi.DataAccess.Concrete;
 using IlanSistemi.DataAccess.Repository;
 using IlanSistemi.Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using IlanSistemi.Entities.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace IlanSistemi.DataAccess.EntityFramework
 {
-	public class EfAdvertDal : GenericRepository <Advert> , IAdvertDal
-	{
-	}
+    public class EfAdvertDal : GenericRepository<Advert>, IAdvertDal
+    {
+        public List<AdvertVM> GetAllAdvertsWithImage()
+        {
+            using var c = new DataContext();
+            var adverts =  c.adverts.Include(a => a.advertImages).ToList();
+
+            var advertsWithImg = adverts.Select(a => new AdvertVM
+            {
+                Advert = a,
+                AdvertImages = a.advertImages.ToList(),
+            }).ToList();
+
+            return advertsWithImg;
+        }
+    }
 }
