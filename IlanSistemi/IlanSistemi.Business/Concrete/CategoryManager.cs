@@ -37,7 +37,7 @@ namespace IlanSistemi.Business.Concrete
 
 		public List<Category> TGetListbyFilter(Expression<Func<Category, bool>> filter)
 		{
-			return _categoryDal.GetByFilter(filter);
+			return _CategoryDal.GetByFilter(filter);
 		}
 
 		public void TUpdate(Category t)

@@ -15,15 +15,15 @@
                 <div class="card">
                     <div class="thumb-content">
                         <!-- <div class="price">$200</div> -->
-                        <a href="single.html">
-                            <img class="card-img-top img-fluid" src=@item.advertImages?.FirstOrDefault()?.ImagePath alt="Card image cap">
+                        <a asp-controller="Advert" asp-action="Index" asp-route-advertId="@item.Id">
+                            <img class="card-img-top img-fluid" src="~/UrunResimleri/@item.advertImages?.FirstOrDefault()?.ImagePath" alt="Card image cap">
                         </a>
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title"><a href="single.html">@item.Title</a></h4>
+                        <h4 class="card-title"><a asp-controller="Advert" asp-action="Index" asp-route-advertId="@item.Id">@item.Title</a></h4>
                         <ul class="list-inline product-meta">
                             <li class="list-inline-item">
-                                <a href="single.html"><i class="fa fa-folder-open-o"></i>@item.Description</a>
+                                <a asp-controller="Advert" asp-action="Index" asp-route-advertId="@item.Id"><i class="fa fa-folder-open-o"></i>@item.Description</a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#"><i class="fa fa-calendar"></i>@item.CreatedAt</a>

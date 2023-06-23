@@ -11,7 +11,7 @@ namespace IlanSistemi.DataAccess.Concrete
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			base.OnConfiguring(optionsBuilder);
-			optionsBuilder.UseSqlServer("Data Source=DESKTOP-MCLU84R\\SQL2019; Database=IlanProjesi2; Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+			optionsBuilder.UseSqlServer("Data Source=ERAY\\SQLEXPRESS; Database=IlanProjesi4; Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
 			// Sql de bunu nasıl public yapacağımızı bilemedik yaparsanız seviniriz... =)
 
 
@@ -131,35 +131,35 @@ namespace IlanSistemi.DataAccess.Concrete
 				);
 
 			modelBuilder.Entity<CategoryAdvert>().HasData(
-                new List<CategoryAdvert>()
-                {
-                    new CategoryAdvert()
-                    {
-                        Id = 1,
-                        CategoryId = 1,
-                        AdvertId = 1,
-                    },
-                    new CategoryAdvert()
-                    {
-                        Id = 2,
-                        CategoryId = 1,
-                        AdvertId = 2,
-                    },
-                    new CategoryAdvert()
-                    {
-                        Id = 3,
-                        CategoryId = 2,
-                        AdvertId = 4,
-                    },
-                    new CategoryAdvert()
-                    {
-                        Id = 4,
-                        CategoryId = 2,
-                        AdvertId = 3,
-                    },
+				new List<CategoryAdvert>()
+				{
+					new CategoryAdvert()
+					{
+						Id = 1,
+						CategoryId = 1,
+						AdvertId = 1,
+					},
+					new CategoryAdvert()
+					{
+						Id = 2,
+						CategoryId = 1,
+						AdvertId = 2,
+					},
+					new CategoryAdvert()
+					{
+						Id = 3,
+						CategoryId = 2,
+						AdvertId = 4,
+					},
+					new CategoryAdvert()
+					{
+						Id = 4,
+						CategoryId = 2,
+						AdvertId = 3,
+					},
 
-                }
-            )
+				}
+			);
 
             modelBuilder.Entity<AdvertImage>().HasData(
                     new List<AdvertImage>()
@@ -167,23 +167,23 @@ namespace IlanSistemi.DataAccess.Concrete
                         new AdvertImage() {
                             Id = 1,
                             AdvertId = 1,
-                            ImagePath = "/Productimage/laptop1.jpeg"
+                            ImagePath = "laptop.jpeg"
                         },
 
                         new AdvertImage() {
                             Id = 2,
                             AdvertId = 2,
-                            ImagePath = "/Productimage/yuruyenucak.png"
+                            ImagePath = "yuruyenucak.png"
                         },
                         new AdvertImage() {
                             Id = 3,
                             AdvertId = 3,
-                            ImagePath = "/Productimage/gemicik.jpg"
+                            ImagePath = "gemicik.jpg"
                         },
                         new AdvertImage() {
                             Id = 4,
                             AdvertId = 4,
-                            ImagePath = "/Productimage/roptesambir.jpg"
+                            ImagePath = "roptesambir.jpg"
                         },
 
                     }
@@ -209,7 +209,7 @@ namespace IlanSistemi.DataAccess.Concrete
         public DbSet<Category> categories { get; set; }
         public DbSet<Page> pages { get; set; }
         public DbSet<Setting> settings { get; set; }
-        public DbSet<User> users { get; set; }
+        public DbSet<Users> users { get; set; }
 
 	}
 }

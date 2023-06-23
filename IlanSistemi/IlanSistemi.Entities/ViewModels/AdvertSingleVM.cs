@@ -2,11 +2,12 @@
 
 namespace IlanSistemi.Entities.ViewModels
 {
-    public class AdvertVM
+    public class AdvertSingleVM
     {
         public Advert Advert { get; set; }
+        public string CategoryName { get; set; }
+        public Users User { get; set; }
         public List<AdvertImage> AdvertImages { get; set; }
-        public int UserId { get; set; }
 
     }
 }

@@ -12,12 +12,13 @@ namespace IlanSistemi.DataAccess.EntityFramework
         public List<AdvertVM> GetAllAdvertsWithImage()
         {
             using var c = new DataContext();
-            var adverts =  c.adverts.Include(a => a.advertImages).ToList();
+            var adverts = c.adverts.Include(a => a.advertImages).ToList();
 
             var advertsWithImg = adverts.Select(a => new AdvertVM
             {
                 Advert = a,
                 AdvertImages = a.advertImages.ToList(),
+                UserId = a.UsersId
             }).ToList();
 
             return advertsWithImg;
