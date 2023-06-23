@@ -1,0 +1,33 @@
+﻿@using IlanSistemi.Entities.Concrete
+@model List<Advert>
+<div class="col-lg-6 grid-margin stretch-card">
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">İlanda Olan Ürünler</h4>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>Kullanıcı</th>
+						<th>Ürün</th>
+						<th>Satış</th>
+						<th>Durum</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>@(item.User != null ? item.User.Name : "User")</td>
+
+							<td>@item.Title</td>
+							<td class="text-success"> 28.76% <i class="icon-arrow-up-circle"></i></td>
+							<td><label class="badge badge-success">Aktif</label></td>
+						</tr>
+					}
+
+				
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

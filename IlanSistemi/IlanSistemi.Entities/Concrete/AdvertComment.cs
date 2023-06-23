@@ -27,11 +27,11 @@ namespace IlanSistemi.Entities.Concrete
 		public virtual Advert Advert { get; set; }
 
 		
-		public virtual User User { get; set; }
+		public virtual Users User { get; set; }
 
 
         // TODO
-        public DateTime CreatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
         public DateTime? DeletedAt { get; set; }
 

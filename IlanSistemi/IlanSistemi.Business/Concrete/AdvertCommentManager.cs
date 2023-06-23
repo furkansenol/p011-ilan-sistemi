@@ -12,41 +12,41 @@ namespace IlanSistemi.Business.Concrete
 {
 	public class AdvertCommentManager : IAdvertCommentService
 	{
-		IAdvertCommentDal advertCommentDal;
+		IAdvertCommentDal _advertCommentDal;
 
 		public AdvertCommentManager(IAdvertCommentDal advertCommentDal)
 		{
-			this.advertCommentDal = advertCommentDal;
+			this._advertCommentDal = advertCommentDal;
 		}
 
 		public void TAdd(AdvertComment t)
 		{
-			throw new NotImplementedException();
+			_advertCommentDal.Insert(t);
 		}
 
 		public void TDelete(AdvertComment t)
 		{
-			throw new NotImplementedException();
+			_advertCommentDal.Delete(t);
 		}
 
 		public AdvertComment TGetByID(int id)
 		{
-			throw new NotImplementedException();
+			return _advertCommentDal.GetByID(id);
 		}
 
 		public List<AdvertComment> TGetList()
 		{
-			throw new NotImplementedException();
+			return _advertCommentDal.GetList();
 		}
 
 		public List<AdvertComment> TGetListbyFilter(Expression<Func<AdvertComment, bool>> filter)
 		{
-			throw new NotImplementedException();
+			return _advertCommentDal.GetByFilter(filter);
 		}
 
 		public void TUpdate(AdvertComment t)
 		{
-			throw new NotImplementedException();
+			_advertCommentDal.Update(t);
 		}
 	}
 

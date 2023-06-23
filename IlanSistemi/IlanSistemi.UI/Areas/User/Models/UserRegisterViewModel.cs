@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace IlanSistemi.UI.Areas.Admin.Models
+namespace IlanSistemi.UI.Areas.User.Models
 {
     public class UserRegisterViewModel
     {

@@ -1,0 +1,66 @@
+﻿@using IlanSistemi.Entities.Concrete
+@model List<Users>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title"> Kullanıcı Kontrol Sayfası </h4>
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th> <b>İşlemler</b></th>
+							<th> <b>Kullanıcı No</b></th>
+							<th> <b> Kullanıcı Adı </b> </th>
+							<th> <b> Ban Durumu </b></th>
+							<th> <b> Suspend Durumu </b></th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var item in Model)
+						{
+							<tr>
+								<td>
+									<a asp-controller="Kullanici" asp-action="DeleteKullanici" asp-route-id="@item.Id" class="btn btn-inverse-danger">Sil</a>
+									<a asp-controller="Kullanici" asp-action="DetailKullanici" asp-route-id="@item.Id" class="btn btn-inverse-primary">Detaylar</a>
+
+									@if(item.IsBanned == true)
+									{
+										<a asp-controller="Kullanici" asp-action="UnbanUser" asp-route-id="@item.Id" class="btn btn-inverse-success">Hesabın Banını Kaldır</a>
+									}
+									else
+									{
+										<a asp-controller="Kullanici" asp-action="BanUser" asp-route-id="@item.Id" class="btn btn-inverse-dark">Hesabı Banla</a>
+									}
+									
+									
+									<a asp-controller="Kullanici" asp-action="SuspendUser" asp-route-id="@item.Id" class="btn btn-inverse-info">Hesabı Askıya Al</a>
+
+								</td>
+								<td>
+									@item.Id
+								</td>
+								<td>
+									 @item.Name
+								</td>
+								
+								<td>
+									@item.IsBanned 
+								</td>
+								<td>
+									@item.IsSuspended
+								</td>
+
+							</tr>
+						}
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+	</div>
+</div>

@@ -41,10 +41,11 @@ namespace IlanSistemi.DataAccess.Repository
 
         public void Update(T t)
         {
-            using var c = new DataContext();
+           using var c = new DataContext();
             c.Update(t);
-            c.SaveChanges();
+            c.SaveChanges();    
         }
+
     }
 }
 

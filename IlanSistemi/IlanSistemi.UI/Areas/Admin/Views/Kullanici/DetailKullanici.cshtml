@@ -1,0 +1,45 @@
+﻿@model IlanSistemi.Entities.Concrete.Users
+@{
+	ViewData["Title"] = "DetailKullanici";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("DetailKullanici", "Kullanici", FormMethod.Post))
+{
+	<div class="col-12 grid-margin stretch-card">
+		<div class="card">
+			<div class="card-body">
+				<h4 class="card-title">Kullanıcı Detay Sayfası</h4>
+
+				<div class="form-group">
+					<label for="Title">Adı</label>
+					@Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+				</div>
+				<div class="form-group">
+					<label for="Title">Soyadı</label>
+					@Html.TextBoxFor(x => x.Surname, new { @class = "form-control" })
+				</div>
+				<div class="form-group">
+					<label for="Description">Adres</label>
+					@Html.TextAreaFor(x => x.Address, new { @class = "form-control" })
+				</div>
+				<div class="form-group">
+					<label for="Title">Mail Adres</label>
+					@Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+				</div>
+				<div class="form-group">
+					<label for="Title">Telefon</label>
+					@Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+				</div>
+				<div class="form-group">
+					<label for="Title">Adres</label>
+					@Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+				</div>
+				<div class="form-group">
+					<label for="Title">Ban Durumu</label>
+					@Html.TextBoxFor(x => x.IsBanned, new { @class = "form-control" })
+				</div>
+			</div>
+		</div>
+	</div>
+}

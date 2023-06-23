@@ -1,11 +1,11 @@
 ﻿using IlanSistemi.Business.Concrete;
 using IlanSistemi.Entities.Concrete;
-using IlanSistemi.UI.Areas.Admin.Models;
+using IlanSistemi.UI.Areas.User.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IlanSistemi.UI.Areas.Admin.Controllers
+namespace IlanSistemi.UI.Areas.User.Controllers
 {
 
     [AllowAnonymous]
@@ -13,9 +13,9 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
     [Area("User")]
     public class RegisterController : Controller
     {
-        private readonly UserManager<AdminUser> _userManager;
+        private readonly UserManager<Users> _userManager;
 
-        public RegisterController(UserManager<AdminUser> userManager)
+        public RegisterController(UserManager<Users> userManager)
         {
             _userManager = userManager;
         }
@@ -31,13 +31,14 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                AdminUser w = new AdminUser()
+                Users w = new Users()
                 {
                     Name = p.Name,
                     Surname = p.Surname,
                     Email = p.Mail,
                     UserName = p.UserName,
-                    ImageUrl = p.ImagURL = "/Tamplate/images/profil.jpg/"
+                    CreatedAt = DateTime.Now,
+                    ImageUrl = p.ImagURL
 
 				};
 

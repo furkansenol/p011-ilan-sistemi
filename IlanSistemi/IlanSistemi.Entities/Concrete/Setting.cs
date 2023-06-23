@@ -22,6 +22,6 @@ namespace IlanSistemi.Entities.Concrete
         public string Value { get; set; }
 
         //Bağlantı
-        public virtual User User { get; set; }
+        public virtual Users User { get; set; }
     }
 }

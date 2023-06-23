@@ -14,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddDbContext<DataContext>();
-builder.Services.AddIdentity<AdminUser, AdminRole>().AddEntityFrameworkStores<DataContext>();
+builder.Services.AddIdentity<Users, AdminRole>().AddEntityFrameworkStores<DataContext>();
 builder.Services.AddControllersWithViews();
 
 //DependencyInjections

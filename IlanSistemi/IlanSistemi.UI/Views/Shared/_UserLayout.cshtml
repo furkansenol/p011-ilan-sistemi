@@ -1,0 +1,57 @@
+﻿@{
+	Layout = null;
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+@await Html.PartialAsync("/Areas/User/Views/Default/_HeadPartial.cshtml")
+
+<body class="body-wrapper">
+
+	<section>
+		@await Html.PartialAsync("/Areas/User/Views/Default/_NavbarPartial.cshtml")
+
+	</section>
+	<!--==================================
+	=            User Profile            =
+	===================================-->
+	<section class="dashboard section">
+		<!-- Container Start -->
+		<div class="container">
+			<!-- Row Start -->
+			<div class="row">
+				<div class="col-md-10 offset-md-1 col-lg-4 offset-lg-0">
+					@await Html.PartialAsync("/Areas/User/Views/Default/_SidebarPartial.cshtml")
+				</div>
+				<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-0">
+					@RenderBody()
+				</div>
+			</div>
+			<!-- Row End -->
+		</div>
+		<!-- Container End -->
+	</section>
+	<!--============================
+	=            Footer            =
+	=============================-->
+	@await Html.PartialAsync("/Areas/User/Views/Default/_FooterPartial.cshtml")
+	<!--============================
+	=           Scripts           =
+	=============================-->
+	@await Html.PartialAsync("/Areas/User/Views/Default/_ScriptsPartial.cshtml")
+	
+
+</body>
+
+</html>
+
+
+
+
+
+

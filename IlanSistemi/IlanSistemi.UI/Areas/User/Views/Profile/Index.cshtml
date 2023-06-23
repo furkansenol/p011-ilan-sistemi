@@ -1,7 +1,7 @@
-﻿@model IlanSistemi.UI.Areas.Admin.Models.UserEditViewModel
+﻿@model IlanSistemi.UI.Areas.User.Models.UserEditViewModel
 @{
 	ViewData["Title"] = "Index";
-	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+	Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
 
 <div class="col-12 grid-margin stretch-card">
@@ -17,7 +17,6 @@
 					<label for="exampleInputName1">Soyadadınız</label>
 					<input type="text" asp-for="Surname" class="form-control" id="exampleInputName1" placeholder="Soyad">
 				</div>
-
 				<div class="form-group">
 					<label for="exampleInputPassword4">Şifreniz</label>
 					<input type="password" asp-for="password" class="form-control" id="exampleInputName1" placeholder="Şifreniz">
@@ -30,12 +29,6 @@
 				<div class="form-group">
 					<label>Resim Seç</label>
 					<input type="file" asp-for="Picture">
-					@*<div class="input-group col-xs-12">
-					<input type="text"  class="form-control file-upload-info"  placeholder="Resim Yükleyin">
-					<span class="input-group-append">
-					<button  class="file-upload-browse btn btn-primary" type="button">Yükle</button>
-					</span>
-					</div>*@
 				</div>
 				<button type="submit" class="btn btn-primary mr-2">Güncelle</button>
 				<button class="btn btn-light">İptal</button>

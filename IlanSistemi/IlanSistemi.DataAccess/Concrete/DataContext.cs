@@ -1,128 +1,136 @@
 ﻿using IlanSistemi.Entities.Concrete;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace IlanSistemi.DataAccess.Concrete
 {
-    public class DataContext : IdentityDbContext<AdminUser, AdminRole, int>
-    {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Data Source=ERAY\\SQLEXPRESS; database=IlanProjesi3;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
-            // Sql de bunu nasıl public yapacağımızı bilemedik yaparsanız seviniriz... =)
+	public class DataContext : IdentityDbContext<Users, AdminRole, int>
+	{
+
+		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		{
+			base.OnConfiguring(optionsBuilder);
+			optionsBuilder.UseSqlServer("Data Source=MERT; Database=IlanProjesi2; Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+			// Sql de bunu nasıl public yapacağımızı bilemedik yaparsanız seviniriz... =)
 
 
-        }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<AdvertComment>()
-                .HasKey(c => c.Id);
+		}
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
+		{
+			base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<AdvertComment>()
-                .HasOne(c => c.User)
-                .WithMany()
-                .HasForeignKey(c => c.Id)
-                .OnDelete(DeleteBehavior.Restrict);
+			
 
-            modelBuilder.Entity<AdvertComment>()
-                .HasOne(c => c.Advert)
-                .WithMany()
-                .HasForeignKey(c => c.Id)
-                .OnDelete(DeleteBehavior.Restrict);
+			modelBuilder.Entity<AdvertComment>()
+				.HasKey(c => c.Id);
 
-            //Seed Data for Category Model
-            modelBuilder.Entity<Category>().HasData(
-                new List<Category>()
-                {
-                    new Category
-                    {
-                        Id = 1,
-                        Name = "Elektronik",
-                        Description = "Elektronik"
-                    },
-                    new Category
-                    {
-                        Id = 2,
-                        Name = "Moda",
-                        Description = "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler."
-                    },
-                    new Category
-                    {
-                        Id = 3,
-                        Name = "Ev-Yasam",
-                        Description = "Ev Tekstili, Mutfak Gereçleri"
-                    },
-                    new Category
-                    {
-                        Id = 4,
-                        Name = "Spor-Outdoor",
-                        Description = "Aradığınız tüm spor ürünleri"
-                    },
-                    new Category
-                    {
-                        Id = 5,
-                        Name = "Kozmetik",
-                        Description = "Kişisel bakım ve makyaj malzemeleri"
-                    },
-                }
-            );
+			modelBuilder.Entity<AdvertComment>()
+				.HasOne(c => c.User)
+				.WithMany()
+				.HasForeignKey(c => c.Id)
+				.OnDelete(DeleteBehavior.Restrict);
 
-            //Seed Data for User model
-            modelBuilder.Entity<User>().HasData(
-                    new User()
-                    {
-                        Id = 1,
-                        Email = "sample@user.com",
-                        Password = "123456",
-                        Name = "Sample",
-                        Address = "Türkiye",
-                        Phone = "0543212340",
-                        CreatedAt = DateTime.Now,
-                    });
+			modelBuilder.Entity<AdvertComment>()
+				.HasOne(c => c.Advert)
+				.WithMany()
+				.HasForeignKey(c => c.Id)
+				.OnDelete(DeleteBehavior.Restrict);
 
-            //Seed Data for Advert
-            modelBuilder.Entity<Advert>().HasData(
-                    new List<Advert>()
-                    {
-                        new Advert()
-                        {
-                            Id = 1,
-                            UserId = 1,
-                            Title = "Laptop Bal Almayan Mal",
-                            Description = "Sahibinden garantisiz laptop",
-                            CreatedAt = DateTime.Now,
-                        },
+			//Seed Data for Category Model
+			modelBuilder.Entity<Category>().HasData(
+				new List<Category>()
+				{
+					new Category
+					{
+						Id = 1,
+						Name = "Elektronik",
+						Description = "Elektronik"
+					},
+					new Category
+					{
+						Id = 2,
+						Name = "Moda",
+						Description = "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler."
+					},
+					new Category
+					{
+						Id = 3,
+						Name = "Ev-Yasam",
+						Description = "Ev Tekstili, Mutfak Gereçleri"
+					},
+					new Category
+					{
+						Id = 4,
+						Name = "Spor-Outdoor",
+						Description = "Aradığınız tüm spor ürünleri"
+					},
+					new Category
+					{
+						Id = 5,
+						Name = "Kozmetik",
+						Description = "Kişisel bakım ve makyaj malzemeleri"
+					},
+				}
+			);
 
-                        new Advert()
-                        {
-                            Id = 2,
-                            UserId = 1,
-                            Title = "Yürüyen Uçak",
-                            Description = "Yürüyeni iyi uçak",
-                            CreatedAt = DateTime.Now,
-                        },
+			//Seed Data for User model
 
-                        new Advert()
-                        {
-                            Id = 3,
-                            UserId = 1,
-                            Title = "Gemicik",
-                            Description = "Krediye uygun gemicik",
-                            CreatedAt = DateTime.Now,
-                        },
-                        new Advert()
-                        {
-                            Id = 4,
-                            UserId = 1,
-                            Title = "Röpteşambır",
-                            Description = "Zengin pijaması",
-                            CreatedAt = DateTime.Now,
-                        },
-                    }
-                );
+			modelBuilder.Entity<Users>().HasData(
+				new Users()
+				{
+					Id = 4,
+					Email = "sample@user.com",
+					Surname = "123456",
+					Name = "Sample",
+					Address = "Türkiye",
+					Phone = "0543212340",
+					CreatedAt = DateTime.Now,
+				}
+			);
 
-            modelBuilder.Entity<CategoryAdvert>().HasData(
+			//Seed Data for Advert
+			modelBuilder.Entity<Advert>().HasData(
+					new List<Advert>()
+					{
+						new Advert()
+						{
+							Id = 1,
+							UsersId = 4,
+							Title = "Laptop Bal Almayan Mal",
+							Description = "Sahibinden garantisiz laptop",
+							CreatedAt = DateTime.Now,
+						},
+
+						new Advert()
+						{
+							Id = 2,
+							UsersId = 4,
+							Title = "Yürüyen Uçak",
+							Description = "Yürüyeni iyi uçak",
+							
+						},
+
+						new Advert()
+						{
+							Id = 3,
+							UsersId = 4,
+							Title = "Gemicik",
+							Description = "Krediye uygun gemicik",
+							CreatedAt = DateTime.Now,
+						},
+						new Advert()
+						{
+							Id = 4,
+							UsersId = 4,
+							Title = "Röpteşambır",
+							Description = "Zengin pijaması",
+							CreatedAt = DateTime.Now,
+						},
+					}
+				);
+
+			modelBuilder.Entity<CategoryAdvert>().HasData(
                 new List<CategoryAdvert>()
                 {
                     new CategoryAdvert()
@@ -151,7 +159,7 @@ namespace IlanSistemi.DataAccess.Concrete
                     },
 
                 }
-                );
+            )
 
             modelBuilder.Entity<AdvertImage>().HasData(
                     new List<AdvertImage>()
@@ -182,16 +190,16 @@ namespace IlanSistemi.DataAccess.Concrete
                 );
 
 
-            base.OnModelCreating(modelBuilder);
-        }
+			
+		}
 
-        public DataContext()
-        {
-        }
+		public DataContext()
+		{
+		}
 
-        public DataContext(DbContextOptions<DataContext> options) : base(options)
-        {
-        }
+		public DataContext(DbContextOptions<DataContext> options) : base(options)
+		{
+		}
 
 
         public DbSet<Advert> adverts { get; set; }
@@ -203,6 +211,6 @@ namespace IlanSistemi.DataAccess.Concrete
         public DbSet<Setting> settings { get; set; }
         public DbSet<User> users { get; set; }
 
-    }
+	}
 }
 

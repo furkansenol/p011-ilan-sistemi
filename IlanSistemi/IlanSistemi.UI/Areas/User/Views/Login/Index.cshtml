@@ -1,8 +1,26 @@
-﻿@model IlanSistemi.UI.Areas.Admin.Models.UserLoginViewModel
+﻿@model IlanSistemi.UI.Areas.User.Models.UserLoginViewModel
 
 @{
     Layout = null;
 }
+@{
+   
+    if (TempData["BanAlert"] != null)
+    {
+        <script>
+            alert("@TempData["BanAlert"]");
+        </script>
+    }
+}
+@{
+    var suspendAlert = TempData["SuspendAlert"] as string;
+}
+
+@if (!string.IsNullOrEmpty(suspendAlert))
+{
+    <div class="alert alert-warning">@suspendAlert</div>
+}
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,10 +68,11 @@
                                 </div>
                                 
                                 <div class="text-center mt-4 font-weight-light">
-                                    Bir Hesabiniz Yok Mu? <a href="/Admin/Register/Index/" class="text-primary">Hemen Olustur!</a>
+                                    Bir Hesabiniz Yok Mu? <a href="/User/Register/Index/" class="text-primary">Hemen Olustur!</a>
                                 </div>
                             </form>
                         </div>
+                        
                     </div>
                 </div>
             </div>

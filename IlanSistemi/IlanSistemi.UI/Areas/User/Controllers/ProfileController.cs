@@ -1,19 +1,18 @@
-﻿
-using IlanSistemi.Entities.Concrete;
-using IlanSistemi.UI.Areas.Admin.Models;
+﻿using IlanSistemi.Entities.Concrete;
+using IlanSistemi.UI.Areas.User.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IlanSistemi.UI.Areas.Admin.Controllers
+namespace IlanSistemi.UI.Areas.User.Controllers
 {
 
     [Area("User")]
     [Route("User/[controller]/[action]")]
     public class ProfileController : Controller
     {
-        private readonly UserManager<AdminUser> _userManager;
+        private readonly UserManager<Users> _userManager;
 
-        public ProfileController(UserManager<AdminUser> userManager)
+        public ProfileController(UserManager<Users> userManager)
         {
             _userManager = userManager;
         }

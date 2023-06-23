@@ -1,0 +1,129 @@
+﻿@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row quick-action-toolbar">
+    <div class="col-md-12 grid-margin">
+        <div class="card">
+            <div class="card-header d-block d-md-flex">
+                <h5 class="mb-0">Kolay Erişim</h5>
+            </div>
+            <div class="d-md-flex row m-0 quick-action-btns" role="group" aria-label="Quick action buttons">
+                <div class="col-sm-6 col-md-4 p-3 text-center btn-wrapper">
+                    <a href="/Admin/Kullanici/Index/" type="button" class="btn px-0"> <i class="icon-user mr-2"></i>Kullanıcı İşlemleri</a>
+                </div>
+                <div class="col-sm-6 col-md-4 p-3 text-center btn-wrapper">
+                    <a href="/Admin/Kategori/Index/" type="button" class="btn px-0"><i class="icon-docs mr-2"></i> Kategori İşlemleri</a>
+                </div>
+                <div class="col-sm-6 col-md-3 p-3 text-center btn-wrapper">
+                    <a href="/Admin/Urun/Index/" type="button" class="btn px-0"><i class="icon-folder mr-2"></i> Ürün İşlemleri</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"> <b>Kullanıcılar</b> </h4>
+                <div class="aligner-wrapper">
+                    <canvas id="sessionsDoughnutChart" height="210"></canvas>
+                    <div class="wrapper d-flex flex-column justify-content-center absolute absolute-center">
+                        <h2 class="text-center mb-0 font-weight-bold">8.234</h2>
+                        <small class="d-block text-center text-muted  font-weight-semibold mb-0">Toplam Kullanıcı</small>
+                    </div>
+                </div>
+                <div class="wrapper mt-4 d-flex flex-wrap align-items-cente">
+                    <div class="d-flex">
+                        <span class="square-indicator bg-danger ml-2"></span>
+                        <p class="mb-0 ml-2">Aktif Olmayan</p>
+                    </div>
+                    <div class="d-flex">
+                        <span class="square-indicator bg-success ml-2"></span>
+                        <p class="mb-0 ml-2">Aktif Olan</p>
+                    </div>
+                    <div class="d-flex">
+                        <span class="square-indicator bg-warning ml-2"></span>
+                        <p class="mb-0 ml-2">Yayınladığı Ürünler</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @await Component.InvokeAsync("CatagoryList")
+   
+    <!-- plugins:js -->
+    <script src="/Stellar-master/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="/Stellar-master/vendors/chart.js/Chart.min.js"></script>
+    <script src="/Stellar-master//vendors/moment/moment.min.js"></script>
+    <script src="/Stellar-master//vendors/daterangepicker/daterangepicker.js"></script>
+    <script src="/Stellar-master//vendors/chartist/chartist.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="/Stellar-master/js/off-canvas.js"></script>
+    <script src="/Stellar-master/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="/Stellar-master//js/dashboard.js"></script>
+    <!-- End custom js for this page -->
+</div>
+
+<div class="row">
+    <div class="col-md-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-sm-flex align-items-baseline report-summary-header">
+                            <h5 class="font-weight-semibold">Rapor özeti</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row report-inner-cards-wrapper">
+                    <div class=" col-md -6 col-xl report-inner-card">
+                        <div class="inner-card-text">
+                            <span class="report-title">Kullanıcılar</span>
+                            <h4>10</h4>
+                            <span class="report-count"> 2 Reports</span>
+                        </div>
+                        <div class="inner-card-icon bg-success">
+                            <i class="icon-rocket"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl report-inner-card">
+                        <div class="inner-card-text">
+                            <span class="report-title">Kategori</span>
+                            <h4>5</h4>
+                            <span class="report-count"> 3 Reports</span>
+                        </div>
+                        <div class="inner-card-icon bg-danger">
+                            <i class="icon-briefcase"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl report-inner-card">
+                        <div class="inner-card-text">
+                            <span class="report-title">Yayınlanan Ürün</span>
+                            <h4>26</h4>
+                            <span class="report-count"> 5 Reports</span>
+                        </div>
+                        <div class="inner-card-icon bg-primary">
+                            <i class="icon-diamond"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+	@await Component.InvokeAsync("UserList")
+    @await Component.InvokeAsync("ProdoctList")
+	
+</div>

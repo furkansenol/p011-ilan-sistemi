@@ -7,20 +7,19 @@ namespace IlanSistemi.Entities.Concrete
 	{
 		[Key]
 		public int Id { get; set; }
-		public int UserId { get; set; }
+		public int UsersId { get; set; }
+		public string Title { get; set; }
+       
+        public string Description { get; set; }
+        public DateTime? CreatedAt { get; set; }
 
-		[MaxLength(200, ErrorMessage = "{0} {1} karakterden uzun olamaz")]
-		public string Title { get; set; }	
-
-		[Column(TypeName = "ntext")]
-		public string Description { get; set; }
-        public DateTime CreatedAt { get; set; }
+        
         public DateTime? UpdatedAt { get; set; }
         public DateTime? DeletedAt { get; set; }
 
         // Bağlantı
 
-        public virtual User User { get; set; }
+        public virtual Users User { get; set; }
 		public ICollection<AdvertComment> advertComments { get; set; }
 		public ICollection<CategoryAdvert> CategoryAdverts { get; set; }
 		public ICollection<AdvertImage> advertImages { get; set; }

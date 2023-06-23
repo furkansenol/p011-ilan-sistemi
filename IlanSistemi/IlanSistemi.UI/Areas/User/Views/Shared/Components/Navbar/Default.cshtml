@@ -1,6 +1,5 @@
-﻿
-<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-    <img src="/Userimage/@ViewBag.v" alt="profile" />
+﻿@*<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+    <img src="~@TempData["Image"]" alt="profile" />
 </a>
 <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
 
@@ -8,4 +7,25 @@
         <i class="ti-power-off text-primary"></i>
         Çıkış
     </a>
+</div>*@
+
+
+<div class="profile-thumb">
+	
+		@if (ViewBag.v == null)
+		{
+
+			<img src="~/template/images/profil.jpg" alt="" class="rounded-circle">
+		}
+		else
+		{
+			<img src="~/Userimage/@ViewBag.v" alt="" class="rounded-circle">
+		}
+	
+
+
 </div>
+<!-- User Name -->
+<h5 class="text-center">@TempData["AD"] @TempData["Soyad"]</h5>
+<p>@TempData["Tarih"]</p>
+<a href="~/User/Profile/index" class="btn btn-main-sm">Profili Düzenle</a>

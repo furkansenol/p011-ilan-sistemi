@@ -13,5 +13,9 @@ namespace IlanSistemi.UI.Controllers
         {
             return View();
         }
-    }
+		public IActionResult Error403()
+		{
+			return View();
+		}
+	}
 }
