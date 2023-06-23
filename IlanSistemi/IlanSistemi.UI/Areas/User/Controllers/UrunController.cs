@@ -69,7 +69,8 @@ namespace IlanSistemi.UI.Areas.User.Controllers
 				CategoryAdvertId = F.categoryAdverts.Where(z => z.AdvertId == id).FirstOrDefault().Id,
 				ImageId = F.advertImages.Where(z => z.AdvertId == id).FirstOrDefault().Id,
 				
-			};
+
+            };
 			return View(model);
 		}
 

@@ -45,7 +45,6 @@ namespace IlanSistemi.UI.Areas.User.Controllers
 
 				if (result.Succeeded)
 				{
-					// Başarılı giriş durumunda yapılacak işlemler
 					return RedirectToAction("Index", "Dashboard");
 				}
 				else

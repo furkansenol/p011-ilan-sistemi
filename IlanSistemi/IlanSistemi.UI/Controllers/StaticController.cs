@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace IlanSistemi.UI.Controllers
 {
-    public class StaticController : Controller
+	[AllowAnonymous]
+	public class StaticController : Controller
     {
         public IActionResult About()
         {
