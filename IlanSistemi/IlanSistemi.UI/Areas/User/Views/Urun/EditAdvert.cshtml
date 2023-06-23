@@ -1,56 +1,53 @@
-﻿@using IlanSistemi.UI.Areas.User.Controllers
+﻿@using IlanSistemi.Entities.Concrete;
+@using IlanSistemi.UI.Areas.User.Models;
 
-@model EditAdvertViewModel
+@model AddAdvertViewModel
 @{
     ViewData["Title"] = "EditAdvert";
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
-@if (TempData.ContainsKey("SuccessMessage"))
-{
-    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+
+@{
+	var user = TempData["User"] as Users;
+	var userIdentity = (System.Security.Claims.ClaimsIdentity)User.Identity;
+	var userId = userIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 }
 
-@if (TempData.ContainsKey("ErrorMessage"))
-{
-    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
-}
-@if (!ViewData.ModelState.IsValid)
-{
-    <div class="alert alert-danger">
-        <ul>
-            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-            {
-                <li>@error.ErrorMessage</li>
-            }
-        </ul>
-    </div>
-}
-@using (Html.BeginForm("EditAdvert", "Urun", FormMethod.Post))
-{
-    @Html.HiddenFor(x => x.Advert.Id)
-    <div class="col-12 grid-margin stretch-card">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Ürün Düzenleme Sayfası</h4>
-                <p class="card-description">Ürünü Düzenle</p>
+<form method="post" enctype="multipart/form-data">
+	<div class="form-group">
+		<label for="AdvertUser">User:</label>
+		<input type="text" class="form-control" asp-for="userId" value="@user.Id" required />
+		 <input type="hidden" asp-for="AdvertId" />
+	</div>
 
-                <div class="form-group">
-                    <label for="Title">Başlık</label>
-                    @Html.TextBoxFor(x => x.Advert.Title, new { @class = "form-control" })
-                </div>
+	<div class="form-group">
+		<label for="Advert_Title">Title:</label>
+		<input type="text" class="form-control" asp-for="Title" required>
+	</div>
 
-                <div class="form-group">
-                    <label for="Description">Açıklama</label>
-                    @Html.TextAreaFor(x => x.Advert.Description, new { @class = "form-control" })
-                </div>
+	<div class="form-group">
+		<label for="Advert_Description">Description:</label>
+		<textarea class="form-control" asp-for="Description" required></textarea>
+	</div>
 
-                <div class="form-group">
-                    <label for="SelectedCategoryIds">Kategori</label>
-                    @Html.ListBoxFor(x => x.SelectedCategoryIds, new MultiSelectList(Model.Categories, "Id", "Name"), new { @class = "form-control" })
-                </div>
+	<div class="form-group">
+		<label for="SelectedCategoryIds">Categories:</label>
+		<select multiple class="form-control" asp-for="CategoryId" required>
+			@foreach (var category in TempData["Category"] as IEnumerable<Category>)
+			{
+				<option value="@category.Id">@category.Name</option>
+			}
+		</select>
+		<input type="hidden" asp-for="CategoryId" />
+	</div>
 
-                <button type="submit" class="btn btn-primary">Güncelle</button>
-            </div>
-        </div>
-    </div>
-}
+	<div class="form-group">
+		<label for="AdvertImages">Images:</label>
+		<input type="file" class="form-control" asp-for="ImagePath" required multiple>
+		<span class="text-danger">@Html.ValidationMessageFor(m => m.ImagePath)</span>
+		<input type="hidden" asp-for="ImageId" />
+		<input type="hidden" asp-for="CategoryAdvertId" />
+	</div>
+	<button type="submit" class="btn btn-primary">Add</button>
+</form>
+

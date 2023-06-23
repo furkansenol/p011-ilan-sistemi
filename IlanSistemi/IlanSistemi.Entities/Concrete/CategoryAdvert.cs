@@ -13,7 +13,7 @@ namespace IlanSistemi.Entities.Concrete
 		[Key]
         public int Id { get; set; }
         public int CategoryId { get; set; }
-        public int AdvertId { get; set; }
+        public int? AdvertId { get; set; }
 
 
 		//Bağlantı

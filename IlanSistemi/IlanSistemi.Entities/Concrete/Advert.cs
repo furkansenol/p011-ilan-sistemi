@@ -20,7 +20,7 @@ namespace IlanSistemi.Entities.Concrete
         // Bağlantı
 
         public virtual Users User { get; set; }
-		public ICollection<AdvertComment> advertComments { get; set; }
+		public ICollection<AdvertComment>? advertComments { get; set; }
 		public ICollection<CategoryAdvert> categoryAdverts { get; set; }
 		public ICollection<AdvertImage> advertImages { get; set; }
 

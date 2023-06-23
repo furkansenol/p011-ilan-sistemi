@@ -1,4 +1,4 @@
-﻿@using IlanSistemi.UI.Areas.User.Controllers
+﻿@using IlanSistemi.UI.Areas.User.Models;
 
 @model List<AdvertViewModel>
 
@@ -22,7 +22,7 @@
             {
                 <tr>
                     <td class="product-thumb">
-                        <img width="80px" height="auto" src="~/template/images/products/products-1.jpg" alt="image description">
+                        <img width="80px" height="auto" src="@item.ImagePath" alt="image description">
                     </td>
                     <td class="product-details">
                         <h3 class="title">@item.Advert.Title</h3>

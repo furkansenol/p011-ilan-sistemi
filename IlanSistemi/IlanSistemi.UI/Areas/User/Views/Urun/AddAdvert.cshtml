@@ -1,83 +1,57 @@
 ﻿@using IlanSistemi.Entities.Concrete;
 @using IlanSistemi.UI.Areas.User.Controllers
+@using IlanSistemi.UI.Areas.User.Models;
 @using Microsoft.AspNetCore.Identity;
 
 @model AddAdvertViewModel
 @{
-    ViewData["Title"] = "AddAdvert";
-    Layout = "~/Views/Shared/_UserLayout.cshtml";
-}
-
-@if (TempData.ContainsKey("SuccessMessage"))
-{
-    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
-}
-
-@if (TempData.ContainsKey("ErrorMessage"))
-{
-    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
-}
-
-@if (!ViewData.ModelState.IsValid)
-{
-    <div class="alert alert-danger">
-        <ul>
-            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-            {
-                <li>@error.ErrorMessage</li>
-            }
-        </ul>
-    </div>
+	ViewData["Title"] = "AddAdvert";
+	Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
 
 @{
-    var userIdentity = (System.Security.Claims.ClaimsIdentity)User.Identity;
-    var userId = userIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+	var user = TempData["User"] as Users;
+	var userIdentity = (System.Security.Claims.ClaimsIdentity)User.Identity;
+	var userId = userIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 }
 
 <form method="post" enctype="multipart/form-data">
-    <div class="form-group">
-        <label for="AdvertUser">User:</label>
-        <input type="text" class="form-control" asp-for="Advert.UsersId" value="@TempData["id"]" required />
-        <span class="text-danger">@Html.ValidationMessageFor(m => m.User)</span>
-    </div>
+	<div class="form-group">
+		<label for="AdvertUser">User:</label>
+		<input type="text" class="form-control" asp-for="userId" value="@user.Id" required />
 
-    <div class="form-group">
-        <label for="Advert_Title">Title:</label>
-        <input type="text" class="form-control" asp-for="Advert.Title" required>
-    </div>
+	</div>
 
-    <div class="form-group">
-        <label for="Advert_Description">Description:</label>
-        <textarea class="form-control" asp-for="Advert.Description" required></textarea>
-    </div>
+	<div class="form-group">
+		<label for="Advert_Title">Title:</label>
+		<input type="text" class="form-control" asp-for="Title" required>
+	</div>
 
-    <div class="form-group">
-        <label for="SelectedCategoryIds">Categories:</label>
-        <select multiple class="form-control" asp-for="Category.Id" required>
-            @foreach (var category in TempData["Categories"] as IEnumerable<Category>)
-            {
-                <option value="@category.Id" >@category.Name</option>
-            }
-        </select>
-        
-    </div>
+	<div class="form-group">
+		<label for="Advert_Description">Description:</label>
+		<textarea class="form-control" asp-for="Description" required></textarea>
+	</div>
 
-    <div class="form-group">
-        <label for="AdvertImages">Images:</label>
-        <input type="file" class="form-control" asp-for="AdvertImage.ImagePath" required multiple>
-        <span class="text-danger">@Html.ValidationMessageFor(m => m.AdvertImage)</span>
-    </div>
+	<div class="form-group">
+		<label for="SelectedCategoryIds">Categories:</label>
+		<select multiple class="form-control" asp-for="CategoryId" required>
+			@foreach (var category in TempData["Category"] as IEnumerable<Category>)
+			{
+				<option value="@category.Id">@category.Name</option>
+			}
+		</select>
 
-    <div class="form-group">
-        <label for="AdvertComments">Comments:</label>
-        <textarea class="form-control" asp-for="AdvertComments" required></textarea>
-        <span class="text-danger">@Html.ValidationMessageFor(m => m.AdvertComments)</span>
-    </div>
+	</div>
 
-    <div class="form-group">
-        <input type="hidden" name="User" value="@User.Identity.Name" />
-    </div>
+	<div class="form-group">
+		<label for="AdvertImages">Images:</label>
+		<input type="file" class="form-control" asp-for="ImagePath" required multiple>
+		<span class="text-danger">@Html.ValidationMessageFor(m => m.ImagePath)</span>
+	</div>
 
-    <button type="submit" class="btn btn-primary">Add</button>
+	
+
+	
+
+	<button type="submit" class="btn btn-primary">Add</button>
 </form>

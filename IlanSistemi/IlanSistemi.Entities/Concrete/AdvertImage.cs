@@ -13,7 +13,7 @@ namespace IlanSistemi.Entities.Concrete
         public int Id { get; set; }
 
 
-        public int AdvertId { get; set; }
+        public int? AdvertId { get; set; }
 
         [MaxLength(200,ErrorMessage ="{0} {1} karakterden uzun olamaz")]
         public string ImagePath { get; set; }
