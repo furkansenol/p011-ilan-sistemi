@@ -1,16 +1,11 @@
 ﻿using IlanSistemi.Business.Abstract;
 using IlanSistemi.DataAccess.Abstract;
 using IlanSistemi.Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IlanSistemi.Business.Concrete
 {
-	public class AdvertImageManager : IAdvertImageService
+    public class AdvertImageManager : IAdvertImageService
 	{
 		IAdvertImageDal _advertImageDal;
 
@@ -21,32 +16,32 @@ namespace IlanSistemi.Business.Concrete
 
 		public void TAdd(AdvertImage t)
 		{
-			throw new NotImplementedException();
+			_advertImageDal.Insert(t);
 		}
 
 		public void TDelete(AdvertImage t)
 		{
-			throw new NotImplementedException();
+			_advertImageDal.Delete(t);
 		}
 
 		public AdvertImage TGetByID(int id)
 		{
-			throw new NotImplementedException();
+			return _advertImageDal.GetByID(id);
 		}
 
 		public List<AdvertImage> TGetList()
 		{
-			throw new NotImplementedException();
+			return _advertImageDal.GetList();
 		}
 
 		public List<AdvertImage> TGetListbyFilter(Expression<Func<AdvertImage, bool>> filter)
 		{
-			throw new NotImplementedException();
+			return _advertImageDal.GetByFilter(filter);
 		}
 
 		public void TUpdate(AdvertImage t)
 		{
-			throw new NotImplementedException();
+			_advertImageDal.Update(t);
 		}
 	}
 }

@@ -1,42 +1,38 @@
 ﻿using IlanSistemi.Business.Abstract;
 using IlanSistemi.DataAccess.Abstract;
 using IlanSistemi.Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using IlanSistemi.Entities.ViewModels;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IlanSistemi.Business.Concrete
 {
-	public class CategoryManager : ICategoryService
+    public class CategoryManager : ICategoryService
 	{
-		ICategoryDal _categoryDal;
+		private readonly ICategoryDal _CategoryDal;
 
-		public CategoryManager(ICategoryDal categoryDal)
+		public CategoryManager(ICategoryDal CategoryDal)
 		{
-			_categoryDal = categoryDal;
+			_CategoryDal = CategoryDal;
 		}
 
 		public void TAdd(Category t)
 		{
-			_categoryDal.Insert(t);
+			_CategoryDal.Insert(t);
 		}
 
 		public void TDelete(Category t)
 		{
-			_categoryDal.Delete(t);
+			_CategoryDal.Delete(t);
 		}
 
 		public Category TGetByID(int id)
 		{
-			return _categoryDal.GetByID(id);
+			return _CategoryDal.GetByID(id);
 		}
 
 		public List<Category> TGetList()
 		{
-			return _categoryDal.GetList();
+			return _CategoryDal.GetList();
 		}
 
 		public List<Category> TGetListbyFilter(Expression<Func<Category, bool>> filter)
@@ -46,7 +42,17 @@ namespace IlanSistemi.Business.Concrete
 
 		public void TUpdate(Category t)
 		{
-			_categoryDal.Update(t);
+			_CategoryDal.Update(t);
 		}
-	}
+
+		public async Task<List<Advert>> GetCategoryAdverts(int categoryId)
+		{
+			return await _CategoryDal.GetCategoryAdverts(categoryId);
+		}
+
+        public async Task<List<AdvertVM>> GetCategoriesOfUserAdverts(int userId)
+        {
+			return await _CategoryDal.GetCategoriesOfUserAdverts(userId);
+        }
+    }
 }

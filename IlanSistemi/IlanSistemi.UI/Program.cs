@@ -27,6 +27,9 @@ builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<IAdvertDal, EfAdvertDal>();
 builder.Services.AddScoped<IAdvertService, AdvertManager>();
 
+builder.Services.AddScoped<IAdvertImageDal, EfAdvertImageDal>();
+builder.Services.AddScoped<IAdvertImageService, AdvertImageManager>();
+
 
 
 builder.Services.AddMvc(config =>

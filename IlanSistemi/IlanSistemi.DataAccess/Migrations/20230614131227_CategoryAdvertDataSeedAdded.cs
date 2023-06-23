@@ -36,7 +36,7 @@ namespace IlanSistemi.DataAccess.Migrations
                 values: new object[] { 4, new DateTime(2023, 6, 14, 16, 12, 27, 434, DateTimeKind.Local).AddTicks(7827), null, "Zengin pijaması", "Röpteşambır", null, 1 });
 
             migrationBuilder.InsertData(
-                table: "categoryAdverts",
+                table: "CategoryAdverts",
                 columns: new[] { "Id", "AdvertId", "CategoryId", "CreatedAt", "DeletedAt", "UpdatedAt" },
                 values: new object[,]
                 {
@@ -52,7 +52,7 @@ namespace IlanSistemi.DataAccess.Migrations
                 value: new DateTime(2023, 6, 14, 16, 12, 27, 434, DateTimeKind.Local).AddTicks(7638));
 
             migrationBuilder.InsertData(
-                table: "categoryAdverts",
+                table: "CategoryAdverts",
                 columns: new[] { "Id", "AdvertId", "CategoryId", "CreatedAt", "DeletedAt", "UpdatedAt" },
                 values: new object[] { 3, 4, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), null, null });
         }
@@ -60,17 +60,17 @@ namespace IlanSistemi.DataAccess.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DeleteData(
-                table: "categoryAdverts",
+                table: "CategoryAdverts",
                 keyColumn: "Id",
                 keyValue: 1);
 
             migrationBuilder.DeleteData(
-                table: "categoryAdverts",
+                table: "CategoryAdverts",
                 keyColumn: "Id",
                 keyValue: 2);
 
             migrationBuilder.DeleteData(
-                table: "categoryAdverts",
+                table: "CategoryAdverts",
                 keyColumn: "Id",
                 keyValue: 3);
 

@@ -167,7 +167,7 @@ namespace IlanSistemi.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "categoryAdverts",
+                name: "CategoryAdverts",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -180,15 +180,15 @@ namespace IlanSistemi.DataAccess.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_categoryAdverts", x => x.Id);
+                    table.PrimaryKey("PK_CategoryAdverts", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_categoryAdverts_adverts_AdvertId",
+                        name: "FK_CategoryAdverts_adverts_AdvertId",
                         column: x => x.AdvertId,
                         principalTable: "adverts",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_categoryAdverts_categories_CategoryId",
+                        name: "FK_CategoryAdverts_categories_CategoryId",
                         column: x => x.CategoryId,
                         principalTable: "categories",
                         principalColumn: "Id",
@@ -216,13 +216,13 @@ namespace IlanSistemi.DataAccess.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_categoryAdverts_AdvertId",
-                table: "categoryAdverts",
+                name: "IX_CategoryAdverts_AdvertId",
+                table: "CategoryAdverts",
                 column: "AdvertId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_categoryAdverts_CategoryId",
-                table: "categoryAdverts",
+                name: "IX_CategoryAdverts_CategoryId",
+                table: "CategoryAdverts",
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
@@ -240,7 +240,7 @@ namespace IlanSistemi.DataAccess.Migrations
                 name: "AdvertImages");
 
             migrationBuilder.DropTable(
-                name: "categoryAdverts");
+                name: "CategoryAdverts");
 
             migrationBuilder.DropTable(
                 name: "pages");

@@ -12,11 +12,11 @@ namespace IlanSistemi.Business.Concrete
 {
 	public class CategoryAdvertManager : ICategoryAdvertService
 	{
-		ICategoryAdvertDal _categoryAdvertDal;
+		ICategoryAdvertDal _CategoryAdvertDal;
 
-		public CategoryAdvertManager(ICategoryAdvertDal categoryAdvertDal)
+		public CategoryAdvertManager(ICategoryAdvertDal CategoryAdvertDal)
 		{
-			_categoryAdvertDal = categoryAdvertDal;
+			_CategoryAdvertDal = CategoryAdvertDal;
 		}
 
 		public void TAdd(CategoryAdvert t)

@@ -1,12 +1,12 @@
-﻿@using IlanSistemi.Entities.Concrete
-@model List<Category>
+﻿@using IlanSistemi.Entities.ViewModels;
+@model List<AdvertVM>
 <section class="popular-deals section bg-gray">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
-                    <h2>Trending Adds</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, magnam.</p>
+                    <h2>Popüler İlanlar</h2>
+                    <p>En çok ilgi çeken ilanlar</p>
                 </div>
             </div>
         </div>
@@ -16,6 +16,7 @@
                 <div class="trending-ads-slide">
                     @foreach (var item in Model)
                     {
+                        var title = item.Advert.Title.Length > 18 ? item.Advert.Title.Substring(0, 18) + "..." : item.Advert.Title;
                         <div class="col-sm-12 col-lg-4">
                             <!-- product card -->
                             <div class="product-item bg-light">
@@ -23,14 +24,14 @@
                                     <div class="thumb-content">
                                         <!-- <div class="price">$200</div> -->
                                         <a href="single.html">
-                                            <img class="card-img-top img-fluid" src="images/products/products-1.jpg" alt="Card image cap">
+                                            <img class="card-img-top img-fluid" style="object-fit: cover; height: 200px;" src=@item.AdvertImages?.FirstOrDefault()?.ImagePath alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="card-body">
-                                        <h4 class="card-title"><a href="single.html">@item.Name</a></h4>
+                                        <h4 class="card-title"><a href="single.html">@title</a></h4>
                                         <ul class="list-inline product-meta">
                                             <li class="list-inline-item">
-                                                <a href="single.html"><i class="fa fa-folder-open-o"></i>@item.Description</a>
+                                                <a href="single.html"><i class="fa fa-folder-open-o"></i>@item.Advert.Description</a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a href="#"><i class="fa fa-calendar"></i>@DateTime.Now.Year</a>

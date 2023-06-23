@@ -4,9 +4,9 @@
 @{
     string desc = "";
 }
-<div class="widget category-list">
+<div class="widget Category-list">
     <h4 class="widget-header">Kategoriler</h4>
-    <div class="widget category-list">
+    <div class="widget Category-list">
         <h4 class="widget-header">Kategori</h4>
         @foreach (var item in Model)
         {
@@ -16,7 +16,7 @@
                 desc = item.Description;
 
 
-            <ul class="category-list">
+            <ul class="Category-list">
 
                 <li>
                     <a asp-controller="Category" asp-action="@string.Join("",item.Name.Split('-'))">

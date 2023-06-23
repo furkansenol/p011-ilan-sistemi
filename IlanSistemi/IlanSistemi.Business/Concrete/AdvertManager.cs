@@ -1,16 +1,12 @@
 ﻿using IlanSistemi.Business.Abstract;
 using IlanSistemi.DataAccess.Abstract;
 using IlanSistemi.Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using IlanSistemi.Entities.ViewModels;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IlanSistemi.Business.Concrete
 {
-	public class AdvertManager : IAdvertService
+    public class AdvertManager : IAdvertService
 	{
 		IAdvertDal _advertDal;
 
@@ -19,7 +15,12 @@ namespace IlanSistemi.Business.Concrete
 			_advertDal = advertDal;
 		}
 
-		public void TAdd(Advert t)
+        public List<AdvertVM> GetAllAdvertsWithImage()
+        {
+            return _advertDal.GetAllAdvertsWithImage();
+        }
+
+        public void TAdd(Advert t)
 		{
 			_advertDal.Insert(t);
 		}

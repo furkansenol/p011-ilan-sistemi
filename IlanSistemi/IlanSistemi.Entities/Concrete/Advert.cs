@@ -22,7 +22,7 @@ namespace IlanSistemi.Entities.Concrete
 
         public virtual User User { get; set; }
 		public ICollection<AdvertComment> advertComments { get; set; }
-		public ICollection<CategoryAdvert> categoryAdverts { get; set; }
+		public ICollection<CategoryAdvert> CategoryAdverts { get; set; }
 		public ICollection<AdvertImage> advertImages { get; set; }
 
     }

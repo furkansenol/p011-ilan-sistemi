@@ -9,7 +9,7 @@ namespace IlanSistemi.DataAccess.Concrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Data Source=MERT; Database=IlanProjesi2; Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            optionsBuilder.UseSqlServer("Data Source=ERAY\\SQLEXPRESS; database=IlanProjesi3;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
             // Sql de bunu nasıl public yapacağımızı bilemedik yaparsanız seviniriz... =)
 
 
@@ -143,7 +143,42 @@ namespace IlanSistemi.DataAccess.Concrete
                         CategoryId = 2,
                         AdvertId = 4,
                     },
+                    new CategoryAdvert()
+                    {
+                        Id = 4,
+                        CategoryId = 2,
+                        AdvertId = 3,
+                    },
+
                 }
+                );
+
+            modelBuilder.Entity<AdvertImage>().HasData(
+                    new List<AdvertImage>()
+                    {
+                        new AdvertImage() {
+                            Id = 1,
+                            AdvertId = 1,
+                            ImagePath = "/Productimage/laptop1.jpeg"
+                        },
+
+                        new AdvertImage() {
+                            Id = 2,
+                            AdvertId = 2,
+                            ImagePath = "/Productimage/yuruyenucak.png"
+                        },
+                        new AdvertImage() {
+                            Id = 3,
+                            AdvertId = 3,
+                            ImagePath = "/Productimage/gemicik.jpg"
+                        },
+                        new AdvertImage() {
+                            Id = 4,
+                            AdvertId = 4,
+                            ImagePath = "/Productimage/roptesambir.jpg"
+                        },
+
+                    }
                 );
 
 
@@ -160,7 +195,7 @@ namespace IlanSistemi.DataAccess.Concrete
 
 
         public DbSet<Advert> adverts { get; set; }
-        public DbSet<CategoryAdvert> categoryAdverts { get; set; }
+        public DbSet<CategoryAdvert> CategoryAdverts { get; set; }
         public DbSet<AdvertComment> advertComments { get; set; }
         public DbSet<AdvertImage> AdvertImages { get; set; }
         public DbSet<Category> categories { get; set; }

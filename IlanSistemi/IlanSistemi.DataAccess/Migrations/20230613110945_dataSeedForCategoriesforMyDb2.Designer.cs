@@ -203,7 +203,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("categoryAdverts");
+                    b.ToTable("CategoryAdverts");
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Page", b =>
@@ -367,20 +367,20 @@ namespace IlanSistemi.DataAccess.Migrations
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.CategoryAdvert", b =>
                 {
                     b.HasOne("IlanSistemi.Entities.Concrete.Advert", "adverts")
-                        .WithMany("categoryAdverts")
+                        .WithMany("CategoryAdverts")
                         .HasForeignKey("AdvertId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("IlanSistemi.Entities.Concrete.Category", "category")
-                        .WithMany("categoryAdverts")
+                    b.HasOne("IlanSistemi.Entities.Concrete.Category", "Category")
+                        .WithMany("CategoryAdverts")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("adverts");
 
-                    b.Navigation("category");
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Setting", b =>
@@ -400,12 +400,12 @@ namespace IlanSistemi.DataAccess.Migrations
 
                     b.Navigation("advertImages");
 
-                    b.Navigation("categoryAdverts");
+                    b.Navigation("CategoryAdverts");
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Category", b =>
                 {
-                    b.Navigation("categoryAdverts");
+                    b.Navigation("CategoryAdverts");
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.User", b =>

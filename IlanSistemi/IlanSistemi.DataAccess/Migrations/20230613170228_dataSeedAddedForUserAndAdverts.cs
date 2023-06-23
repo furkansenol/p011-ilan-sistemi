@@ -43,7 +43,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
             migrationBuilder.AlterColumn<DateTime>(
                 name: "UpdatedAt",
-                table: "categoryAdverts",
+                table: "CategoryAdverts",
                 type: "datetime2",
                 nullable: true,
                 oldClrType: typeof(DateTime),
@@ -51,7 +51,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
             migrationBuilder.AlterColumn<DateTime>(
                 name: "DeletedAt",
-                table: "categoryAdverts",
+                table: "CategoryAdverts",
                 type: "datetime2",
                 nullable: true,
                 oldClrType: typeof(DateTime),
@@ -174,7 +174,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
             migrationBuilder.AlterColumn<DateTime>(
                 name: "UpdatedAt",
-                table: "categoryAdverts",
+                table: "CategoryAdverts",
                 type: "datetime2",
                 nullable: false,
                 defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -184,7 +184,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
             migrationBuilder.AlterColumn<DateTime>(
                 name: "DeletedAt",
-                table: "categoryAdverts",
+                table: "CategoryAdverts",
                 type: "datetime2",
                 nullable: false,
                 defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
