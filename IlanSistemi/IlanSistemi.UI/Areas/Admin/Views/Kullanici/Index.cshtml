@@ -37,8 +37,15 @@
 										<a asp-controller="Kullanici" asp-action="BanUser" asp-route-id="@item.Id" class="btn btn-inverse-dark">Hesabı Banla</a>
 									}
 									
+									@if(item.IsSuspended == true)
+									{
+										<a asp-controller="Kullanici" asp-action="UnSuspendUser" asp-route-id="@item.Id" class="btn btn-inverse-success">Askı İşlemini Kaldır</a>
+									}
+									else
+									{
+										<a asp-controller="Kullanici" asp-action="SuspendUser" asp-route-id="@item.Id" class="btn btn-inverse-info">Hesabı Askıya Al</a>
+									}
 									
-									<a asp-controller="Kullanici" asp-action="SuspendUser" asp-route-id="@item.Id" class="btn btn-inverse-info">Hesabı Askıya Al</a>
 
 								</td>
 								<td>

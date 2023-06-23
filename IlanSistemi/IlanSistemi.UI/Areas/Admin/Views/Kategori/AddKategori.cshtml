@@ -1,0 +1,32 @@
+﻿@model IlanSistemi.Entities.Concrete.Category
+@{
+    ViewData["Title"] = "AddKategori";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="EditKategori" method="post">
+
+	<div class="col-12 grid-margin stretch-card">
+		<div class="card">
+			<div class="card-body">
+				<h4 class="card-title">Kategori Düzenleme Sayfası</h4>
+
+				<div class="form-group">
+					<label for="Title">Kategori Adı</label>
+					<input type="text" asp-for="Name" />
+
+				</div>
+
+				<div class="form-group">
+					<label for="Description">Açıklama</label>
+					<input type="text" asp-for="Description" />
+				</div>
+				<input type="hidden" asp-for="Id" />
+
+				<button type="submit" class="btn btn-primary">Kaydet</button>
+			</div>
+		</div>
+	</div>
+
+
+</form>

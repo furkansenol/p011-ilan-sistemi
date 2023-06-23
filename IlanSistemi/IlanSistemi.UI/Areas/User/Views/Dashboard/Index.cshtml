@@ -12,7 +12,7 @@
     <table class="table table-responsive product-dashboard-table">
         <thead>
             <tr>
-                <th>#</th>
+               
                 <th>Ürün Adı</th>
                 <th class="text-center">Kategorisi</th>
             </tr>
@@ -21,9 +21,7 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td class="product-thumb">
-                        <img width="80px" height="auto" src="@item.ImagePath" alt="image description">
-                    </td>
+                    
                     <td class="product-details">
                         <h3 class="title">@item.Advert.Title</h3>
                         <span class="add-id"><strong>Ürün ID:</strong> @item.Advert.Id</span>

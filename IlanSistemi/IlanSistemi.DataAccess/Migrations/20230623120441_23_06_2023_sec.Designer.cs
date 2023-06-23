@@ -12,8 +12,13 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IlanSistemi.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
+<<<<<<<< HEAD:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623120441_23_06_2023_sec.Designer.cs
     [Migration("20230623120441_23_06_2023_sec")]
     partial class _23_06_2023_sec
+========
+    [Migration("20230623161705_111_mig")]
+    partial class _111_mig
+>>>>>>>> 02271caab0f6c103eb5bdc32cb44f06fc72092c9:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623161705_111_mig.Designer.cs
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -87,6 +92,7 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("UsersId");
 
                     b.ToTable("adverts");
+<<<<<<<< HEAD:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623120441_23_06_2023_sec.Designer.cs
 
                     b.HasData(
                         new
@@ -120,6 +126,8 @@ namespace IlanSistemi.DataAccess.Migrations
                             Title = "Röpteşambır",
                             UsersId = 4
                         });
+========
+>>>>>>>> 02271caab0f6c103eb5bdc32cb44f06fc72092c9:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623161705_111_mig.Designer.cs
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertComment", b =>
@@ -292,6 +300,7 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("CategoryAdverts");
+<<<<<<<< HEAD:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623120441_23_06_2023_sec.Designer.cs
 
                     b.HasData(
                         new
@@ -318,6 +327,8 @@ namespace IlanSistemi.DataAccess.Migrations
                             AdvertId = 3,
                             CategoryId = 2
                         });
+========
+>>>>>>>> 02271caab0f6c103eb5bdc32cb44f06fc72092c9:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623161705_111_mig.Designer.cs
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Page", b =>
@@ -480,6 +491,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+<<<<<<<< HEAD:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623120441_23_06_2023_sec.Designer.cs
 
                     b.HasData(
                         new
@@ -498,6 +510,8 @@ namespace IlanSistemi.DataAccess.Migrations
                             Surname = "123456",
                             TwoFactorEnabled = false
                         });
+========
+>>>>>>>> 02271caab0f6c103eb5bdc32cb44f06fc72092c9:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623161705_111_mig.Designer.cs
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>

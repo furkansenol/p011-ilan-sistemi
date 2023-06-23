@@ -4,7 +4,6 @@
 			<div class="col-md-12">
 				<nav class="navbar navbar-expand-lg navbar-light navigation">
 					<a class="navbar-brand" href="/">
-						@*Duzenlenecek*@
 						<img src="~/template/images/logo.png" alt="">
 					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -38,21 +37,14 @@
 								</a>
 								<!-- Dropdown list -->
 								<div class="dropdown-menu">
-									<a class="dropdown-item" href="about-us.html">Hakkımızda</a>
-									<a class="dropdown-item" href="contact-us.html">Bize Ulaşın</a>
-									<a class="dropdown-item" asp-area="User" asp-controller="Dashboard" asp-action="Index">Kullanıcı Profili</a>
-									<a class="dropdown-item" href="package.html">Sepet</a>
+									<a class="dropdown-item"  asp-controller="Static" asp-action="About" >Hakkımızda</a>
+									<a class="dropdown-item"  asp-controller="Static" asp-action="Contact"  >Bize Ulaşın</a>
+									<a class="dropdown-item"  asp-area="User" asp-controller="Dashboard" asp-action="Index">Kullanıcı Profili</a>
 								</div>
 							</li>
 						</ul>
-						<ul class="navbar-nav ml-auto mt-10">
-							<li class="nav-item">
-								<a class="nav-link login-button" href="login.html">Giriş</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link text-white add-button" href="ad-listing.html"><i class="fa fa-plus-circle"></i> Üye OL</a>
-							</li>
-						</ul>
+						@await Component.InvokeAsync("LoginList")
+						
 					</div>
 				</nav>
 			</div>

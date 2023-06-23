@@ -12,8 +12,13 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IlanSistemi.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230623104111_23_06_2023_first")]
-    partial class _23_06_2023_first
+<<<<<<<< HEAD:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623120441_23_06_2023_sec.Designer.cs
+    [Migration("20230623120441_23_06_2023_sec")]
+    partial class _23_06_2023_sec
+========
+    [Migration("20230623161705_111_mig")]
+    partial class _111_mig
+>>>>>>>> 02271caab0f6c103eb5bdc32cb44f06fc72092c9:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623161705_111_mig.Designer.cs
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -87,12 +92,13 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("UsersId");
 
                     b.ToTable("adverts");
+<<<<<<<< HEAD:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623120441_23_06_2023_sec.Designer.cs
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2023, 6, 23, 13, 41, 10, 959, DateTimeKind.Local).AddTicks(4440),
+                            CreatedAt = new DateTime(2023, 6, 23, 15, 4, 40, 969, DateTimeKind.Local).AddTicks(6708),
                             Description = "Sahibinden garantisiz laptop",
                             Title = "Laptop Bal Almayan Mal",
                             UsersId = 4
@@ -107,7 +113,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2023, 6, 23, 13, 41, 10, 959, DateTimeKind.Local).AddTicks(4451),
+                            CreatedAt = new DateTime(2023, 6, 23, 15, 4, 40, 969, DateTimeKind.Local).AddTicks(6714),
                             Description = "Krediye uygun gemicik",
                             Title = "Gemicik",
                             UsersId = 4
@@ -115,11 +121,13 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2023, 6, 23, 13, 41, 10, 959, DateTimeKind.Local).AddTicks(4452),
+                            CreatedAt = new DateTime(2023, 6, 23, 15, 4, 40, 969, DateTimeKind.Local).AddTicks(6715),
                             Description = "Zengin pijaması",
                             Title = "Röpteşambır",
                             UsersId = 4
                         });
+========
+>>>>>>>> 02271caab0f6c103eb5bdc32cb44f06fc72092c9:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623161705_111_mig.Designer.cs
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertComment", b =>
@@ -185,25 +193,25 @@ namespace IlanSistemi.DataAccess.Migrations
                         {
                             Id = 1,
                             AdvertId = 1,
-                            ImagePath = "/Productimage/laptop1.jpeg"
+                            ImagePath = "laptop.jpeg"
                         },
                         new
                         {
                             Id = 2,
                             AdvertId = 2,
-                            ImagePath = "/Productimage/yuruyenucak.png"
+                            ImagePath = "yuruyenucak.png"
                         },
                         new
                         {
                             Id = 3,
                             AdvertId = 3,
-                            ImagePath = "/Productimage/gemicik.jpg"
+                            ImagePath = "gemicik.jpg"
                         },
                         new
                         {
                             Id = 4,
                             AdvertId = 4,
-                            ImagePath = "/Productimage/roptesambir.jpg"
+                            ImagePath = "roptesambir.jpg"
                         });
                 });
 
@@ -292,6 +300,7 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("CategoryAdverts");
+<<<<<<<< HEAD:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623120441_23_06_2023_sec.Designer.cs
 
                     b.HasData(
                         new
@@ -318,6 +327,8 @@ namespace IlanSistemi.DataAccess.Migrations
                             AdvertId = 3,
                             CategoryId = 2
                         });
+========
+>>>>>>>> 02271caab0f6c103eb5bdc32cb44f06fc72092c9:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623161705_111_mig.Designer.cs
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Page", b =>
@@ -480,6 +491,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+<<<<<<<< HEAD:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623120441_23_06_2023_sec.Designer.cs
 
                     b.HasData(
                         new
@@ -487,8 +499,8 @@ namespace IlanSistemi.DataAccess.Migrations
                             Id = 4,
                             AccessFailedCount = 0,
                             Address = "Türkiye",
-                            ConcurrencyStamp = "f69fe248-85eb-426b-b4af-c8d26dc8842d",
-                            CreatedAt = new DateTime(2023, 6, 23, 13, 41, 10, 959, DateTimeKind.Local).AddTicks(4303),
+                            ConcurrencyStamp = "342433b6-b18a-4e6c-9721-d858c5afff0a",
+                            CreatedAt = new DateTime(2023, 6, 23, 15, 4, 40, 969, DateTimeKind.Local).AddTicks(6515),
                             Email = "sample@user.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
@@ -498,6 +510,8 @@ namespace IlanSistemi.DataAccess.Migrations
                             Surname = "123456",
                             TwoFactorEnabled = false
                         });
+========
+>>>>>>>> 02271caab0f6c103eb5bdc32cb44f06fc72092c9:IlanSistemi/IlanSistemi.DataAccess/Migrations/20230623161705_111_mig.Designer.cs
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>

@@ -3,6 +3,7 @@ using IlanSistemi.Business.Concrete;
 using IlanSistemi.DataAccess.Concrete;
 using IlanSistemi.Entities.Concrete;
 using IlanSistemi.Entities.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Linq;
@@ -10,7 +11,8 @@ using System.Net.NetworkInformation;
 
 namespace IlanSistemi.UI.Controllers
 {
-    public class CategoryController : Controller
+	[AllowAnonymous]
+	public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
         private readonly DataContext _dataContext;
