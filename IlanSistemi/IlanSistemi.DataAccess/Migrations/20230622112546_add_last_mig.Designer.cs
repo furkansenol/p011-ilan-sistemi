@@ -4,6 +4,7 @@ using IlanSistemi.DataAccess.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IlanSistemi.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230622112546_add_last_mig")]
+    partial class add_last_mig
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -90,7 +92,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2023, 6, 22, 19, 17, 41, 392, DateTimeKind.Local).AddTicks(7763),
+                            CreatedAt = new DateTime(2023, 6, 22, 14, 25, 46, 416, DateTimeKind.Local).AddTicks(4152),
                             Description = "Sahibinden garantisiz laptop",
                             Title = "Laptop Bal Almayan Mal",
                             UsersId = 4
@@ -98,7 +100,6 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2023, 6, 22, 19, 17, 41, 392, DateTimeKind.Local).AddTicks(7768),
                             Description = "Yürüyeni iyi uçak",
                             Title = "Yürüyen Uçak",
                             UsersId = 4
@@ -106,7 +107,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2023, 6, 22, 19, 17, 41, 392, DateTimeKind.Local).AddTicks(7770),
+                            CreatedAt = new DateTime(2023, 6, 22, 14, 25, 46, 416, DateTimeKind.Local).AddTicks(4155),
                             Description = "Krediye uygun gemicik",
                             Title = "Gemicik",
                             UsersId = 4
@@ -114,7 +115,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2023, 6, 22, 19, 17, 41, 392, DateTimeKind.Local).AddTicks(7771),
+                            CreatedAt = new DateTime(2023, 6, 22, 14, 25, 46, 416, DateTimeKind.Local).AddTicks(4156),
                             Description = "Zengin pijaması",
                             Title = "Röpteşambır",
                             UsersId = 4
@@ -170,39 +171,14 @@ namespace IlanSistemi.DataAccess.Migrations
 
                     b.Property<string>("ImagePath")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("AdvertId");
 
                     b.ToTable("AdvertImages");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            AdvertId = 1,
-                            ImagePath = "/Productimage/laptop1.jpeg"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            AdvertId = 2,
-                            ImagePath = "/Productimage/yuruyenucak.png"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            AdvertId = 3,
-                            ImagePath = "/Productimage/gemicik.jpg"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            AdvertId = 4,
-                            ImagePath = "/Productimage/roptesambir.jpg"
-                        });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Category", b =>
@@ -289,7 +265,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("CategoryAdverts");
+                    b.ToTable("categoryAdverts");
 
                     b.HasData(
                         new
@@ -308,15 +284,7 @@ namespace IlanSistemi.DataAccess.Migrations
                         {
                             Id = 3,
                             AdvertId = 4,
-                            CategoryId = 2,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 4,
-                            AdvertId = 3,
-                            CategoryId = 2,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CategoryId = 2
                         });
                 });
 
@@ -487,7 +455,8 @@ namespace IlanSistemi.DataAccess.Migrations
                             Id = 4,
                             AccessFailedCount = 0,
                             Address = "Türkiye",
-                            CreatedAt = new DateTime(2023, 6, 22, 19, 17, 41, 392, DateTimeKind.Local).AddTicks(7523),
+                            ConcurrencyStamp = "8a4e2802-35ad-4563-a928-75a1a4024be7",
+                            CreatedAt = new DateTime(2023, 6, 22, 14, 25, 46, 416, DateTimeKind.Local).AddTicks(4038),
                             Email = "sample@user.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
@@ -654,20 +623,20 @@ namespace IlanSistemi.DataAccess.Migrations
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.CategoryAdvert", b =>
                 {
                     b.HasOne("IlanSistemi.Entities.Concrete.Advert", "adverts")
-                        .WithMany("CategoryAdverts")
+                        .WithMany("categoryAdverts")
                         .HasForeignKey("AdvertId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("IlanSistemi.Entities.Concrete.Category", "Category")
-                        .WithMany("CategoryAdverts")
+                    b.HasOne("IlanSistemi.Entities.Concrete.Category", "category")
+                        .WithMany("categoryAdverts")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Category");
-
                     b.Navigation("adverts");
+
+                    b.Navigation("category");
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Setting", b =>
@@ -734,16 +703,16 @@ namespace IlanSistemi.DataAccess.Migrations
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Advert", b =>
                 {
-                    b.Navigation("CategoryAdverts");
-
                     b.Navigation("advertComments");
 
                     b.Navigation("advertImages");
+
+                    b.Navigation("categoryAdverts");
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Category", b =>
                 {
-                    b.Navigation("CategoryAdverts");
+                    b.Navigation("categoryAdverts");
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Users", b =>
