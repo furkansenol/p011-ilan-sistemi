@@ -23,6 +23,6 @@ namespace IlanSistemi.Entities.Concrete
         public string Description { get; set; }
 
         //Bağlantı
-        public ICollection<CategoryAdvert> categoryAdverts { get; set; }
+        public ICollection<CategoryAdvert> CategoryAdverts { get; set; }
     }
 }

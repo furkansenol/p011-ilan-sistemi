@@ -1,13 +1,11 @@
 ﻿using IlanSistemi.Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using IlanSistemi.Entities.ViewModels;
 
 namespace IlanSistemi.DataAccess.Abstract
 {
-	public interface IAdvertDal : IGenericDal<Advert>
+    public interface IAdvertDal : IGenericDal<Advert>
 	{
+		List<AdvertVM> GetAllAdvertsWithImage();
+
 	}
 }

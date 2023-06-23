@@ -6,11 +6,11 @@ namespace IlanSistemi.UI.ViewComponents
 {
 	public class CategoryList : ViewComponent
 	{
-		CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+		CategoryManager CategoryManager = new CategoryManager(new EfCategoryDal());
 
 		public IViewComponentResult Invoke()
 		{
-			var values = categoryManager.TGetList();
+			var values = CategoryManager.TGetList();
 			return View(values);
 		}
 	}

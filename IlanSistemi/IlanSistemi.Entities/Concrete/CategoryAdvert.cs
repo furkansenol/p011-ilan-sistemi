@@ -19,7 +19,7 @@ namespace IlanSistemi.Entities.Concrete
 		//Bağlantı
 
 		public virtual Advert adverts { get; set; }
-		public virtual Category category { get; set; }
+		public virtual Category Category { get; set; }
 
 
         //TODO

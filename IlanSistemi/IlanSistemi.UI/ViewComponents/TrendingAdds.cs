@@ -1,18 +1,22 @@
-﻿using IlanSistemi.Business.Concrete;
-using IlanSistemi.DataAccess.EntityFramework;
-using IlanSistemi.Entities.Concrete;
+﻿using IlanSistemi.Business.Abstract;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IlanSistemi.UI.ViewComponents
 {
-	public class TrendingAdds : ViewComponent //BURANIN ADVERT ENTITY'SI ILE OLMASI LAZIM AMA KATMANLARI CIKILMAMIS ONDAN DOLAYI CATEGORY ILE YAPTIM
+    public class TrendingAdds : ViewComponent 
 	{
-		CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+        private readonly IAdvertService _advertManager;
 
-		public IViewComponentResult Invoke()
-		{
-			var values = categoryManager.TGetList();
-			return View(values);
-		}
-	}
+        public TrendingAdds(IAdvertService advertManager)
+        {
+            _advertManager = advertManager;
+        }
+
+        public IViewComponentResult Invoke()
+        {
+            var adverts = _advertManager.GetAllAdvertsWithImage();
+
+            return View(adverts);
+        }
+    }
 }

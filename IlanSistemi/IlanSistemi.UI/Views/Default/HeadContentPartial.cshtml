@@ -6,23 +6,23 @@
 			<div class="content-block">
 				<h1>Alıp & Satmak Çok Yakınınızda </h1>
 				<p>Dünyadaki diğer topluluklarla birlikte  <br> Birbirlerinden alıp satan milyonlara katılın </p>
-				<div class="short-popular-category-list text-center">
+				<div class="short-popular-Category-list text-center">
 					<h2>Popüler Kategoriler</h2>
 					<ul class="list-inline">
 						<li class="list-inline-item">
-							<a href="category.html"><i class="fa fa-bed"></i> Oteller</a>
+							<a asp-controller="category" asp-action="Elektronik"><i class="fa fa-bolt"></i> Elektronik</a>
 						</li>
 						<li class="list-inline-item">
-							<a href="category.html"><i class="fa fa-grav"></i> Fitness Salonları</a>
+							<a asp-controller="category" asp-action="Moda"><i class="fa fa-female"></i> Moda</a>
 						</li>
 						<li class="list-inline-item">
-							<a href="category.html"><i class="fa fa-car"></i> Arabalar</a>
+							<a asp-controller="category" asp-action="EvYasam"><i class="fa fa-home"></i> Ev, Yaşam</a>
 						</li>
 						<li class="list-inline-item">
-							<a href="category.html"><i class="fa fa-cutlery"></i> Restorantlar</a>
+							<a asp-controller="category" asp-action="SporOutdoor"><i class="fa fa-heart-o"></i> Spor, Outdoor</a>
 						</li>
 						<li class="list-inline-item">
-							<a href="category.html"><i class="fa fa-coffee"></i> Kafeler</a>
+							<a asp-controller="category" asp-action="Kozmetik"><i class="fa fa-sun-o"></i> Kozmetik</a>
 						</li>
 					</ul>
 				</div>
@@ -33,23 +33,11 @@
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-lg-12 col-md-12 align-content-center">
-							<form>
-								<div class="form-row">
-									<div class="form-group col-md-4">
-										<input type="text" class="form-control my-2 my-lg-1" id="inputtext4" placeholder="Neye bakmıştın canım....">
-									</div>
-									<div class="form-group col-md-3">
-										<select class="w-100 form-control mt-lg-1 mt-md-2">
-											<option>Sıralama</option>
-											<option value="1">En Çok Oy Alan</option>
-											<option value="2">En Düşük Oy Alan</option>
-											<option value="3">En Yüksek Fiyat</option>
-											<option value="4">En Düşük Fiyat</option>
-										</select>
-									</div>
-									<div class="form-group col-md-3">
-										<input type="text" class="form-control my-2 my-lg-1" id="inputLocation4" placeholder="Konum">
-									</div>
+							<form asp-controller="Category" asp-action="Index" method="get">
+								<div class="form-row justify-content-center">
+									<div class="form-group col-md-6">
+										<input type="text" class="form-control my-2 my-lg-1" id="inputtext4" name="query" placeholder="Neye bakmıştın canım....">
+									</div>								
 									<div class="form-group col-md-2 align-self-center">
 										<button type="submit" class="btn btn-primary">Şimdi Ara</button>
 									</div>
