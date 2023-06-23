@@ -1,16 +1,11 @@
 ﻿using IlanSistemi.Business.Abstract;
 using IlanSistemi.DataAccess.Abstract;
 using IlanSistemi.Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IlanSistemi.Business.Concrete
 {
-	public class AdvertImageManager : IAdvertImageService
+    public class AdvertImageManager : IAdvertImageService
 	{
 		IAdvertImageDal _advertImageDal;
 

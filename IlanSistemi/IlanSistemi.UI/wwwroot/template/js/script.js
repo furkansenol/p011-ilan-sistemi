@@ -48,7 +48,7 @@
     // -----------------------------
     //  Client Slider
     // -----------------------------
-    $('.category-slider').slick({
+    $('.Category-slider').slick({
       slidesToShow: 8,
       infinite: true,
       arrows: false,
@@ -120,7 +120,7 @@
   });
 
   // Client Slider 
-  $('.category-slider').slick({
+  $('.Category-slider').slick({
     dots: false,
     slidesToShow: 5,
     slidesToScroll: 1,

@@ -1,11 +1,10 @@
 ﻿using IlanSistemi.Business.Abstract;
-using IlanSistemi.Business.Concrete;
-using IlanSistemi.DataAccess.EntityFramework;
+using IlanSistemi.Entities.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IlanSistemi.UI.ViewComponents
 {
-	public class ProductList : ViewComponent
+    public class ProductList : ViewComponent
 	{
 		IAdvertService _advertManager;
 
@@ -14,10 +13,13 @@ namespace IlanSistemi.UI.ViewComponents
             _advertManager = advertManager;
         }
 
-        public IViewComponentResult Invoke()
-		{
+        public IViewComponentResult Invoke(string query)
+		{		
 			var values = _advertManager.TGetList();
-			return View(values);
+			if (!String.IsNullOrEmpty(query))
+				values = values.Where(v => v.Title.ToLower().Contains(query.ToLower())).ToList();
+
+            return View(values);
 		}
 	}
 }

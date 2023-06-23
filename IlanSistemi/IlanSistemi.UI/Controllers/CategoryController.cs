@@ -1,8 +1,12 @@
 ﻿using IlanSistemi.Business.Abstract;
+using IlanSistemi.Business.Concrete;
 using IlanSistemi.DataAccess.Concrete;
 using IlanSistemi.Entities.Concrete;
+using IlanSistemi.Entities.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json.Linq;
+using System.Net.NetworkInformation;
 
 namespace IlanSistemi.UI.Controllers
 {
@@ -11,129 +15,112 @@ namespace IlanSistemi.UI.Controllers
         private readonly ICategoryService _categoryService;
         private readonly DataContext _dataContext;
 
-        public CategoryController(ICategoryService categoryService)
+        public CategoryController(ICategoryService categoryService, DataContext dataContext)
         {
             _categoryService = categoryService;
-            _dataContext = new DataContext();
+            _dataContext = dataContext;
         }
 
-        public IActionResult Index()
+        [Route("category/products")]
+        public async Task<IActionResult> Index(string query)
         {
             ViewBag.Category = "Tüm kategorilerdeki ürünler";
-            ViewBag.AdvertCount = _dataContext.adverts.Count();
-            return View();
+            ViewBag.AdvertCount = _categoryService.TGetList().Count();
+            var allAdverts = await _dataContext.categories
+                .Include(c => c.CategoryAdverts)
+                .ThenInclude(ca => ca.adverts)
+                .ThenInclude(ca=> ca.advertImages)
+                .ToListAsync();
+
+            var adverts = allAdverts.SelectMany(a => a.CategoryAdverts)
+                .Select(ca => ca.adverts).ToList();
+
+            if (!String.IsNullOrEmpty(query))
+            {
+                adverts = adverts.Where(v => v.Title.ToLower().Contains(query.ToLower())).ToList();
+                ViewBag.Category = $" '{query}' araması için ilanlar ";
+            }
+                
+            return View(adverts);
         }
 
+        
 
         [Route("category/elektronik-aletler")]
         public async Task<IActionResult> Elektronik()
         {
-            //Getting category with specific Id
-            var category = await _dataContext.categories
-                    .Include(c => c.categoryAdverts)
-                    .ThenInclude(ca => ca.adverts)
-                    .FirstOrDefaultAsync(c => c.Id == 1);
 
-            var adverts = new List<Advert>();
+            var categoryAdverts = await _categoryService.GetCategoryAdverts(1);
+            
 
-            if (category?.categoryAdverts.Count == 0)
+            if (categoryAdverts?.Count == 0)
                 ViewData["message"] = "Bu kategoride gösterilecek herhangi bir ürün yok.";
-            else
-                adverts = category?.categoryAdverts.Select(ca => ca.adverts).ToList();
 
             ViewBag.Category = "Elektronik kategorisindeki ürünler";
-            ViewBag.AdvertCount = adverts?.Count;
-
-            return View(adverts);
+            ViewBag.AdvertCount = categoryAdverts?.Count;
+            return View(categoryAdverts);
         }
 
         [Route("category/moda-giyim")]
         public async Task<IActionResult> Moda()
         {
-            //Getting category with specific Id
-            var category = await _dataContext.categories
-                    .Include(c => c.categoryAdverts)
-                    .ThenInclude(ca => ca.adverts)
-                    .FirstOrDefaultAsync(c => c.Id == 2);
+            var categoryAdverts = await _categoryService.GetCategoryAdverts(2);
 
-            var adverts = new List<Advert>();
-
-            if (category?.categoryAdverts.Count == 0)
+            if (categoryAdverts?.Count == 0)
                 ViewData["message"] = "Bu kategoride gösterilecek herhangi bir ürün yok.";
-            else
-                adverts = category?.categoryAdverts.Select(ca => ca.adverts).ToList();
 
             ViewBag.Category = "Moda kategorisindeki ürünler";
-            ViewBag.AdvertCount = adverts?.Count;
+            ViewBag.AdvertCount = categoryAdverts?.Count;
 
-            return View(adverts);
+            return View(categoryAdverts);
         }
 
         [Route("category/ev-yasam")]
         public async Task<IActionResult> EvYasam()
         {
 
-            //Getting category with specific Id
-            var category = await _dataContext.categories
-                    .Include(c => c.categoryAdverts)
-                    .ThenInclude(ca => ca.adverts)
-                    .FirstOrDefaultAsync(c => c.Id == 3);
+            //Getting Category with specific Id
+            var categoryAdverts = await _categoryService.GetCategoryAdverts(3);
 
-            var adverts = new List<Advert>();
-
-            if (category?.categoryAdverts.Count == 0)
+            if (categoryAdverts?.Count == 0)
                 ViewData["message"] = "Bu kategoride gösterilecek herhangi bir ürün yok.";
-            else
-                adverts = category?.categoryAdverts.Select(ca => ca.adverts).ToList();
 
-            ViewBag.Category = "Ev, Yaşam kategorisindeki ürünler";
-            ViewBag.AdvertCount = adverts?.Count;
+            ViewBag.Category = "Ev Yaşam kategorisindeki ürünler";
+            ViewBag.AdvertCount = categoryAdverts?.Count;
 
-            return View(adverts);
+            return View(categoryAdverts);
         }
 
         [Route("category/spor-outdoor")]
         public async  Task<IActionResult> SporOutdoor()
         {
 
-            //Getting category with specific Id
-            var category = await _dataContext.categories
-                    .Include(c => c.categoryAdverts)
-                    .ThenInclude(ca => ca.adverts)
-                    .FirstOrDefaultAsync(c => c.Id == 4);
-            var adverts = new List<Advert>();
+            //Getting Category with specific Id
+            var categoryAdverts = await _categoryService.GetCategoryAdverts(4);
 
-            if (category?.categoryAdverts.Count == 0)
+            if (categoryAdverts?.Count == 0)
                 ViewData["message"] = "Bu kategoride gösterilecek herhangi bir ürün yok.";
-            else
-                adverts = category?.categoryAdverts.Select(ca => ca.adverts).ToList();
 
             ViewBag.Category = "Spor, Outdoor kategorisindeki ürünler";
-            ViewBag.AdvertCount = adverts?.Count;
+            ViewBag.AdvertCount = categoryAdverts?.Count;
 
-            return View(adverts);
+            return View(categoryAdverts);
         }
 
         [Route("category/kisisel-bakim")]
         public async Task<IActionResult> Kozmetik()
         {
 
-            //Getting category with specific Id
-            var category = await _dataContext.categories
-                    .Include(c => c.categoryAdverts)
-                    .ThenInclude(ca => ca.adverts)
-                    .FirstOrDefaultAsync(c => c.Id == 5);
-            var adverts = new List<Advert>();
+            //Getting Category with specific Id
+            var categoryAdverts = await _categoryService.GetCategoryAdverts(5);
 
-            if (category?.categoryAdverts.Count == 0)
+            if (categoryAdverts?.Count == 0)
                 ViewData["message"] = "Bu kategoride gösterilecek herhangi bir ürün yok.";
-            else
-                adverts = category?.categoryAdverts.Select(ca => ca.adverts).ToList();
 
             ViewBag.Category = "Kozmetik kategorisindeki ürünler";
-            ViewBag.AdvertCount = adverts?.Count;
+            ViewBag.AdvertCount = categoryAdverts?.Count;
 
-            return View(adverts);
+            return View(categoryAdverts);
         }
 
 
