@@ -1,0 +1,23 @@
+﻿@model IlanSistemi.Entities.Concrete.Users
+
+
+<ul class="navbar-nav ml-auto mt-10">
+
+	@if (Model == null)
+	{
+		<li class="nav-item">
+			<a class="nav-link login-button" asp-area="User" asp-controller="Login" asp-action="Index">Giriş</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link text-white add-button" asp-area="User" asp-controller="Register" asp-action="Index"><i class="fa fa-plus-circle"></i> Üye Ol</a>
+		</li>
+	}
+	else
+	{
+		<li class="nav-item">
+			<a class="nav-link login-button" asp-area="User" asp-controller="Login" asp-action="LogOut">Çıkış</a>
+		</li>
+	}
+
+
+</ul>

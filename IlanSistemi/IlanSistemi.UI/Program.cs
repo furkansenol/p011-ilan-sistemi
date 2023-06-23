@@ -47,7 +47,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.Cookie.HttpOnly = true;
     options.ExpireTimeSpan = TimeSpan.FromMinutes(100);
   //  options.AccessDeniedPath = "/ErrorPage/Index/";
-    options.LoginPath = "/User/Login/Index/";
+    options.LoginPath = "/Default/Index/";
 });
 
 

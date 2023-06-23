@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace IlanSistemi.UI.Controllers
 {
-    public class DefaultController : Controller
+	[AllowAnonymous]
+	public class DefaultController : Controller
     {
         public IActionResult Index()
         {

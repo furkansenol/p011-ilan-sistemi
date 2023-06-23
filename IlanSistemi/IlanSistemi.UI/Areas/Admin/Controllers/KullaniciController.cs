@@ -2,15 +2,18 @@
 using IlanSistemi.DataAccess.Concrete;
 using IlanSistemi.DataAccess.EntityFramework;
 using IlanSistemi.Entities.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Data;
 
 namespace IlanSistemi.UI.Areas.Admin.Controllers
 {
 	[Area("Admin")]
 	[Route("Admin/[controller]/[action]")]
+	[Authorize(Roles = "Admin")]
 	public class KullaniciController : Controller
 	{
 		UserManager _userManager = new UserManager(new EfUserDal());
@@ -69,11 +72,22 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
 
             return RedirectToAction("Index");
         }
+	
+		public async Task <IActionResult> UnSuspendUser(Users users)
+		{
+			var valuses = _userManager.TGetByID(users.Id);
+			if (users == null)
+			{
+				return NotFound();
+			}
+			await _userManager.UnsuspendUser(valuses.Id);
+			return RedirectToAction("Index");
+		}
 
 
 
 
 
 
-    }
+	}
 }

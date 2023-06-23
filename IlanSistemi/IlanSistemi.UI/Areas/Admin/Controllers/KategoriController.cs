@@ -2,12 +2,15 @@
 using IlanSistemi.DataAccess.Concrete;
 using IlanSistemi.DataAccess.EntityFramework;
 using IlanSistemi.Entities.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace IlanSistemi.UI.Areas.Admin.Controllers
 {
 	[Area("Admin")]
 	[Route("Admin/[controller]/[action]")]
+	[Authorize(Roles = "Admin")]
 	public class KategoriController : Controller
 	{
 		CategoryManager _categoryManager = new CategoryManager(new EfCategoryDal());
@@ -17,7 +20,20 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
 			return View(values);
 		}
 
-        [HttpGet]
+		[HttpGet]
+		public IActionResult AddKategori()
+		{
+			return View();
+		}
+
+		[HttpPost]
+		public IActionResult AddKategori(Category category)
+		{
+			_categoryManager.TAdd(category);
+			return RedirectToAction("Index");
+		}
+
+		[HttpGet]
         public IActionResult EditKategori(int id)
 		{
 			var values = _categoryManager.TGetByID(id);

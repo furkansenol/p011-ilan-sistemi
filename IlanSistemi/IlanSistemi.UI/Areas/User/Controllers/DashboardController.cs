@@ -32,7 +32,10 @@ namespace IlanSistemi.UI.Areas.User.Controllers
 
 			var userId = _userManager.TGetListbyFilter(u => u.UserName == User.Identity.Name)
 									 .FirstOrDefault()?.Id;
-			var model = _dataContext.adverts.Include(a => a.advertImages).Include(a => a.categoryAdverts).ThenInclude(a => a.category).Where(a => a.UsersId == userId).ToList();
+
+			var a = _advertManager.GetAllAdvertsWithImage().Where(z => z.Advert.UsersId == userId).ToList();
+
+            var model = _dataContext.adverts.Include(a => a.advertImages).Include(a => a.categoryAdverts).ThenInclude(a => a.Category).Where(a => a.UsersId == userId).ToList();
 			if (userId == null)
 			{
 				return RedirectToAction("Error");

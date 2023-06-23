@@ -85,40 +85,6 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("UsersId");
 
                     b.ToTable("adverts");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(2023, 6, 22, 19, 17, 41, 392, DateTimeKind.Local).AddTicks(7763),
-                            Description = "Sahibinden garantisiz laptop",
-                            Title = "Laptop Bal Almayan Mal",
-                            UsersId = 4
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreatedAt = new DateTime(2023, 6, 22, 19, 17, 41, 392, DateTimeKind.Local).AddTicks(7768),
-                            Description = "Yürüyeni iyi uçak",
-                            Title = "Yürüyen Uçak",
-                            UsersId = 4
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreatedAt = new DateTime(2023, 6, 22, 19, 17, 41, 392, DateTimeKind.Local).AddTicks(7770),
-                            Description = "Krediye uygun gemicik",
-                            Title = "Gemicik",
-                            UsersId = 4
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CreatedAt = new DateTime(2023, 6, 22, 19, 17, 41, 392, DateTimeKind.Local).AddTicks(7771),
-                            Description = "Zengin pijaması",
-                            Title = "Röpteşambır",
-                            UsersId = 4
-                        });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertComment", b =>
@@ -170,39 +136,14 @@ namespace IlanSistemi.DataAccess.Migrations
 
                     b.Property<string>("ImagePath")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("AdvertId");
 
                     b.ToTable("AdvertImages");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            AdvertId = 1,
-                            ImagePath = "/Productimage/laptop1.jpeg"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            AdvertId = 2,
-                            ImagePath = "/Productimage/yuruyenucak.png"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            AdvertId = 3,
-                            ImagePath = "/Productimage/gemicik.jpg"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            AdvertId = 4,
-                            ImagePath = "/Productimage/roptesambir.jpg"
-                        });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Category", b =>
@@ -290,34 +231,6 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("CategoryAdverts");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            AdvertId = 1,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            Id = 2,
-                            AdvertId = 2,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            Id = 3,
-                            AdvertId = 4,
-                            CategoryId = 2,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 4,
-                            AdvertId = 3,
-                            CategoryId = 2,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Page", b =>
@@ -480,23 +393,6 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 4,
-                            AccessFailedCount = 0,
-                            Address = "Türkiye",
-                            CreatedAt = new DateTime(2023, 6, 22, 19, 17, 41, 392, DateTimeKind.Local).AddTicks(7523),
-                            Email = "sample@user.com",
-                            EmailConfirmed = false,
-                            LockoutEnabled = false,
-                            Name = "Sample",
-                            Phone = "0543212340",
-                            PhoneNumberConfirmed = false,
-                            Surname = "123456",
-                            TwoFactorEnabled = false
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -652,10 +548,8 @@ namespace IlanSistemi.DataAccess.Migrations
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.CategoryAdvert", b =>
                 {
                     b.HasOne("IlanSistemi.Entities.Concrete.Advert", "adverts")
-                        .WithMany("CategoryAdverts")
-                        .HasForeignKey("AdvertId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany("categoryAdverts")
+                        .HasForeignKey("AdvertId");
 
                     b.HasOne("IlanSistemi.Entities.Concrete.Category", "Category")
                         .WithMany("CategoryAdverts")
@@ -732,11 +626,11 @@ namespace IlanSistemi.DataAccess.Migrations
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Advert", b =>
                 {
-                    b.Navigation("CategoryAdverts");
-
                     b.Navigation("advertComments");
 
                     b.Navigation("advertImages");
+
+                    b.Navigation("categoryAdverts");
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Category", b =>
