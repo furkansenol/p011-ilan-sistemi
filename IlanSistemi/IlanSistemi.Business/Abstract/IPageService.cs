@@ -9,5 +9,7 @@ namespace IlanSistemi.Business.Abstract
 {
     public interface IPageService : IGenericService<Page>
     {
-    }
+		Task ActivePage(int id);
+		Task PassivePage(int id);
+	}
 }

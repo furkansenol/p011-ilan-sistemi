@@ -1,5 +1,6 @@
 ﻿using IlanSistemi.Business.Abstract;
 using IlanSistemi.DataAccess.Abstract;
+using IlanSistemi.DataAccess.EntityFramework;
 using IlanSistemi.Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -17,36 +18,56 @@ namespace IlanSistemi.Business.Concrete
         public PageManager(IPageDal pageDal)
         {
             _pageDal = pageDal;
-        }
+		}
+
+		public async Task ActivePage(int id)
+		{
+			var page = _pageDal.GetByID(id);
+			if (page != null)
+			{
+				page.IsActive = true;
+				_pageDal.Update(page);
+			}
+		}
+
+		public async Task PassivePage(int id)
+		{
+			var page = _pageDal.GetByID(id);
+			if (page != null)
+			{
+				page.IsActive = false;
+				_pageDal.Update(page);
+			}
+		}
 
 		public void TAdd(Page t)
 		{
-			throw new NotImplementedException();
+			_pageDal.Insert(t);
 		}
 
 		public void TDelete(Page t)
 		{
-			throw new NotImplementedException();
+			_pageDal.Delete(t);
 		}
 
 		public Page TGetByID(int id)
 		{
-			throw new NotImplementedException();
+			return _pageDal.GetByID(id);
 		}
 
 		public List<Page> TGetList()
 		{
-			throw new NotImplementedException();
+			return _pageDal.GetList();
 		}
 
 		public List<Page> TGetListbyFilter(Expression<Func<Page, bool>> filter)
 		{
-			throw new NotImplementedException();
+			return _pageDal.GetByFilter(filter);
 		}
 
 		public void TUpdate(Page t)
 		{
-			throw new NotImplementedException();
+			_pageDal.Update(t);		
 		}
 	}
 }

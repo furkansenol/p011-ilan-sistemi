@@ -13,7 +13,7 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
 {
 	[Area("Admin")]
 	[Route("Admin/[controller]/[action]")]
-	[Authorize(Roles = "Admin")]
+	
 	public class KullaniciController : Controller
 	{
 		UserManager _userManager = new UserManager(new EfUserDal());

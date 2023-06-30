@@ -7,18 +7,24 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Suspend User</h2>
-
-<form asp-controller="Kullanici" asp-action="SuspendUser" method="post">
-    <input type="hidden" asp-for="Id" value="@Model.Id" />
-
-    <label for="suspensionTime">Suspend Süresi:</label>
-    <select id="suspensionTime" name="SuspensionDuration">
-        <option value="1">1 saat</option>
-        <option value="6">6 saat</option>
-        <option value="12">12 saat</option>
-        <option value="24">24 saat</option>
-    </select>
-
-    <button type="submit" class="btn btn-inverse-info">Hesabı Askıya Al</button>
-</form>
+<div class="col-md-12 grid-margin stretch-card">
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">Kullanıcı Askıya Alma Paneli</h4>
+			<form asp-controller="Kullanici" asp-action="SuspendUser" method="post">
+				<input type="hidden" asp-for="Id" value="@Model.Id" />
+				<div class="form-group row">
+					<label for="exampleInputUsername2" class="col-sm-3 col-form-label">Askı Süresi:</label>
+					<select asp-for="IsSuspended" name="SuspensionDuration">
+						<option value="1">1 saat</option>
+						<option value="6">6 saat</option>
+						<option value="12">12 saat</option>
+						<option value="24">24 saat</option>
+					</select>
+				</div>
+				
+				<button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+			</form>
+		</div>
+	</div>
+</div>

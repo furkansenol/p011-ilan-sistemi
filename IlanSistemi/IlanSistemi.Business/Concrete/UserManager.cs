@@ -36,7 +36,7 @@ namespace IlanSistemi.Business.Concrete
 
 			if (user != null)
 			{
-				user.IsBanned = false; // Ban durumunu kaldır
+				user.IsBanned = false; 
 				_userDal.Update(user);
 			}
 		}
