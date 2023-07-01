@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IlanSistemi.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230623161705_111_mig")]
-    partial class _111_mig
+    [Migration("20230701080050_1001_firstMig")]
+    partial class _1001_firstMig
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -87,11 +87,51 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("UsersId");
 
                     b.ToTable("adverts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTime(2023, 7, 1, 11, 0, 50, 290, DateTimeKind.Local).AddTicks(2321),
+                            Description = "Sahibinden garantisiz laptop",
+                            Title = "Laptop Bal Almayan Mal",
+                            UsersId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Yürüyeni iyi uçak",
+                            Title = "Yürüyen Uçak",
+                            UsersId = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTime(2023, 7, 1, 11, 0, 50, 290, DateTimeKind.Local).AddTicks(2325),
+                            Description = "Krediye uygun gemicik",
+                            Title = "Gemicik",
+                            UsersId = 1
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedAt = new DateTime(2023, 7, 1, 11, 0, 50, 290, DateTimeKind.Local).AddTicks(2327),
+                            Description = "Zengin pijaması",
+                            Title = "Röpteşambır",
+                            UsersId = 1
+                        });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertComment", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int?>("AdvertId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("AdvertId1")
@@ -99,7 +139,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
                     b.Property<string>("Comment")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -114,13 +154,21 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int?>("UsersId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsersId1")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AdvertId");
+
                     b.HasIndex("AdvertId1");
 
                     b.HasIndex("UsersId");
+
+                    b.HasIndex("UsersId1");
 
                     b.ToTable("advertComments");
                 });
@@ -146,6 +194,32 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("AdvertId");
 
                     b.ToTable("AdvertImages");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AdvertId = 1,
+                            ImagePath = "laptop.jpeg"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AdvertId = 2,
+                            ImagePath = "yuruyenucak.png"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AdvertId = 3,
+                            ImagePath = "gemicik.jpg"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AdvertId = 4,
+                            ImagePath = "roptesambir.jpg"
+                        });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Category", b =>
@@ -194,12 +268,6 @@ namespace IlanSistemi.DataAccess.Migrations
                             Id = 4,
                             Description = "Aradığınız tüm spor ürünleri",
                             Name = "Spor-Outdoor"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Description = "Kişisel bakım ve makyaj malzemeleri",
-                            Name = "Kozmetik"
                         });
                 });
 
@@ -233,6 +301,32 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("CategoryAdverts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AdvertId = 1,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AdvertId = 2,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AdvertId = 4,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AdvertId = 3,
+                            CategoryId = 2
+                        });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.Page", b =>
@@ -395,6 +489,24 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AccessFailedCount = 0,
+                            Address = "Türkiye",
+                            ConcurrencyStamp = "5bd68353-f7c6-4e60-87e3-91541b816e81",
+                            CreatedAt = new DateTime(2023, 7, 1, 11, 0, 50, 290, DateTimeKind.Local).AddTicks(2193),
+                            Email = "sample@user.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            Name = "Sample",
+                            Phone = "0543212340",
+                            PhoneNumberConfirmed = false,
+                            Surname = "123456",
+                            TwoFactorEnabled = false
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -513,25 +625,25 @@ namespace IlanSistemi.DataAccess.Migrations
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertComment", b =>
                 {
+                    b.HasOne("IlanSistemi.Entities.Concrete.Advert", "Advert")
+                        .WithMany()
+                        .HasForeignKey("AdvertId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("IlanSistemi.Entities.Concrete.Advert", null)
                         .WithMany("advertComments")
                         .HasForeignKey("AdvertId1");
 
-                    b.HasOne("IlanSistemi.Entities.Concrete.Advert", "Advert")
-                        .WithMany()
-                        .HasForeignKey("Id")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
                     b.HasOne("IlanSistemi.Entities.Concrete.Users", "User")
                         .WithMany()
-                        .HasForeignKey("Id")
+                        .HasForeignKey("UsersId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("IlanSistemi.Entities.Concrete.Users", null)
                         .WithMany("advertComments")
-                        .HasForeignKey("UsersId");
+                        .HasForeignKey("UsersId1");
 
                     b.Navigation("Advert");
 

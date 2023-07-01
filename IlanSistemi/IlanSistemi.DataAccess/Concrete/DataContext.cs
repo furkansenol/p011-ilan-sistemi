@@ -5,97 +5,207 @@ using Microsoft.EntityFrameworkCore;
 
 namespace IlanSistemi.DataAccess.Concrete
 {
-    public class DataContext : IdentityDbContext<Users, AdminRole, int>
-    {
+	public class DataContext : IdentityDbContext<Users, AdminRole, int>
+	{
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Data Source=MERT; Database=IlanProjesi5; Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
-            // Sql de bunu nasıl public yapacağımızı bilemedik yaparsanız seviniriz... =)
-
-
-        }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
+		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		{
+			base.OnConfiguring(optionsBuilder);
+			optionsBuilder.UseSqlServer("Data Source=MERT; Database=IlanProjesi; Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+			// Sql de bunu nasıl public yapacağımızı bilemedik yaparsanız seviniriz... =)
 
 
-
-            modelBuilder.Entity<AdvertComment>()
-                .HasKey(c => c.Id);
-
-            modelBuilder.Entity<AdvertComment>()
-                .HasOne(c => c.User)
-                .WithMany()
-                .HasForeignKey(c => c.Id)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<AdvertComment>()
-                .HasOne(c => c.Advert)
-                .WithMany()
-                .HasForeignKey(c => c.Id)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            //Seed Data for Category Model
-            modelBuilder.Entity<Category>().HasData(
-                new List<Category>()
-                {
-                    new Category
-                    {
-                        Id = 1,
-                        Name = "Elektronik",
-                        Description = "Elektronik"
-                    },
-                    new Category
-                    {
-                        Id = 2,
-                        Name = "Moda",
-                        Description = "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler."
-                    },
-                    new Category
-                    {
-                        Id = 3,
-                        Name = "Ev-Yasam",
-                        Description = "Ev Tekstili, Mutfak Gereçleri"
-                    },
-                    new Category
-                    {
-                        Id = 4,
-                        Name = "Spor-Outdoor",
-                        Description = "Aradığınız tüm spor ürünleri"
-                    },
-                    new Category
-                    {
-                        Id = 5,
-                        Name = "Kozmetik",
-                        Description = "Kişisel bakım ve makyaj malzemeleri"
-                    },
-                }
-            );
+		}
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
+		{
+			base.OnModelCreating(modelBuilder);
 
 
 
-        }
+			modelBuilder.Entity<AdvertComment>()
+	             .HasKey(c => c.Id);
 
-        public DataContext()
-        {
-        }
+			modelBuilder.Entity<AdvertComment>()
+				.HasOne(c => c.User)
+				.WithMany()
+				.HasForeignKey(c => c.UsersId) 
+				.OnDelete(DeleteBehavior.Restrict);
 
-        public DataContext(DbContextOptions<DataContext> options) : base(options)
-        {
-        }
+			modelBuilder.Entity<AdvertComment>()
+				.HasOne(c => c.Advert)
+				.WithMany()
+				.HasForeignKey(c => c.AdvertId) 
+				.OnDelete(DeleteBehavior.Restrict);
 
 
-        public DbSet<Advert> adverts { get; set; }
-        public DbSet<CategoryAdvert> CategoryAdverts { get; set; }
-        public DbSet<AdvertComment> advertComments { get; set; }
-        public DbSet<AdvertImage> AdvertImages { get; set; }
-        public DbSet<Category> categories { get; set; }
-        public DbSet<Page> pages { get; set; }
-        public DbSet<Setting> settings { get; set; }
-        public DbSet<Users> users { get; set; }
+			//Seed Data for Category Model
+			modelBuilder.Entity<Category>().HasData(
+				new List<Category>()
+				{
+					new Category
+					{
+						Id = 1,
+						Name = "Elektronik",
+						Description = "Elektronik"
+					},
+					new Category
+					{
+						Id = 2,
+						Name = "Moda",
+						Description = "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler."
+					},
+					new Category
+					{
+						Id = 3,
+						Name = "Ev-Yasam",
+						Description = "Ev Tekstili, Mutfak Gereçleri"
+					},
+					new Category
+					{
+						Id = 4,
+						Name = "Spor-Outdoor",
+						Description = "Aradığınız tüm spor ürünleri"
+					},
 
-    }
+				}
+			);
+			//Seed Data for User model
+
+			modelBuilder.Entity<Users>().HasData(
+				new Users()
+				{
+					Id = 1,
+					Email = "sample@user.com",
+					Surname = "123456",
+					Name = "Sample",
+					Address = "Türkiye",
+					Phone = "0543212340",
+					CreatedAt = DateTime.Now,
+				}
+			);
+
+			//Seed Data for Advert
+			modelBuilder.Entity<Advert>().HasData(
+					new List<Advert>()
+					{
+						new Advert()
+						{
+							Id = 1,
+							UsersId = 1,
+							Title = "Laptop Bal Almayan Mal",
+							Description = "Sahibinden garantisiz laptop",
+							CreatedAt = DateTime.Now,
+						},
+
+						new Advert()
+						{
+							Id = 2,
+							UsersId = 1,
+							Title = "Yürüyen Uçak",
+							Description = "Yürüyeni iyi uçak",
+
+						},
+
+						new Advert()
+						{
+							Id = 3,
+							UsersId = 1,
+							Title = "Gemicik",
+							Description = "Krediye uygun gemicik",
+							CreatedAt = DateTime.Now,
+						},
+						new Advert()
+						{
+							Id = 4,
+							UsersId = 1,
+							Title = "Röpteşambır",
+							Description = "Zengin pijaması",
+							CreatedAt = DateTime.Now,
+						},
+					}
+				);
+
+			modelBuilder.Entity<CategoryAdvert>().HasData(
+				new List<CategoryAdvert>()
+				{
+					new CategoryAdvert()
+					{
+						Id = 1,
+						CategoryId = 1,
+						AdvertId = 1,
+					},
+					new CategoryAdvert()
+					{
+						Id = 2,
+						CategoryId = 1,
+						AdvertId = 2,
+					},
+					new CategoryAdvert()
+					{
+						Id = 3,
+						CategoryId = 2,
+						AdvertId = 4,
+					},
+					new CategoryAdvert()
+					{
+						Id = 4,
+						CategoryId = 2,
+						AdvertId = 3,
+					},
+
+				}
+			);
+
+			modelBuilder.Entity<AdvertImage>().HasData(
+					new List<AdvertImage>()
+					{
+						new AdvertImage() {
+							Id = 1,
+							AdvertId = 1,
+							ImagePath = "laptop.jpeg"
+						},
+
+						new AdvertImage() {
+							Id = 2,
+							AdvertId = 2,
+							ImagePath = "yuruyenucak.png"
+						},
+						new AdvertImage() {
+							Id = 3,
+							AdvertId = 3,
+							ImagePath = "gemicik.jpg"
+						},
+						new AdvertImage() {
+							Id = 4,
+							AdvertId = 4,
+							ImagePath = "roptesambir.jpg"
+						},
+
+					}
+				);
+
+
+
+		}
+
+		public DataContext()
+		{
+		}
+
+		public DataContext(DbContextOptions<DataContext> options) : base(options)
+		{
+		}
+
+
+		public DbSet<Advert> adverts { get; set; }
+		public DbSet<CategoryAdvert> CategoryAdverts { get; set; }
+		public DbSet<AdvertComment> advertComments { get; set; }
+		public DbSet<AdvertImage> AdvertImages { get; set; }
+		public DbSet<Category> categories { get; set; }
+		public DbSet<Page> pages { get; set; }
+		public DbSet<Setting> settings { get; set; }
+		public DbSet<Users> users { get; set; }
+
+	}
 }
 

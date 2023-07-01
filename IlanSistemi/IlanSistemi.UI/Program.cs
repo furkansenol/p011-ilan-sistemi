@@ -30,6 +30,15 @@ builder.Services.AddScoped<IAdvertService, AdvertManager>();
 builder.Services.AddScoped<IAdvertImageDal, EfAdvertImageDal>();
 builder.Services.AddScoped<IAdvertImageService, AdvertImageManager>();
 
+builder.Services.AddScoped<IAdvertCommentDal, EfAdvertCommentDal>();
+builder.Services.AddScoped<IAdvertCommentService, AdvertCommentManager>();
+
+builder.Services.AddScoped<ICategoryAdvertDal, EfCategoryAdvertDal>();
+builder.Services.AddScoped<ICategoryAdvertService, CategoryAdvertManager>();
+
+builder.Services.AddScoped<IAdvertCommentService, AdvertCommentManager>();
+
+
 
 
 builder.Services.AddMvc(config =>
@@ -46,8 +55,8 @@ builder.Services.ConfigureApplicationCookie(options =>
 {
     options.Cookie.HttpOnly = true;
     options.ExpireTimeSpan = TimeSpan.FromMinutes(100);
-  //  options.AccessDeniedPath = "/ErrorPage/Index/";
-    options.LoginPath = "/Default/Index/";
+    //  options.AccessDeniedPath = "/ErrorPage/Index/";
+    options.LoginPath = "/User/Login/Index/";
 });
 
 

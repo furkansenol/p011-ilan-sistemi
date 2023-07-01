@@ -36,10 +36,24 @@
 									}
 								</td>
 								<td>
-									@item.Title
+									@if (item.Title.Length > 40)
+									{
+										<text>@item.Title.Substring(0, 40)...</text>
+									}
+									else
+									{
+										@item.Title
+									}
 								</td>
 								<td>
-									@item.Content
+									@if (item.Content.Length > 110)
+									{
+										<text>@item.Content.Substring(0, 110)...</text>
+									}
+									else
+									{
+										@item.Content
+									}
 								</td>
 								<td>
 									<input type="checkbox" class="form-check-input" asp-for="@item.IsActive" />

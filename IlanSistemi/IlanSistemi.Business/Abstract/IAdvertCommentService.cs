@@ -9,5 +9,7 @@ namespace IlanSistemi.Business.Abstract
 {
 	public interface IAdvertCommentService : IGenericService<AdvertComment>  
 	{
+		Task Passive(int Id);
+		Task Active(int Id);
 	}
 }

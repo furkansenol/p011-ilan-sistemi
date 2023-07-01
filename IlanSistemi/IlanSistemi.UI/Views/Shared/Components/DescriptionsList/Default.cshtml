@@ -1,0 +1,17 @@
+﻿@using IlanSistemi.Entities.Concrete
+@model List<Page>
+
+<div class="about-content">
+    @foreach (var item in Model)
+    {
+        if(item.IsActive == true)
+        {
+            <h3 class="font-weight-bold">@item.Title</h3>
+            <p>
+                @item.Content
+            </p>
+        }
+        
+    }
+   
+</div>

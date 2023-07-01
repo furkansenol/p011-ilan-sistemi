@@ -1,0 +1,153 @@
+﻿@using IlanSistemi.Entities.ViewModels;
+@model AdvertSingleVM
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+
+<section class="section bg-gray">
+
+	<!-- Container Start -->
+	<div class="container">
+		<div class="row">
+			<!-- Left sidebar -->
+			<div class="col-md-12">
+				<div class="product-details">
+					<h1 class="product-title">@Model.Advert.Title</h1>
+					<div class="product-meta">
+						<ul class="list-inline">
+
+							<li class="list-inline-item"><i class="fa fa-user-o"></i> By @Model.User.Name</li>
+							<li class="list-inline-item"><i class="fa fa-folder-open-o"></i> Kategori<a href="">@Model.CategoryName</a></li>
+							<li class="list-inline-item"><i class="fa fa-location-arrow"></i> Konum<a href="">Türkiye İstanbul</a></li>
+						</ul>
+					</div>
+
+
+					<div class="product-slider">
+						@foreach (var img in Model.AdvertImages)
+						{
+							<div class="product-slider-item my-4">
+								<img class="img-fluid w-100 d-block" src="/UrunResimleri/@img.ImagePath" alt="product-img">
+							</div>
+						}
+					</div>
+
+
+					<div class="content mt-5 pt-5">
+						<ul class="nav nav-pills  justify-content-center" id="pills-tab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+								   aria-selected="true">Ürün Detayları</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+								   aria-selected="false">Özellikler</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"
+								   aria-selected="false">Puanlama</a>
+							</li>
+						</ul>
+						<div class="tab-content" id="pills-tabContent">
+							<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+								<h3 class="tab-title">Ürün Açıklaması</h3>
+								<p>
+									@Model.Advert.Description
+								</p>
+
+
+							</div>
+							<!-- Invoke Methoda böl -->
+							<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+								<h3 class="tab-title">Product Specifications</h3>
+								<table class="table table-bordered product-table">
+									<tbody>
+										<tr>
+											<td>Satış fiyatı</td>
+											<td>350 Tl</td>
+										</tr>
+										<tr>
+											<td>Eklenme Tarihi</td>
+											<td>@Model.Advert.CreatedAt</td>
+										</tr>
+										<tr>
+											<td>Şehir</td>
+											<td>Ankara</td>
+										</tr>
+										<tr>
+											<td>Ürün</td>
+											<td>@Model.Advert.Title</td>
+										</tr>
+										<tr>
+											<td>Durumu</td>
+											<td>Kullanılmış</td>
+										</tr>
+										<tr>
+											<td>Model</td>
+											<td>2017</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+								<h3 class="tab-title">Yorumlar</h3>
+								<div class="product-review">
+									<div class="media">										
+										<div class="media-body">
+											
+											@if(Model.comment.IsActive == true)
+											{
+												@if (Model.SelectedAdvert != null)
+												{
+													var selectedComments = Model.mert.Where(c => c.AdvertId == Model.SelectedAdvert.Id).ToList();
+
+													if (selectedComments.Any())
+													{
+														foreach (var comment in selectedComments)
+														{
+															<div class="name">
+																@Model.User.Name
+															</div>
+															<div class="date">
+																@comment.CreatedAt
+															</div>
+															<div class="review-comment">
+																<p>
+																	@comment.Comment
+																</p>
+															</div>
+														}
+													}
+													
+												}												
+											}											
+											else
+											{
+												<p>Bu ürün için henüz yorum yapılmamıştır...</p>
+											}
+										</div>
+									</div>
+									<div class="review-submission">
+										<h3 class="tab-title">Yorum Yap</h3>
+										<!-- Rate -->
+										<div class="rate">
+											<div class="starrr"></div>
+										</div>
+
+										@await Component.InvokeAsync("AdvertCommentList")
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

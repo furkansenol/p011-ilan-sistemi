@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace IlanSistemi.DataAccess.Migrations
 {
-    public partial class _111_mig : Migration
+    public partial class _1001_firstMig : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -247,38 +247,41 @@ namespace IlanSistemi.DataAccess.Migrations
                 name: "advertComments",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false),
-                    Comment = table.Column<string>(type: "text", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UsersId = table.Column<int>(type: "int", nullable: false),
+                    AdvertId = table.Column<int>(type: "int", nullable: false),
+                    Comment = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
                     DeletedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
                     AdvertId1 = table.Column<int>(type: "int", nullable: true),
-                    UsersId = table.Column<int>(type: "int", nullable: true)
+                    UsersId1 = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_advertComments", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_advertComments_adverts_AdvertId",
+                        column: x => x.AdvertId,
+                        principalTable: "adverts",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_advertComments_adverts_AdvertId1",
                         column: x => x.AdvertId1,
                         principalTable: "adverts",
                         principalColumn: "Id");
                     table.ForeignKey(
-                        name: "FK_advertComments_adverts_Id",
-                        column: x => x.Id,
-                        principalTable: "adverts",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_advertComments_AspNetUsers_Id",
-                        column: x => x.Id,
+                        name: "FK_advertComments_AspNetUsers_UsersId",
+                        column: x => x.UsersId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_advertComments_AspNetUsers_UsersId",
-                        column: x => x.UsersId,
+                        name: "FK_advertComments_AspNetUsers_UsersId1",
+                        column: x => x.UsersId1,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id");
                 });
@@ -331,6 +334,11 @@ namespace IlanSistemi.DataAccess.Migrations
                 });
 
             migrationBuilder.InsertData(
+                table: "AspNetUsers",
+                columns: new[] { "Id", "AccessFailedCount", "Address", "ConcurrencyStamp", "CreatedAt", "DeletedAt", "Email", "EmailConfirmed", "ImageUrl", "IsBanned", "IsSuspended", "LockoutEnabled", "LockoutEnd", "Name", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "Phone", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "Surname", "TwoFactorEnabled", "UpdatedAt", "UserName" },
+                values: new object[] { 1, 0, "Türkiye", "5bd68353-f7c6-4e60-87e3-91541b816e81", new DateTime(2023, 7, 1, 11, 0, 50, 290, DateTimeKind.Local).AddTicks(2193), null, "sample@user.com", false, null, null, null, false, null, "Sample", null, null, null, "0543212340", null, false, null, "123456", false, null, null });
+
+            migrationBuilder.InsertData(
                 table: "categories",
                 columns: new[] { "Id", "Description", "Name" },
                 values: new object[,]
@@ -338,9 +346,46 @@ namespace IlanSistemi.DataAccess.Migrations
                     { 1, "Elektronik", "Elektronik" },
                     { 2, "Envai çeşit sizi çıplaklıktan koruyacak kıyafetler.", "Moda" },
                     { 3, "Ev Tekstili, Mutfak Gereçleri", "Ev-Yasam" },
-                    { 4, "Aradığınız tüm spor ürünleri", "Spor-Outdoor" },
-                    { 5, "Kişisel bakım ve makyaj malzemeleri", "Kozmetik" }
+                    { 4, "Aradığınız tüm spor ürünleri", "Spor-Outdoor" }
                 });
+
+            migrationBuilder.InsertData(
+                table: "adverts",
+                columns: new[] { "Id", "CreatedAt", "DeletedAt", "Description", "Title", "UpdatedAt", "UsersId" },
+                values: new object[,]
+                {
+                    { 1, new DateTime(2023, 7, 1, 11, 0, 50, 290, DateTimeKind.Local).AddTicks(2321), null, "Sahibinden garantisiz laptop", "Laptop Bal Almayan Mal", null, 1 },
+                    { 2, null, null, "Yürüyeni iyi uçak", "Yürüyen Uçak", null, 1 },
+                    { 3, new DateTime(2023, 7, 1, 11, 0, 50, 290, DateTimeKind.Local).AddTicks(2325), null, "Krediye uygun gemicik", "Gemicik", null, 1 },
+                    { 4, new DateTime(2023, 7, 1, 11, 0, 50, 290, DateTimeKind.Local).AddTicks(2327), null, "Zengin pijaması", "Röpteşambır", null, 1 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "AdvertImages",
+                columns: new[] { "Id", "AdvertId", "ImagePath" },
+                values: new object[,]
+                {
+                    { 1, 1, "laptop.jpeg" },
+                    { 2, 2, "yuruyenucak.png" },
+                    { 3, 3, "gemicik.jpg" },
+                    { 4, 4, "roptesambir.jpg" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "CategoryAdverts",
+                columns: new[] { "Id", "AdvertId", "CategoryId", "CreatedAt", "DeletedAt", "UpdatedAt" },
+                values: new object[,]
+                {
+                    { 1, 1, 1, null, null, null },
+                    { 2, 2, 1, null, null, null },
+                    { 3, 4, 2, null, null, null },
+                    { 4, 3, 2, null, null, null }
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_advertComments_AdvertId",
+                table: "advertComments",
+                column: "AdvertId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_advertComments_AdvertId1",
@@ -351,6 +396,11 @@ namespace IlanSistemi.DataAccess.Migrations
                 name: "IX_advertComments_UsersId",
                 table: "advertComments",
                 column: "UsersId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_advertComments_UsersId1",
+                table: "advertComments",
+                column: "UsersId1");
 
             migrationBuilder.CreateIndex(
                 name: "IX_AdvertImages_AdvertId",

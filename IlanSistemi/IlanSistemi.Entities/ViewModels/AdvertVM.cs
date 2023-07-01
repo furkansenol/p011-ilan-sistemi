@@ -6,6 +6,6 @@ namespace IlanSistemi.Entities.ViewModels
     {
         public Advert Advert { get; set; }
         public List<AdvertImage> AdvertImages { get; set; }
-        public string? CategoryName { get; set; }
+        public int UserId { get; set; }
     }
 }

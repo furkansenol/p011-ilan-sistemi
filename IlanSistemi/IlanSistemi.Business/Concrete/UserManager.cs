@@ -1,7 +1,9 @@
 ﻿using IlanSistemi.Business.Abstract;
 using IlanSistemi.DataAccess.Abstract;
 using IlanSistemi.DataAccess.Concrete;
+using IlanSistemi.DataAccess.EntityFramework;
 using IlanSistemi.Entities.Concrete;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,91 +13,95 @@ using System.Threading.Tasks;
 
 namespace IlanSistemi.Business.Concrete
 {
-	public class UserManager : IUserService
-	{
-		IUserDal _userDal;
+    public class UserManager : IUserService
+    {
 
-		public UserManager(IUserDal userDal)
-		{
-			_userDal = userDal;
-		}
+        IUserDal _userDal;
 
-		public async Task BanUser(int userId)
-		{
-			var user = _userDal.GetByID(userId);
+        public UserManager(IUserDal userDal)
+        {
+            _userDal = userDal;
+        }
 
-			if (user != null)
-			{
-				user.IsBanned = true;
-				_userDal.Update(user);
-			}
-		}
-		public async Task UnbanUser(int userId)
-		{
-			var user = _userDal.GetByID(userId);
+        public async Task BanUser(int userId)
+        {
+            var user = _userDal.GetByID(userId);
 
-			if (user != null)
-			{
-				user.IsBanned = false; 
-				_userDal.Update(user);
-			}
-		}
+            if (user != null)
+            {
+                user.IsBanned = true;
+                _userDal.Update(user);
+            }
+        }
+        public async Task UnbanUser(int userId)
+        {
+            var user = _userDal.GetByID(userId);
 
-		public void TAdd(Users t)
-		{
-			_userDal.Insert(t);
+            if (user != null)
+            {
+                user.IsBanned = false;
+                _userDal.Update(user);
+            }
+        }
 
-		}
+        public void TAdd(Users t)
+        {
+            _userDal.Insert(t);
 
-		public void TDelete(Users t)
-		{
-			_userDal.Delete(t);
-		}
+        }
 
-		public Users TGetByID(int id)
-		{
-			return _userDal.GetByID(id);
-		}
+        public void TDelete(Users t)
+        {
+            _userDal.Delete(t);
+        }
 
-		public List<Users> TGetList()
-		{
-			return _userDal.GetList();
-		}
+        public Users TGetByID(int id)
+        {
+            return _userDal.GetByID(id);
+        }
 
-		public List<Users> TGetListbyFilter(Expression<Func<Users, bool>> filter)
-		{
-			return _userDal.GetByFilter(filter);
-		}
+        public List<Users> TGetList()
+        {
+            return _userDal.GetList();
+        }
 
-		public void TUpdate(Users t)
-		{
-			_userDal.Update(t);
-		}
+        public List<Users> TGetListbyFilter(Expression<Func<Users, bool>> filter)
+        {
+            return _userDal.GetByFilter(filter);
+        }
 
-		public async Task SuspendUserForDuration(int userId, TimeSpan duration)
-		{
-			var user = _userDal.GetByID(userId);
+        public void TUpdate(Users t)
+        {
+            _userDal.Update(t);
+        }
 
-			if (user != null)
-			{
-				user.IsSuspended = true;
-				user.LockoutEnd = DateTime.UtcNow.Add(duration);
-				_userDal.Update(user);
-			}
+        public async Task SuspendUserForDuration(int userId, TimeSpan duration)
+        {
+            var user = _userDal.GetByID(userId);
 
-		}
+            if (user != null)
+            {
+                user.IsSuspended = true;
+                user.LockoutEnd = DateTime.UtcNow.Add(duration);
+                _userDal.Update(user);
+            }
 
-		public async Task UnsuspendUser(int userId)
-		{
-			var user = _userDal.GetByID(userId);
+        }
 
-			if (user != null)
-			{
-				user.IsSuspended = false;
-				user.LockoutEnd = null;
-				_userDal.Update(user);
-			}
+        public async Task UnsuspendUser(int userId)
+        {
+            var user = _userDal.GetByID(userId);
 
-		}
-	}
+            if (user != null)
+            {
+                user.IsSuspended = false;
+                user.LockoutEnd = null;
+                _userDal.Update(user);
+            }
+
+        }   
+
+
+    }
+
 }

@@ -1,5 +1,6 @@
 ﻿using IlanSistemi.Business.Abstract;
 using IlanSistemi.DataAccess.Abstract;
+using IlanSistemi.DataAccess.EntityFramework;
 using IlanSistemi.Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,28 @@ namespace IlanSistemi.Business.Concrete
 		public AdvertCommentManager(IAdvertCommentDal advertCommentDal)
 		{
 			this._advertCommentDal = advertCommentDal;
+		}
+
+		public async Task Active(int Id)
+		{
+			var comment = _advertCommentDal.GetByID(Id);
+
+			if (comment != null)
+			{
+				comment.IsActive = true;
+				_advertCommentDal.Update(comment);
+			}
+		}
+
+		public async Task Passive(int Id)
+		{
+			var comment = _advertCommentDal.GetByID(Id);
+
+			if (comment != null)
+			{
+				comment.IsActive = false;
+				_advertCommentDal.Update(comment);
+			}
 		}
 
 		public void TAdd(AdvertComment t)
