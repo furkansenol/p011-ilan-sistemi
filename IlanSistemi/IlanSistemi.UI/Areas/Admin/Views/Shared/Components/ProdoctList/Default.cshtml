@@ -1,5 +1,6 @@
-﻿@using IlanSistemi.Entities.Concrete
-@model List<Advert>
+﻿
+@using IlanSistemi.UI.Areas.Admin.Models;
+@model List<ReportListViewModel>
 <div class="col-lg-6 grid-margin stretch-card">
 	<div class="card">
 		<div class="card-body">
@@ -7,9 +8,9 @@
 			<table class="table table-hover">
 				<thead>
 					<tr>
+						<th>#</th>
 						<th>Kullanıcı</th>
 						<th>Ürün</th>
-						<th>Satış</th>
 						<th>Durum</th>
 					</tr>
 				</thead>
@@ -17,11 +18,28 @@
 					@foreach (var item in Model)
 					{
 						<tr>
-							<td>@(item.User != null ? item.User.Name : "User")</td>
+							<td>
 
-							<td>@item.Title</td>
-							<td class="text-success"> 28.76% <i class="icon-arrow-up-circle"></i></td>
-							<td><label class="badge badge-success">Aktif</label></td>
+								@if (item._Users.ImageUrl == null)
+								{
+
+									<img class="img-sm rounded-circle" src="~/template/images/profil.jpg" alt="" alt="profile image">
+								}
+								else
+								{
+									<img class="img-sm rounded-circle" src="~/UserImage/@item._Users.ImageUrl" alt="profile image">
+								}							
+							
+								
+							</td>
+
+
+							<td> @item._Users.UserName </td>
+
+							<td>@item._Advert.Title</td>
+							
+							<td> <label class="badge badge-success">Aktif</label>					
+							</td>
 						</tr>
 					}
 
