@@ -1,0 +1,34 @@
+﻿@model IlanSistemi.Entities.Concrete.AdvertComment
+
+@{
+    ViewData["Title"] = "DetailsYorum";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("DetailsYorum", "Yorum", FormMethod.Post))
+{
+	<div class="col-12 grid-margin stretch-card">
+		<div class="card">
+			<div class="card-body">
+				<h4 class="card-title">Yorum Detay Sayfası</h4>
+
+				<div class="form-group">
+					<label for="Title">Yorum Sahibi</label>
+					@Html.TextBoxFor(x => x.User.Name, new { @class = "form-control" })
+				</div>
+				<div class="form-group">
+					<label for="Title">Yorum İçeriği</label>
+					@Html.TextBoxFor(x => x.Comment, new { @class = "form-control" })
+				</div>
+				<div class="form-group">
+					<label for="Title">Yorumun Yapıldığı Ürün</label>
+					@Html.TextBoxFor(x => x.Advert.Title, new { @class = "form-control" })
+				</div>
+				<div class="form-group">
+					<label for="Description">Yorum Tarihi</label>
+					@Html.TextAreaFor(x => x.CreatedAt, new { @class = "form-control" })
+				</div>
+			</div>
+		</div>
+	</div>
+}

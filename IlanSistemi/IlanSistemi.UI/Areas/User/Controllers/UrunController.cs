@@ -96,10 +96,16 @@ namespace IlanSistemi.UI.Areas.User.Controllers
 			advert.Description = model.Description;	
 			_advertManager.TUpdate(advert);
 
-			var category = _categoryAdvertManager.TGetByID(model.CategoryId);
-			category.CategoryId = model.CategoryId;
-			category.AdvertId = model.AdvertId;
-			_categoryAdvertManager.TUpdate(category);
+            var category = _categoryAdvertManager.TGetByID(model.CategoryId);
+            if (category != null)
+            {
+                category.CategoryId = model.CategoryId;
+                category.AdvertId = model.AdvertId;
+                _categoryAdvertManager.TUpdate(category);
+            }
+           
+
+            
 
 			return RedirectToAction("Index", "Urun");
 		}

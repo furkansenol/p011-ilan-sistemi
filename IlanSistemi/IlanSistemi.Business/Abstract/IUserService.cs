@@ -14,5 +14,7 @@ namespace IlanSistemi.Business.Abstract
 		Task UnbanUser(int Id);
 		Task SuspendUserForDuration(int userId, TimeSpan duration);
 		Task UnsuspendUser(int userId);
-	}
+
+ 
+    }
 }

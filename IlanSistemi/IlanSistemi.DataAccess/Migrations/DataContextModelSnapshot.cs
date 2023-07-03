@@ -90,39 +90,46 @@ namespace IlanSistemi.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2023, 6, 23, 15, 4, 40, 969, DateTimeKind.Local).AddTicks(6708),
+                            CreatedAt = new DateTime(2023, 7, 1, 12, 54, 17, 474, DateTimeKind.Local).AddTicks(8620),
                             Description = "Sahibinden garantisiz laptop",
                             Title = "Laptop Bal Almayan Mal",
-                            UsersId = 4
+                            UsersId = 1
                         },
                         new
                         {
                             Id = 2,
                             Description = "Yürüyeni iyi uçak",
                             Title = "Yürüyen Uçak",
-                            UsersId = 4
+                            UsersId = 1
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2023, 6, 23, 15, 4, 40, 969, DateTimeKind.Local).AddTicks(6714),
+                            CreatedAt = new DateTime(2023, 7, 1, 12, 54, 17, 474, DateTimeKind.Local).AddTicks(8624),
                             Description = "Krediye uygun gemicik",
                             Title = "Gemicik",
-                            UsersId = 4
+                            UsersId = 1
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2023, 6, 23, 15, 4, 40, 969, DateTimeKind.Local).AddTicks(6715),
+                            CreatedAt = new DateTime(2023, 7, 1, 12, 54, 17, 474, DateTimeKind.Local).AddTicks(8625),
                             Description = "Zengin pijaması",
                             Title = "Röpteşambır",
-                            UsersId = 4
+                            UsersId = 1
                         });
                 });
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertComment", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int?>("AdvertId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("AdvertId1")
@@ -130,7 +137,7 @@ namespace IlanSistemi.DataAccess.Migrations
 
                     b.Property<string>("Comment")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -145,13 +152,21 @@ namespace IlanSistemi.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int?>("UsersId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UsersId1")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AdvertId");
+
                     b.HasIndex("AdvertId1");
 
                     b.HasIndex("UsersId");
+
+                    b.HasIndex("UsersId1");
 
                     b.ToTable("advertComments");
                 });
@@ -251,12 +266,6 @@ namespace IlanSistemi.DataAccess.Migrations
                             Id = 4,
                             Description = "Aradığınız tüm spor ürünleri",
                             Name = "Spor-Outdoor"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Description = "Kişisel bakım ve makyaj malzemeleri",
-                            Name = "Kozmetik"
                         });
                 });
 
@@ -482,11 +491,11 @@ namespace IlanSistemi.DataAccess.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 4,
+                            Id = 1,
                             AccessFailedCount = 0,
                             Address = "Türkiye",
-                            ConcurrencyStamp = "342433b6-b18a-4e6c-9721-d858c5afff0a",
-                            CreatedAt = new DateTime(2023, 6, 23, 15, 4, 40, 969, DateTimeKind.Local).AddTicks(6515),
+                            ConcurrencyStamp = "18ac918e-523e-4aa9-8a58-dd50ab1195cf",
+                            CreatedAt = new DateTime(2023, 7, 1, 12, 54, 17, 474, DateTimeKind.Local).AddTicks(8527),
                             Email = "sample@user.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
@@ -614,25 +623,25 @@ namespace IlanSistemi.DataAccess.Migrations
 
             modelBuilder.Entity("IlanSistemi.Entities.Concrete.AdvertComment", b =>
                 {
+                    b.HasOne("IlanSistemi.Entities.Concrete.Advert", "Advert")
+                        .WithMany()
+                        .HasForeignKey("AdvertId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("IlanSistemi.Entities.Concrete.Advert", null)
                         .WithMany("advertComments")
                         .HasForeignKey("AdvertId1");
 
-                    b.HasOne("IlanSistemi.Entities.Concrete.Advert", "Advert")
-                        .WithMany()
-                        .HasForeignKey("Id")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
                     b.HasOne("IlanSistemi.Entities.Concrete.Users", "User")
                         .WithMany()
-                        .HasForeignKey("Id")
+                        .HasForeignKey("UsersId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("IlanSistemi.Entities.Concrete.Users", null)
                         .WithMany("advertComments")
-                        .HasForeignKey("UsersId");
+                        .HasForeignKey("UsersId1");
 
                     b.Navigation("Advert");
 
