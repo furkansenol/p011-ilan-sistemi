@@ -10,7 +10,7 @@ namespace IlanSistemi.UI.Areas.Admin.Controllers
 {
 	[Area("Admin")]
 	[Route("Admin/[controller]/[action]")]
-	[Authorize(Roles = "Admin")]
+	
 	public class KategoriController : Controller
 	{
 		CategoryManager _categoryManager = new CategoryManager(new EfCategoryDal());

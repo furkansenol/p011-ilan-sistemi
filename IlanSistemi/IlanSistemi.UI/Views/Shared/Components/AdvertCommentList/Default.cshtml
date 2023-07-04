@@ -1,0 +1,23 @@
+﻿@model IlanSistemi.UI.Models.AdvertCommentListViewModel
+
+<form asp-controller="Advert" asp-action="Comment" method="post" class="row">
+    <input type="hidden" asp-for="AdvertId" />
+    <input type="hidden" asp-for="UserId" />
+
+
+    <div class="col-lg-6">
+        <input type="text" asp-for="User.Name" class="form-control" placeholder="Adı">
+    </div>
+    <div class="col-lg-6">
+        <input type="text" asp-for="User.Surname" class="form-control" placeholder="Soyadı">
+    </div>
+    <div class="col-lg-6">
+        <input type="email" asp-for="User.Email" class="form-control" placeholder="Email">
+    </div>
+    <div class="col-12">
+        <textarea asp-for="Comment" rows="10" class="form-control" placeholder="Mesaj"></textarea>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-main">Gönder</button>
+    </div>
+</form>

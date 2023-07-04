@@ -10,6 +10,7 @@
 				<table class="table">
 					<thead>
 						<tr>
+							<th>#</th>
 							<th class="font-weight-bold">Kullanıcı Adı</th>
 
 							<th class="font-weight-bold">Katılış Yılı</th>
@@ -22,14 +23,38 @@
 						{
 							<tr>
 								<td>
-									<img class="img-sm rounded-circle" src="/Stellar-master/images/faces/face1.jpg" alt="profile image"> @item.Name
+
+									@if (item.ImageUrl == null)
+									{
+
+										<img class="img-sm rounded-circle" src="~/template/images/profil.jpg" alt="" alt="profile image">
+									}
+									else
+									{
+										<img class="img-sm rounded-circle" src="~/UserImage/@item.ImageUrl" alt="profile image">
+									}
+
+
 								</td>
+								<td>@item.Name</td>
 
 
-								<td>@item.CreatedAt</td>
+								<td>@item.CreatedAt.Value.Year</td>
 
 								<td>
-									<div class="badge badge-success p-2">Aktif Kullanıcı</div>
+									@if(item.IsBanned == true)
+									{
+										<div class="badge badge-danger p-2">Hesap Banlı</div>
+									}
+									else if (item.IsSuspended == true)
+									{
+										<div class="badge badge-info p-2">Hesap Askıya Alınmış</div>
+									}
+									else
+									{
+										<div class="badge badge-success p-2">Hesap Aktif</div>
+									}
+									
 								</td>
 							</tr>
 						}

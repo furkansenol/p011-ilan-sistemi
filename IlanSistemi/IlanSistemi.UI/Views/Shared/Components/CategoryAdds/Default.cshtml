@@ -1,0 +1,30 @@
+﻿@using IlanSistemi.Entities.Concrete
+@model List<Category>
+
+<div class="col-12">
+	<!-- Section title -->
+	<div class="section-title">
+		<h2>Tüm Kategoriler</h2>
+
+	</div>
+	<div class="row">
+		@foreach (var item in Model)
+		{
+			<div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-6 col-6">
+				<div class="Category-block">
+					<div class="header">
+						<i class="fa fa-shopping-basket icon-bg-4"></i>
+						<h4>@item.Name</h4>
+					</div>
+					<ul class="Category-list">
+						<li><a asp-controller="Category" asp-action="@string.Join("",item.Name.Split('-'))">@item.Description <span>@item.Id</span></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		}
+		
+		
+
+	</div>
+</div>

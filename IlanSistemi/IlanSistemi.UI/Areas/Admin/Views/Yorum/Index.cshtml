@@ -1,0 +1,60 @@
+﻿@using IlanSistemi.Entities.Concrete
+@model List<AdvertComment>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title"> Sayfa Kontrol Paneli </h4>
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th> <b>İşlemler</b></th>
+							<th> <b> Yorum içeriği </b> </th>
+							<th> <b> Drurum </b></th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var item in Model)
+						{
+							<tr>
+								<td>
+									<a asp-controller="Yorum" asp-action="DeleteYorum" asp-route-id="@item.Id" class="btn btn-inverse-danger">Sil</a>
+									<a asp-controller="Yorum" asp-action="DetailsYorum" asp-route-id="@item.Id" class="btn btn-inverse-info">Detay</a>
+									@if (item.IsActive == true)
+									{
+										<a asp-controller="Yorum" asp-action="Passive" asp-route-id="@item.Id" class="btn btn-inverse-danger">Yayımdan Kaldır</a>
+									}
+									else
+									{
+										<a asp-controller="Yorum" asp-action="Active" asp-route-id="@item.Id" class="btn btn-inverse-success">Yayımla</a>
+									}
+								</td>
+								<td>
+									@if (item.Comment.Length > 40)
+									{
+										<text>@item.Comment.Substring(0, 40)...</text>
+									}
+									else
+									{
+										@item.Comment
+									}
+								</td>
+								<td>
+									<input type="checkbox" class="form-check-input" asp-for="@item.IsActive" />
+								</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+

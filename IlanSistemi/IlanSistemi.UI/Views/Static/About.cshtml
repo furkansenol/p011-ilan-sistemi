@@ -4,7 +4,7 @@
 }
 <style>
 
-.serkan {
+{
 
   justify-content: center;
 }
@@ -32,16 +32,9 @@
                 </div>
             </div>
             <div class="col-lg-6 pt-5 pt-lg-0">
-                <div class="about-content">
-                    <h3 class="font-weight-bold">Hedefimiz</h3>
-                    <p>
-                        E-ticaret sitemiz geniş bir ürün yelpazesine sahiptir. Elektronik ürünlerden spor ürünlerine kadar birçok kategori sunuyoruz. Son teknoloji ürünler, akıllı telefonlar, dizüstü bilgisayarlar, televizyonlar gibi elektronik ürünler kategorisinde yer alırken, spor ekipmanları, spor giyim, outdoor malzemeleri gibi çeşitli spor ürünleri kategorisinde bulunmaktadır. Ayrıca ev aletleri, moda, güzellik ürünleri gibi farklı kategorilerde de geniş bir ürün seçeneği sunmaktayız. Uygun fiyatlarla kaliteli markaların ürünlerini müşterilerimize sunarak, güvenli ödeme seçenekleri ve hızlı teslimat imkanı sağlıyoruz. Kullanıcı dostu arayüzümüzle alışveriş deneyimini mümkün olduğunca kolay ve keyifli hale getirmek için çaba sarf ediyoruz.
-                    </p>
-                    <h3 class="font-weight-bold">Nasıl Yardımcı Olabiliriz</h3>
-                    <p>
-                        Müşteri memnuniyetini sağlamak için, öncelikli önceliğimiz ihtiyaçlarını anlamak ve özel çözümler sunmaktır. Uzman ekibimiz, soruları cevaplamak, yardımcı olmak ve doğru yönlendirmelerde bulunmak için her zaman hazırdır. İletişim kanallarımız aracılığıyla hızlı ve etkili yanıtlar sunarak müşterilerimizin sorularını çözüme kavuşturuyoruz. Kullanıcı dostu arayüz ve detaylı ürün açıklamalarıyla müşterilere rehberlik ediyoruz. Ayrıca, şeffaf iade ve değişim politikalarıyla sorunsuz bir alışveriş deneyimi yaşatmak için gerekli adımları atıyoruz. Müşterilerimize yardımcı olmak ve beklentilerini karşılamak için elimizden geleni yapıyoruz.
-                    </p>
-                </div>
+
+                @await Component.InvokeAsync("DescriptionsList")
+                
             </div>
         </div>
     </div>
