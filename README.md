@@ -1,4 +1,4 @@
-##**Selamlar:wave:, bu proje Siliconmade Academy'nin "Full-Stack Development" aşamasının bitirme projesidir. Proje bir "İlan Sistemi" projesidir ve 7 kişilik bir ekip ile Siliconmade'in verdiği taskler doğrultusunda geliştirilmiştir.**
+**Selamlar:wave:, bu proje Siliconmade Academy'nin "Full-Stack Development" aşamasının bitirme projesidir. Proje bir "İlan Sistemi" projesidir ve 7 kişilik bir ekip ile Siliconmade'in verdiği taskler doğrultusunda geliştirilmiştir.**
 
 Projemizde içerisinde iki farklı kullanıcı tipi bulunmakta ve kullanıcı tiplerine göre belli özellikler barındırmakta
 
