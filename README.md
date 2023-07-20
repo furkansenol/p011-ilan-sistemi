@@ -30,7 +30,6 @@ Proje’yi çalıştırmak için Microsoft Sql Server’ın bilgisayarınızda y
 
 ![sdvadfg](https://github.com/furkansenol/p011-ilan-sistemi/assets/129130103/c1a3e082-a3d5-4f6a-8702-efb560539953)
 
-![Ekran_goruntusu_2023-07-19_141855](https://github.com/furkansenol/p011-ilan-sistemi/assets/129130103/30c5fc8b-ed78-45d8-86c1-2abadbe7fa64)
 
 <h2> 🛠 &nbsp;Kullanılan Teknolojiler</h2>
 
