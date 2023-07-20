@@ -32,7 +32,8 @@ Proje’yi çalıştırmak için Microsoft Sql Server’ın bilgisayarınızda y
 
 <h2> 🛠 &nbsp;Kullanılan Teknolojiler</h2>
 
-<img alt="GIF" src="https://giphy.com/embed/2IudUHdI075HL02Pkk" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen>
+
+![giphy](https://github.com/furkansenol/p011-ilan-sistemi/assets/129130103/261f4a3f-f6e2-4382-be64-482b12747464)
 
 <table style"float:right;">
   <tr>
