@@ -10,7 +10,7 @@ Projemizde içerisinde iki farklı kullanıcı tipi bulunmakta ve kullanıcı ti
 * :speech_balloon: **Yorum ile ilgili işlemler :** Yönetici **İlan Sistemi** aracılığı ile kullanıcılar tarafından yapılan yorumları görüntüleyebilir, detaylarına erişebilir, silebilir.
 
   
-### 2- Kullanıcı Rolü** :bust_in_silhouette:
+### 2- Kullanıcı Rolü :bust_in_silhouette:
 * :clipboard: **İlan işlemleri :** Kullanıcı **İlan Sistemi** aracılığı ile ürün ilanı verebilir, ilanı düzenleyebilir ve silebilir. Başkalarının ilanlarına yorum yapabilir ve istediği özelliklere göre filtreleyerek aradığı ürüne ulaşabilir.
 * :man: **Profil işlemleri :** Kullanıcı **İlan Sistemi** aracılığı ile profil bilgilerini düzenleyebilir, şifresini güncelleyebilir.
 
@@ -43,7 +43,8 @@ Proje’yi çalıştırmak için Microsoft Sql Server’ın bilgisayarınızda y
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/-AutoMapper-5C2D91?style=flat&logo=.net&logoColor=white"/</td>
-    <td><img src="https://img.shields.io/badge/-EntityFramework-5C2D91?style=flat&logo=.net&logoColor=white"/><img src="https://img.shields.io/badge/-ASP.NET-5C2D91?style=flat&logo=.net&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/-EntityFramework-5C2D91?style=flat&logo=.net&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/-ASP.NET-5C2D91?style=flat&logo=.net&logoColor=white"/></td>
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/-Github-black?style=flat&logo=github"/></td>
